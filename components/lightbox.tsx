@@ -26,11 +26,12 @@ export default function Lightbox({ index, onClose, onNext, onPrev }: Props) {
 
   return (
     <div
-      className="fixed inset-0 z-50 flex items-center justify-center bg-stone-900/70"
+      className="fixed inset-0 z-50 flex items-center justify-center bg-stone-900/80"
       onClick={onClose}
     >
       <button
-        className="absolute left-4 text-white text-4xl select-none px-4 py-2 hover:opacity-60"
+        className="absolute left-4 text-white text-4xl select-none px-4 py-2 
+        hover:cursor-pointer hover:opacity-60"
         onClick={(e) => {
           e.stopPropagation();
           onPrev();
@@ -41,22 +42,29 @@ export default function Lightbox({ index, onClose, onNext, onPrev }: Props) {
       </button>
 
       <div
-        className="relative max-h-[90vh] max-w-[90vw]"
+        className="flex flex-col max-h-[90vh] max-w-[90vw]"
         onClick={(e) => e.stopPropagation()}
       >
+        {item.clientDescription && (
+          <p className="text-white font-header text-lg text-center mb-4 ">
+            {item.clientDescription}
+          </p>
+        )}
         <Image
           src={item.filepath}
           alt={item.seoDescription}
           width={item.width}
           height={item.height}
-          className="max-h-[90vh] max-w-[90vw] w-auto h-auto object-contain"
+          // title={item.clientDescription}
+          className="max-h-[80vh] max-w-[90vw] w-auto h-auto object-contain"
           sizes="90vw"
           priority
         />
       </div>
 
       <button
-        className="absolute right-4 text-white text-4xl select-none px-4 py-2 hover:opacity-60"
+        className="absolute right-4 text-white text-4xl select-none
+        hover:cursor-pointer px-4 py-2 hover:opacity-60"
         onClick={(e) => {
           e.stopPropagation();
           onNext();

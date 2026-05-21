@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Caveat_Brush, Figtree, Recursive } from "next/font/google";
 import "./globals.css";
+import Footer from "@/components/footer";
+import Navbar from "@/components/navbar";
 
 const logoFont = Caveat_Brush({
   variable: "--font-logo",
@@ -73,7 +75,12 @@ export default function RootLayout({
       lang="en"
       className={`${logoFont.variable} ${headerFont.variable} ${bodyFont.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        {" "}
+        <Navbar />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }
