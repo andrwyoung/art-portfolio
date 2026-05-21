@@ -3,6 +3,7 @@ import { Hurricane, Figtree, Recursive } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/footer";
 import Navbar from "@/components/navbar";
+import { Analytics } from "@vercel/analytics/next";
 
 const logoFont = Hurricane({
   variable: "--font-logo",
@@ -76,11 +77,11 @@ export default function RootLayout({
       className={`${logoFont.variable} ${headerFont.variable} ${bodyFont.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
-        {" "}
         <Navbar />
         {children}
         <Footer />
       </body>
+      <Analytics />
     </html>
   );
 }

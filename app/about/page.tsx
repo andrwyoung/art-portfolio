@@ -29,7 +29,7 @@ export default function About() {
         <p>
           Andrew is an artist/illustrator based in San Francisco focused on food
           and travel illustration for editorial and advertising. For the past 5
-          years, he's been working as a full time artist after leaving his
+          years, he&apos;s been working as a full time artist after leaving his
           previous career in tech.
         </p>
         <p>
@@ -38,7 +38,7 @@ export default function About() {
         </p>
         <p>
           He also goes by Jonadrew, which is the identity he uses for his
-          children's publishing and comics style, and can be found{" "}
+          children&apos;s publishing and comics style, and can be found{" "}
           <a
             href="https://www.jonadrew.com/"
             className="font-bold font-body underline"
