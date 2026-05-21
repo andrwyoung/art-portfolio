@@ -6,7 +6,7 @@ export default function About() {
     <main className="max-w-2xl mx-auto px-8 mt-12 mb-24 flex flex-col gap-12">
       {/* Photo + intro */}
       <section className="flex flex-col items-center gap-8">
-        <div className="shrink-0 w-64 h-64 rounded-md overflow-hidden">
+        <div className="shrink-0 w-72 h-72 rounded-md overflow-hidden">
           <Image
             src="/photo.jpeg"
             alt="Andrew Yong"
@@ -26,15 +26,34 @@ export default function About() {
 
       {/* Bio */}
       <section className="font-body text-base leading-relaxed space-y-4 text-foreground/80">
-        <p>[A short paragraph about who you are and what drives your work.]</p>
         <p>
-          [A second paragraph — your process, medium, influences, or what you
-          love to paint.]
+          Andrew is an artist/illustrator based in San Francisco focused on food
+          and travel illustration for editorial and advertising. For the past 5
+          years, he's been working as a full time artist after leaving his
+          previous career in tech.
         </p>
         <p>
-          <strong>Clients include:</strong> Griggs Educational Enterprises,
-          Berkley School of Theology, Splickety Publishing Group, Descendant
-          Publishing, Absurd Adventure Games
+          His art is done digitally, and draws inspiration from contemporary oil
+          painters such as Carol Marine and Marc Delasio.
+        </p>
+        <p>
+          He also goes by Jonadrew, which is the identity he uses for his
+          children's publishing and comics style, and can be found{" "}
+          <a
+            href="https://www.jonadrew.com/"
+            className="font-bold font-body underline"
+            title="Andrew's website"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            here
+          </a>
+          .
+        </p>
+        <p className="pt-4">
+          <strong>Clients include:</strong> Inheritance Magazine, Griggs
+          Educational Enterprises, Berkley School of Theology, Splickety
+          Publishing Group, Descendant Publishing
         </p>
       </section>
 
@@ -45,7 +64,7 @@ export default function About() {
         </h2>
         <a
           href={`mailto:${CONTACT_EMAIL}`}
-          className="font-body text-base hover:text-highlight transition-colors"
+          className="font-body text-base hover:underline transition-colors"
         >
           {CONTACT_EMAIL}
         </a>

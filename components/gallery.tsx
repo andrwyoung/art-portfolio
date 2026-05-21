@@ -11,13 +11,15 @@ export default function Gallery() {
 
   return (
     <>
-      <div className="max-w-6xl mx-auto columns-1 sm:columns-3 gap-4 p-4">
+      <div className="max-w-7xl mx-auto columns-1 sm:columns-3 gap-4 p-4">
         {PortfolioConfig.map((item, i) => (
           <div
             key={item.filepath}
             className="break-inside-avoid mb-4 cursor-zoom-in rounded-md transition-all 
             hover:shadow-md hover:scale-101"
-            onClick={() => { if (window.innerWidth >= 640) setSelected(i); }}
+            onClick={() => {
+              if (window.innerWidth >= 640) setSelected(i);
+            }}
           >
             <Image
               src={item.filepath}

@@ -16,7 +16,7 @@ export default function Navbar() {
   return (
     <nav className="flex flex-col items-center justify-center gap-2 px-8 pt-12 pb-8">
       <div className="flex flex-col items-center justify-center">
-        <h1 className="font-logo text-7xl sm:text-8xl  lg:text-9xl text-highlight">
+        <h1 className="font-logo text-7xl sm:text-8xl  text-highlight">
           Andrew Yong
         </h1>
         {/* <p className="font-body mt-1">Food and Travel Illustrator</p> */}
