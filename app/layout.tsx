@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { Caveat_Brush, Figtree, Recursive } from "next/font/google";
+import { Hurricane, Figtree, Recursive } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/footer";
 import Navbar from "@/components/navbar";
 
-const logoFont = Caveat_Brush({
+const logoFont = Hurricane({
   variable: "--font-logo",
   subsets: ["latin"],
   weight: "400",

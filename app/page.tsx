@@ -2,7 +2,7 @@ import Gallery from "@/components/gallery";
 
 export default function Home() {
   return (
-    <main>
+    <main className="mt-20">
       <Gallery />
     </main>
   );
