@@ -19,7 +19,7 @@ export const PortfolioConfig: PortfolioType[] = [
     filepath: "/art/sl-lemons.webp",
     width: 1600,
     height: 1937,
-    clientDescription: "Lemons",
+    clientDescription: "Picnic Illustration",
     seoDescription:
       "Still life digital painting of lemons with bright yellow hues and soft textured citrus skin",
   },
@@ -27,7 +27,7 @@ export const PortfolioConfig: PortfolioType[] = [
     filepath: "/art/sl-yolk.webp",
     width: 1600,
     height: 1615,
-    clientDescription: "Egg Yolk",
+    clientDescription: "Egg Series",
     seoDescription:
       "Still life digital painting of an egg yolk with rich golden color and luminous translucent texture",
   },
@@ -41,13 +41,31 @@ export const PortfolioConfig: PortfolioType[] = [
   },
 
   {
+    filepath: "/art/bc-shikoku.webp",
+    width: 1575,
+    height: 2400,
+    clientDescription: "Book cover for Brandon Shewmake",
+    seoDescription: "",
+  },
+
+  {
     filepath: "/art/np-banff.webp",
     width: 1600,
     height: 2156,
-    clientDescription: "Banff National Park",
+    clientDescription: "National Park series 1",
     seoDescription:
       "Digital painting of Banff National Park featuring turquoise glacial lakes and snow-capped Rocky Mountain peaks",
   },
+
+  {
+    filepath: "/art/np-yellowstone.webp",
+    width: 1600,
+    height: 2156,
+    clientDescription: "National Park series 1",
+    seoDescription:
+      "Digital painting of Yellowstone National Park with geothermal hot springs and vast wilderness landscape",
+  },
+
   {
     filepath: "/art/sl-tangerines.webp",
     width: 1600,
@@ -56,29 +74,28 @@ export const PortfolioConfig: PortfolioType[] = [
     seoDescription:
       "Still life digital painting of tangerines with vibrant orange hues and soft textured citrus skin",
   },
-  {
-    filepath: "/art/np-yellowstone.webp",
-    width: 1600,
-    height: 2156,
-    clientDescription: "Yellowstone",
-    seoDescription:
-      "Digital painting of Yellowstone National Park with geothermal hot springs and vast wilderness landscape",
-  },
 
   {
     filepath: "/art/np-antelope.webp",
     width: 1600,
     height: 2156,
-    clientDescription: "Antelope Canyon",
+    clientDescription: "National Park series 1",
     seoDescription:
       "Digital painting of Antelope Canyon's narrow slot canyon with glowing orange and red sandstone walls",
+  },
+  {
+    filepath: "/art/bc-at.webp",
+    width: 1575,
+    height: 2400,
+    clientDescription: "Book cover for Brandon Shewmake",
+    seoDescription: "",
   },
 
   {
     filepath: "/art/np-yosemite.webp",
     width: 1600,
     height: 2156,
-    clientDescription: "Yosemite",
+    clientDescription: "National Park series 1",
     seoDescription:
       "Digital painting of Yosemite Valley with dramatic granite cliffs, waterfalls, and lush valley floor",
   },
@@ -86,26 +103,10 @@ export const PortfolioConfig: PortfolioType[] = [
     filepath: "/art/np-zion.webp",
     width: 1600,
     height: 2156,
-    clientDescription: "Zion National Park",
+    clientDescription: "National Park series 1",
     seoDescription:
       "Digital painting of Zion National Park's towering red sandstone canyon walls and winding Virgin River",
   },
-  // {
-  //   filepath: "/art/sl-crows.webp",
-  //   width: 1600,
-  //   height: 748,
-  //   clientDescription: "Crows",
-  //   seoDescription:
-  //     "Still life digital painting of crows with dramatic dark plumage and sharp compositional contrast",
-  // },
-  // {
-  //   filepath: "/art/sl-diamond.webp",
-  //   width: 1600,
-  //   height: 1502,
-  //   clientDescription: "Diamond",
-  //   seoDescription:
-  //     "Still life digital painting of a diamond with light refracting through facets in vivid prismatic color",
-  // },
 
   {
     filepath: "/art/sl-ice.webp",
@@ -124,12 +125,4 @@ export const PortfolioConfig: PortfolioType[] = [
     seoDescription:
       "Still life digital painting of toast with warm golden-brown tones and cozy everyday charm",
   },
-  // {
-  //   filepath: "/art/sl-egg.webp",
-  //   width: 1600,
-  //   height: 1615,
-  //   clientDescription: "Egg",
-  //   seoDescription:
-  //     "Still life digital painting of an egg with soft natural light and delicate tonal gradients",
-  // },
 ];
