@@ -29,16 +29,16 @@ export default function About() {
         <p>
           Andrew is an artist/illustrator based in San Francisco focused on food
           and travel illustration for editorial and advertising. For the past 5
-          years, he&apos;s been working as a full time artist after leaving his
-          previous career in tech.
+          years, he&apos;s been working as a freelance artist after leaving his
+          previous career in software.
         </p>
         <p>
           His art is done digitally, and draws inspiration from contemporary oil
           painters such as Carol Marine and Marc Delasio.
         </p>
         <p>
-          He also goes by Jonadrew, which is the identity he uses for his
-          children&apos;s publishing and comics style, and can be found{" "}
+          He also goes by Jonadrew, which is the identity he uses for his comics
+          and public social persona, and can be found{" "}
           <a
             href="https://www.jonadrew.com/"
             className="font-bold font-body underline"
