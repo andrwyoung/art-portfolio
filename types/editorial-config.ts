@@ -5,7 +5,7 @@ export const EditorialConfig: PortfolioType[] = [
     filepath: "/editorial/np-yellowstone.webp",
     width: 1600,
     height: 2156,
-    clientDescription: "National Park series 1",
+    clientDescription: "National Park series",
     seoDescription:
       "Digital painting of Yellowstone National Park with geothermal hot springs and vast wilderness landscape",
   },
@@ -13,7 +13,7 @@ export const EditorialConfig: PortfolioType[] = [
     filepath: "/editorial/il-old.webp",
     width: 1600,
     height: 1685,
-    clientDescription: "Old Fashioned",
+    clientDescription: "Old Fashioned Advert",
     seoDescription:
       "Still life digital painting of an Old Fashioned cocktail with rich amber whiskey, ice cube, and orange peel garnish",
   },
@@ -31,7 +31,7 @@ export const EditorialConfig: PortfolioType[] = [
     filepath: "/editorial/np-yosemite.webp",
     width: 1600,
     height: 2156,
-    clientDescription: "National Park series 1",
+    clientDescription: "National Park series",
     seoDescription:
       "Digital painting of Yosemite Valley with dramatic granite cliffs, waterfalls, and lush valley floor",
   },
@@ -39,7 +39,7 @@ export const EditorialConfig: PortfolioType[] = [
     filepath: "/editorial/il-lemon.webp",
     width: 1600,
     height: 1089,
-    clientDescription: "Picnic Illustration",
+    clientDescription: "Picnic Editorial Spread",
     seoDescription:
       "Editorial illustration of sliced lemons on a soft grey cloth, created for a Citrus Season editorial layout",
   },
@@ -47,7 +47,7 @@ export const EditorialConfig: PortfolioType[] = [
     filepath: "/editorial/il-tea.webp",
     width: 1600,
     height: 1826,
-    clientDescription: "Teapot",
+    clientDescription: "Local Cafe Tea Tasting Poster",
     seoDescription:
       "Editorial illustration of a glass teapot steaming on a dark background, created for a Tea Tasting event poster",
   },
@@ -55,7 +55,7 @@ export const EditorialConfig: PortfolioType[] = [
     filepath: "/editorial/np-antelope.webp",
     width: 1600,
     height: 2156,
-    clientDescription: "National Park series 1",
+    clientDescription: "National Park series",
     seoDescription:
       "Digital painting of Antelope Canyon's narrow slot canyon with glowing orange and red sandstone walls",
   },
@@ -63,7 +63,7 @@ export const EditorialConfig: PortfolioType[] = [
     filepath: "/editorial/np-banff.webp",
     width: 1600,
     height: 2156,
-    clientDescription: "National Park series 1",
+    clientDescription: "National Park series",
     seoDescription:
       "Digital painting of Banff National Park featuring turquoise glacial lakes and snow-capped Rocky Mountain peaks",
   },
@@ -123,7 +123,7 @@ export const EditorialConfig: PortfolioType[] = [
     filepath: "/editorial/np-zion.webp",
     width: 1600,
     height: 2156,
-    clientDescription: "National Park series 1",
+    clientDescription: "National Park series",
     seoDescription:
       "Digital painting of Zion National Park's towering red sandstone canyon walls and winding Virgin River",
   },
