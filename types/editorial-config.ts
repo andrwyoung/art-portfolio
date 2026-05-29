@@ -1,14 +1,8 @@
-export type PortfolioType = {
-  filepath: string;
-  width: number;
-  height: number;
-  clientDescription?: string;
-  seoDescription: string;
-};
+import { PortfolioType } from "./types";
 
-export const PortfolioConfig: PortfolioType[] = [
+export const EditorialConfig: PortfolioType[] = [
   {
-    filepath: "/art/np-yellowstone.webp",
+    filepath: "/editorial/np-yellowstone.webp",
     width: 1600,
     height: 2156,
     clientDescription: "National Park series 1",
@@ -16,7 +10,7 @@ export const PortfolioConfig: PortfolioType[] = [
       "Digital painting of Yellowstone National Park with geothermal hot springs and vast wilderness landscape",
   },
   {
-    filepath: "/art/il-old.webp",
+    filepath: "/editorial/il-old.webp",
     width: 1600,
     height: 1685,
     clientDescription: "Old Fashioned",
@@ -25,7 +19,7 @@ export const PortfolioConfig: PortfolioType[] = [
   },
 
   {
-    filepath: "/art/il-avacado.webp",
+    filepath: "/editorial/il-avacado.webp",
     width: 1600,
     height: 1684,
     clientDescription: "Avocado Hash Brown Deconstruction",
@@ -34,7 +28,7 @@ export const PortfolioConfig: PortfolioType[] = [
   },
 
   {
-    filepath: "/art/np-yosemite.webp",
+    filepath: "/editorial/np-yosemite.webp",
     width: 1600,
     height: 2156,
     clientDescription: "National Park series 1",
@@ -42,7 +36,7 @@ export const PortfolioConfig: PortfolioType[] = [
       "Digital painting of Yosemite Valley with dramatic granite cliffs, waterfalls, and lush valley floor",
   },
   {
-    filepath: "/art/il-lemon.webp",
+    filepath: "/editorial/il-lemon.webp",
     width: 1600,
     height: 1089,
     clientDescription: "Picnic Illustration",
@@ -50,7 +44,7 @@ export const PortfolioConfig: PortfolioType[] = [
       "Editorial illustration of sliced lemons on a soft grey cloth, created for a Citrus Season editorial layout",
   },
   {
-    filepath: "/art/il-tea.webp",
+    filepath: "/editorial/il-tea.webp",
     width: 1600,
     height: 1826,
     clientDescription: "Teapot",
@@ -58,7 +52,7 @@ export const PortfolioConfig: PortfolioType[] = [
       "Editorial illustration of a glass teapot steaming on a dark background, created for a Tea Tasting event poster",
   },
   {
-    filepath: "/art/np-antelope.webp",
+    filepath: "/editorial/np-antelope.webp",
     width: 1600,
     height: 2156,
     clientDescription: "National Park series 1",
@@ -66,7 +60,7 @@ export const PortfolioConfig: PortfolioType[] = [
       "Digital painting of Antelope Canyon's narrow slot canyon with glowing orange and red sandstone walls",
   },
   {
-    filepath: "/art/np-banff.webp",
+    filepath: "/editorial/np-banff.webp",
     width: 1600,
     height: 2156,
     clientDescription: "National Park series 1",
@@ -74,7 +68,7 @@ export const PortfolioConfig: PortfolioType[] = [
       "Digital painting of Banff National Park featuring turquoise glacial lakes and snow-capped Rocky Mountain peaks",
   },
   {
-    filepath: "/art/bc-shikoku.webp",
+    filepath: "/editorial/bc-shikoku.webp",
     width: 1575,
     height: 2400,
     clientDescription: "Book cover for Brandon Shewmake",
@@ -82,7 +76,7 @@ export const PortfolioConfig: PortfolioType[] = [
   },
 
   {
-    filepath: "/art/sl-ice.webp",
+    filepath: "/editorial/sl-ice.webp",
     width: 1286,
     height: 844,
     clientDescription: "Ice",
@@ -91,7 +85,7 @@ export const PortfolioConfig: PortfolioType[] = [
   },
 
   {
-    filepath: "/art/bc-at.webp",
+    filepath: "/editorial/bc-at.webp",
     width: 1575,
     height: 2400,
     clientDescription: "Book cover for Brandon Shewmake",
@@ -99,7 +93,7 @@ export const PortfolioConfig: PortfolioType[] = [
   },
 
   {
-    filepath: "/art/il-honey.webp",
+    filepath: "/editorial/il-honey.webp",
     width: 1600,
     height: 1832,
     clientDescription: "Honey",
@@ -108,7 +102,7 @@ export const PortfolioConfig: PortfolioType[] = [
   },
 
   {
-    filepath: "/art/sl-yolk.webp",
+    filepath: "/editorial/sl-yolk.webp",
     width: 1600,
     height: 1615,
     clientDescription: "Egg Series",
@@ -117,7 +111,7 @@ export const PortfolioConfig: PortfolioType[] = [
   },
 
   {
-    filepath: "/art/sl-tangerines.webp",
+    filepath: "/editorial/sl-tangerines.webp",
     width: 1600,
     height: 1402,
     clientDescription: "Tangerines",
@@ -126,7 +120,7 @@ export const PortfolioConfig: PortfolioType[] = [
   },
 
   {
-    filepath: "/art/np-zion.webp",
+    filepath: "/editorial/np-zion.webp",
     width: 1600,
     height: 2156,
     clientDescription: "National Park series 1",
@@ -135,7 +129,7 @@ export const PortfolioConfig: PortfolioType[] = [
   },
 
   {
-    filepath: "/art/sl-toast.webp",
+    filepath: "/editorial/sl-toast.webp",
     width: 1600,
     height: 1627,
     clientDescription: "Toast",

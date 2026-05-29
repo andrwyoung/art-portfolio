@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { CONTACT_EMAIL } from "../types/settings";
+import { CONTACT_EMAIL } from "../../types/settings";
 
 export default function About() {
   return (

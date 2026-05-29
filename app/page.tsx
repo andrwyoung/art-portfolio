@@ -1,9 +1,6 @@
-import Gallery from "@/components/gallery";
+import { DEFAULT_PAGE } from "@/types/settings";
+import { redirect } from "next/navigation";
 
 export default function Home() {
-  return (
-    <main className="mt-14">
-      <Gallery />
-    </main>
-  );
+  redirect(DEFAULT_PAGE);
 }

@@ -2,18 +2,26 @@
 
 import Image from "next/image";
 import { useState } from "react";
-import { PortfolioConfig } from "@/app/types/editorial-config";
 import Lightbox from "@/components/lightbox";
+import { PortfolioType } from "@/types/types";
 
-export default function Gallery() {
+const DEFAULT_COLUMNS = 3;
+
+export default function Gallery({
+  items,
+  numCols = DEFAULT_COLUMNS,
+}: {
+  items: PortfolioType[];
+  numCols?: number;
+}) {
+  const visible = items.filter((item) => !item.hide);
   const [selected, setSelected] = useState<number | null>(null);
-  const n = PortfolioConfig.length;
+  const n = visible.length;
 
-  const NUM_COLS = 3;
-  const columns = Array.from({ length: NUM_COLS }, (_, colIdx) =>
-    PortfolioConfig.map((item, i) => ({ item, i })).filter(
-      (_, idx) => idx % NUM_COLS === colIdx,
-    ),
+  const columns = Array.from({ length: numCols }, (_, colIdx) =>
+    visible
+      .map((item, i) => ({ item, i }))
+      .filter((_, idx) => idx % numCols === colIdx),
   );
 
   return (
@@ -34,7 +42,7 @@ export default function Gallery() {
                   height={item.height}
                   title={item.clientDescription}
                   className="w-full h-auto block rounded-md"
-                  sizes="33vw"
+                  // sizes="33vw"
                 />
               </div>
             ))}
@@ -43,7 +51,7 @@ export default function Gallery() {
       </div>
 
       <div className="max-w-7xl mx-auto flex flex-col gap-4 p-4 sm:hidden">
-        {PortfolioConfig.map((item) => (
+        {visible.map((item) => (
           <div key={item.filepath} className="rounded-md">
             <Image
               src={item.filepath}
@@ -60,6 +68,7 @@ export default function Gallery() {
 
       {selected !== null && (
         <Lightbox
+          items={visible}
           index={selected}
           onClose={() => setSelected(null)}
           onNext={() => setSelected((selected + 1) % n)}

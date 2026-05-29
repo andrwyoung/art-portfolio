@@ -1,4 +1,4 @@
-import { CONTACT_EMAIL } from "@/app/types/settings";
+import { CONTACT_EMAIL } from "@/types/settings";
 import { SocialIcon } from "./social-icon";
 import { FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";

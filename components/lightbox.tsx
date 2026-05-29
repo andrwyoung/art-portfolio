@@ -1,18 +1,23 @@
 "use client";
 
+import { PortfolioType } from "@/types/types";
 import Image from "next/image";
 import { useEffect } from "react";
-import { PortfolioConfig } from "@/app/types/editorial-config";
 
-type Props = {
+export default function Lightbox({
+  items,
+  index,
+  onClose,
+  onNext,
+  onPrev,
+}: {
+  items: PortfolioType[];
   index: number;
   onClose: () => void;
   onNext: () => void;
   onPrev: () => void;
-};
-
-export default function Lightbox({ index, onClose, onNext, onPrev }: Props) {
-  const item = PortfolioConfig[index];
+}) {
+  const item = items[index];
 
   useEffect(() => {
     function onKey(e: KeyboardEvent) {
