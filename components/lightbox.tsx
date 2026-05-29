@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useEffect } from "react";
-import { PortfolioConfig } from "@/app/types/portfolio-config";
+import { PortfolioConfig } from "@/app/types/editorial-config";
 
 type Props = {
   index: number;

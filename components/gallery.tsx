@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useState } from "react";
-import { PortfolioConfig } from "@/app/types/portfolio-config";
+import { PortfolioConfig } from "@/app/types/editorial-config";
 import Lightbox from "@/components/lightbox";
 
 export default function Gallery() {
@@ -12,8 +12,8 @@ export default function Gallery() {
   const NUM_COLS = 3;
   const columns = Array.from({ length: NUM_COLS }, (_, colIdx) =>
     PortfolioConfig.map((item, i) => ({ item, i })).filter(
-      (_, idx) => idx % NUM_COLS === colIdx
-    )
+      (_, idx) => idx % NUM_COLS === colIdx,
+    ),
   );
 
   return (
