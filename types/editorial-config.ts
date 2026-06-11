@@ -19,14 +19,13 @@ export const EditorialConfig: PortfolioType[] = [
   },
 
   {
-    filepath: "/editorial/il-avacado.webp",
+    filepath: "/editorial/il-hojicha.webp",
     width: 1600,
-    height: 1684,
-    clientDescription: "Avocado Hash Brown Deconstruction",
+    height: 1977,
+    clientDescription: "Hojicha Tea",
     seoDescription:
-      "Still life digital painting of an avocado hash brown deconstruction with vibrant green avocado and golden crispy textures",
+      "Hand holding a hot cup of Hojicha tea with golden sunlight and steam coming from the side",
   },
-
   {
     filepath: "/editorial/np-yosemite.webp",
     width: 1600,
@@ -36,12 +35,38 @@ export const EditorialConfig: PortfolioType[] = [
       "Digital painting of Yosemite Valley with dramatic granite cliffs, waterfalls, and lush valley floor",
   },
   {
-    filepath: "/editorial/il-lemon.webp",
-    width: 1600,
-    height: 1089,
-    clientDescription: "Picnic Editorial Spread",
+    filepath: "/editorial/il-stawberry.webp",
+    width: 1599,
+    height: 1443,
+    clientDescription: "Strawberry Jam Recipe",
     seoDescription:
-      "Editorial illustration of sliced lemons on a soft grey cloth, created for a Citrus Season editorial layout",
+      "Strawberry Jam recipe with line art step by step instructions and a painted hero image strawberry jam",
+  },
+
+  {
+    filepath: "/editorial/il-avacado.webp",
+    width: 1600,
+    height: 1684,
+    clientDescription: "Avocado Hash Brown Deconstruction",
+    seoDescription:
+      "Still life digital painting of an avocado hash brown deconstruction with vibrant green avocado and golden crispy textures",
+  },
+  {
+    filepath: "/editorial/np-antelope.webp",
+    width: 1600,
+    height: 2156,
+    clientDescription: "National Park series",
+    seoDescription:
+      "Digital painting of Antelope Canyon's narrow slot canyon with glowing orange and red sandstone walls",
+  },
+
+  {
+    filepath: "/editorial/np-banff.webp",
+    width: 1600,
+    height: 2156,
+    clientDescription: "National Park series",
+    seoDescription:
+      "Digital painting of Banff National Park featuring turquoise glacial lakes and snow-capped Rocky Mountain peaks",
   },
   {
     filepath: "/editorial/il-tea.webp",
@@ -52,30 +77,6 @@ export const EditorialConfig: PortfolioType[] = [
       "Editorial illustration of a glass teapot steaming on a dark background, created for a Tea Tasting event poster",
   },
   {
-    filepath: "/editorial/np-antelope.webp",
-    width: 1600,
-    height: 2156,
-    clientDescription: "National Park series",
-    seoDescription:
-      "Digital painting of Antelope Canyon's narrow slot canyon with glowing orange and red sandstone walls",
-  },
-  {
-    filepath: "/editorial/np-banff.webp",
-    width: 1600,
-    height: 2156,
-    clientDescription: "National Park series",
-    seoDescription:
-      "Digital painting of Banff National Park featuring turquoise glacial lakes and snow-capped Rocky Mountain peaks",
-  },
-  {
-    filepath: "/editorial/bc-shikoku.webp",
-    width: 1575,
-    height: 2400,
-    clientDescription: "Book cover for Brandon Shewmake",
-    seoDescription: "",
-  },
-
-  {
     filepath: "/editorial/sl-ice.webp",
     width: 1286,
     height: 844,
@@ -85,7 +86,7 @@ export const EditorialConfig: PortfolioType[] = [
   },
 
   {
-    filepath: "/editorial/bc-at.webp",
+    filepath: "/editorial/bc-shikoku.webp",
     width: 1575,
     height: 2400,
     clientDescription: "Book cover for Brandon Shewmake",
@@ -93,12 +94,11 @@ export const EditorialConfig: PortfolioType[] = [
   },
 
   {
-    filepath: "/editorial/il-honey.webp",
-    width: 1600,
-    height: 1832,
-    clientDescription: "Honey",
-    seoDescription:
-      "Digital painting of honey dripping from a spoon into a glass jar, with warm amber tones and fluid golden texture",
+    filepath: "/editorial/bc-at.webp",
+    width: 1575,
+    height: 2400,
+    clientDescription: "Book cover for Brandon Shewmake",
+    seoDescription: "",
   },
 
   {
@@ -118,7 +118,14 @@ export const EditorialConfig: PortfolioType[] = [
     seoDescription:
       "Still life digital painting of tangerines with vibrant orange hues and soft textured citrus skin",
   },
-
+  {
+    filepath: "/editorial/il-honey.webp",
+    width: 1600,
+    height: 1832,
+    clientDescription: "Honey",
+    seoDescription:
+      "Digital painting of honey dripping from a spoon into a glass jar, with warm amber tones and fluid golden texture",
+  },
   {
     filepath: "/editorial/np-zion.webp",
     width: 1600,
@@ -135,5 +142,13 @@ export const EditorialConfig: PortfolioType[] = [
     clientDescription: "Toast",
     seoDescription:
       "Still life digital painting of toast with warm golden-brown tones and cozy everyday charm",
+  },
+  {
+    filepath: "/editorial/il-lemon.webp",
+    width: 1600,
+    height: 1089,
+    clientDescription: "Picnic Editorial Spread",
+    seoDescription:
+      "Editorial illustration of sliced lemons on a soft grey cloth, created for a Citrus Season editorial layout",
   },
 ];
