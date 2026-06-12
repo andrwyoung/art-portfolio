@@ -76,13 +76,21 @@ export const EditorialConfig: PortfolioType[] = [
     seoDescription:
       "Editorial illustration of a glass teapot steaming on a dark background, created for a Tea Tasting event poster",
   },
+  // {
+  //   filepath: "/editorial/sl-ice.webp",
+  //   width: 1286,
+  //   height: 844,
+  //   clientDescription: "Ice",
+  //   seoDescription:
+  //     "Still life digital painting of ice with cool blue highlights and reflective crystalline surfaces",
+  // },
   {
-    filepath: "/editorial/sl-ice.webp",
-    width: 1286,
-    height: 844,
-    clientDescription: "Ice",
+    filepath: "/editorial/sl-yolk.webp",
+    width: 1600,
+    height: 1615,
+    clientDescription: "Egg Series",
     seoDescription:
-      "Still life digital painting of ice with cool blue highlights and reflective crystalline surfaces",
+      "Still life digital painting of an egg yolk with rich golden color and luminous translucent texture",
   },
 
   {
@@ -102,15 +110,6 @@ export const EditorialConfig: PortfolioType[] = [
   },
 
   {
-    filepath: "/editorial/sl-yolk.webp",
-    width: 1600,
-    height: 1615,
-    clientDescription: "Egg Series",
-    seoDescription:
-      "Still life digital painting of an egg yolk with rich golden color and luminous translucent texture",
-  },
-
-  {
     filepath: "/editorial/sl-tangerines.webp",
     width: 1600,
     height: 1402,
@@ -125,6 +124,14 @@ export const EditorialConfig: PortfolioType[] = [
     clientDescription: "Honey",
     seoDescription:
       "Digital painting of honey dripping from a spoon into a glass jar, with warm amber tones and fluid golden texture",
+  },
+  {
+    filepath: "/editorial/il-lemon.webp",
+    width: 1600,
+    height: 1089,
+    clientDescription: "Picnic Editorial Spread",
+    seoDescription:
+      "Editorial illustration of sliced lemons on a soft grey cloth, created for a Citrus Season editorial layout",
   },
   {
     filepath: "/editorial/np-zion.webp",
@@ -143,12 +150,13 @@ export const EditorialConfig: PortfolioType[] = [
     seoDescription:
       "Greyscale woman with red eye holding a red martini glass with a Cosmopolitan cocktail",
   },
+
   {
-    filepath: "/editorial/il-lemon.webp",
+    filepath: "/editorial/il-core.webp",
     width: 1600,
-    height: 1089,
-    clientDescription: "Picnic Editorial Spread",
+    height: 2070,
+    clientDescription: "Local Cafe Ingredient List",
     seoDescription:
-      "Editorial illustration of sliced lemons on a soft grey cloth, created for a Citrus Season editorial layout",
+      "Watercolor painted composition of an ingredient list for a local cafe. Camelia Sinesis, Persimmon, Aduki Beans, Jujube, Okinawa Black Sugar and Soba Cha",
   },
 ];
