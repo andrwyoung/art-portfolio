@@ -136,12 +136,12 @@ export const EditorialConfig: PortfolioType[] = [
   },
 
   {
-    filepath: "/editorial/sl-toast.webp",
-    width: 1600,
-    height: 1627,
-    clientDescription: "Toast",
+    filepath: "/editorial/il-cosmo.webp",
+    width: 1599,
+    height: 1972,
+    clientDescription: "Cosmopolitan",
     seoDescription:
-      "Still life digital painting of toast with warm golden-brown tones and cozy everyday charm",
+      "Greyscale woman with red eye holding a red martini glass with a Cosmopolitan cocktail",
   },
   {
     filepath: "/editorial/il-lemon.webp",
