@@ -76,14 +76,7 @@ export const EditorialConfig: PortfolioType[] = [
     seoDescription:
       "Editorial illustration of a glass teapot steaming on a dark background, created for a Tea Tasting event poster",
   },
-  // {
-  //   filepath: "/editorial/sl-ice.webp",
-  //   width: 1286,
-  //   height: 844,
-  //   clientDescription: "Ice",
-  //   seoDescription:
-  //     "Still life digital painting of ice with cool blue highlights and reflective crystalline surfaces",
-  // },
+
   {
     filepath: "/editorial/sl-yolk.webp",
     width: 1600,
@@ -125,6 +118,7 @@ export const EditorialConfig: PortfolioType[] = [
     seoDescription:
       "Digital painting of honey dripping from a spoon into a glass jar, with warm amber tones and fluid golden texture",
   },
+
   {
     filepath: "/editorial/il-lemon.webp",
     width: 1600,
@@ -134,14 +128,21 @@ export const EditorialConfig: PortfolioType[] = [
       "Editorial illustration of sliced lemons on a soft grey cloth, created for a Citrus Season editorial layout",
   },
   {
-    filepath: "/editorial/np-zion.webp",
+    filepath: "/editorial/sl-toast.webp",
     width: 1600,
-    height: 2156,
-    clientDescription: "National Park series",
+    height: 1627,
+    clientDescription: "Toast",
     seoDescription:
-      "Digital painting of Zion National Park's towering red sandstone canyon walls and winding Virgin River",
+      "Still life digital painting of toast with warm golden-brown tones and cozy everyday charm",
   },
-
+  {
+    filepath: "/editorial/sl-ice.webp",
+    width: 1286,
+    height: 844,
+    clientDescription: "Ice",
+    seoDescription:
+      "Still life digital painting of ice with cool blue highlights and reflective crystalline surfaces",
+  },
   {
     filepath: "/editorial/il-cosmo.webp",
     width: 1599,
@@ -149,6 +150,14 @@ export const EditorialConfig: PortfolioType[] = [
     clientDescription: "Cosmopolitan",
     seoDescription:
       "Greyscale woman with red eye holding a red martini glass with a Cosmopolitan cocktail",
+  },
+  {
+    filepath: "/editorial/np-zion.webp",
+    width: 1600,
+    height: 2156,
+    clientDescription: "National Park series",
+    seoDescription:
+      "Digital painting of Zion National Park's towering red sandstone canyon walls and winding Virgin River",
   },
 
   {
