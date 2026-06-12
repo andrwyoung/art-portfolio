@@ -144,7 +144,7 @@ export const EditorialConfig: PortfolioType[] = [
       "Still life digital painting of ice with cool blue highlights and reflective crystalline surfaces",
   },
   {
-    filepath: "/editorial/il-cosmo.webp",
+    filepath: "/editorial/il-cosmos.webp",
     width: 1599,
     height: 1972,
     clientDescription: "Cosmopolitan",
