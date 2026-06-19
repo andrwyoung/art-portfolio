@@ -26,14 +26,16 @@ export const EditorialConfig: PortfolioType[] = [
     seoDescription:
       "Hand holding a hot cup of Hojicha tea with golden sunlight and steam coming from the side",
   },
+
   {
-    filepath: "/editorial/np-yosemite.webp",
+    filepath: "/editorial/np-banff.webp",
     width: 1600,
     height: 2156,
     clientDescription: "National Park series",
     seoDescription:
-      "Digital painting of Yosemite Valley with dramatic granite cliffs, waterfalls, and lush valley floor",
+      "Digital painting of Banff National Park featuring turquoise glacial lakes and snow-capped Rocky Mountain peaks",
   },
+
   {
     filepath: "/editorial/il-stawberry.webp",
     width: 1599,
@@ -59,15 +61,15 @@ export const EditorialConfig: PortfolioType[] = [
     seoDescription:
       "Digital painting of Antelope Canyon's narrow slot canyon with glowing orange and red sandstone walls",
   },
-
   {
-    filepath: "/editorial/np-banff.webp",
+    filepath: "/editorial/np-yosemite.webp",
     width: 1600,
     height: 2156,
     clientDescription: "National Park series",
     seoDescription:
-      "Digital painting of Banff National Park featuring turquoise glacial lakes and snow-capped Rocky Mountain peaks",
+      "Digital painting of Yosemite Valley with dramatic granite cliffs, waterfalls, and lush valley floor",
   },
+
   {
     filepath: "/editorial/il-tea.webp",
     width: 1600,
@@ -77,13 +79,21 @@ export const EditorialConfig: PortfolioType[] = [
       "Editorial illustration of a glass teapot steaming on a dark background, created for a Tea Tasting event poster",
   },
 
+  // {
+  //   filepath: "/editorial/sl-yolk.webp",
+  //   width: 1600,
+  //   height: 1615,
+  //   clientDescription: "Egg Series",
+  //   seoDescription:
+  //     "Still life digital painting of an egg yolk with rich golden color and luminous translucent texture",
+  // },
   {
-    filepath: "/editorial/sl-yolk.webp",
-    width: 1600,
-    height: 1615,
-    clientDescription: "Egg Series",
+    filepath: "/editorial/sl-ice.webp",
+    width: 1286,
+    height: 844,
+    clientDescription: "Ice",
     seoDescription:
-      "Still life digital painting of an egg yolk with rich golden color and luminous translucent texture",
+      "Still life digital painting of ice with cool blue highlights and reflective crystalline surfaces",
   },
 
   {
@@ -127,30 +137,51 @@ export const EditorialConfig: PortfolioType[] = [
     seoDescription:
       "Editorial illustration of sliced lemons on a soft grey cloth, created for a Citrus Season editorial layout",
   },
+
   {
-    filepath: "/editorial/sl-toast.webp",
+    filepath: "/editorial/line-choco.webp",
     width: 1600,
-    height: 1627,
-    clientDescription: "Toast",
+    height: 1089,
+    clientDescription: "Pourtables: Black Summit Coffee Illustration",
     seoDescription:
-      "Still life digital painting of toast with warm golden-brown tones and cozy everyday charm",
+      "Line art editorial illustration of a Black Summit coffee blend, created for the Pourtables coffee brand series",
   },
+
   {
-    filepath: "/editorial/sl-ice.webp",
-    width: 1286,
-    height: 844,
-    clientDescription: "Ice",
+    filepath: "/editorial/line-orange.webp",
+    width: 1600,
+    height: 1089,
+    clientDescription: "Pourtables: Orange Pekoe Coffee Illustration",
     seoDescription:
-      "Still life digital painting of ice with cool blue highlights and reflective crystalline surfaces",
+      "Line art editorial illustration of an Orange Pekoe coffee blend, created for the Pourtables coffee brand series",
   },
+
   {
-    filepath: "/editorial/il-cosmos.webp",
-    width: 1599,
-    height: 1972,
-    clientDescription: "Cosmopolitan",
+    filepath: "/editorial/line-caramel.webp",
+    width: 1600,
+    height: 1089,
+    clientDescription: "Pourtables: Sable Coffee Illustration",
     seoDescription:
-      "Greyscale woman with red eye holding a red martini glass with a Cosmopolitan cocktail",
+      "Line art editorial illustration of a Sable coffee blend, created for the Pourtables coffee brand series",
   },
+
+  // {
+  //   filepath: "/editorial/sl-toast.webp",
+  //   width: 1600,
+  //   height: 1627,
+  //   clientDescription: "Toast",
+  //   seoDescription:
+  //     "Still life digital painting of toast with warm golden-brown tones and cozy everyday charm",
+  // },
+  // {
+  //   filepath: "/editorial/sl-ice.webp",
+  //   width: 1286,
+  //   height: 844,
+  //   clientDescription: "Ice",
+  //   seoDescription:
+  //     "Still life digital painting of ice with cool blue highlights and reflective crystalline surfaces",
+  // },
+
   {
     filepath: "/editorial/np-zion.webp",
     width: 1600,
@@ -167,5 +198,14 @@ export const EditorialConfig: PortfolioType[] = [
     clientDescription: "Local Cafe Ingredient List",
     seoDescription:
       "Watercolor painted composition of an ingredient list for a local cafe. Camelia Sinesis, Persimmon, Aduki Beans, Jujube, Okinawa Black Sugar and Soba Cha",
+  },
+
+  {
+    filepath: "/editorial/il-cosmos.webp",
+    width: 1599,
+    height: 1972,
+    clientDescription: "Cosmopolitan",
+    seoDescription:
+      "Greyscale woman with red eye holding a red martini glass with a Cosmopolitan cocktail",
   },
 ];
