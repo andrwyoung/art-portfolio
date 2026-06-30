@@ -75,17 +75,17 @@ export const PublishingConfig: PortfolioType[] = [
     clientDescription: "Interior for Descendant Publishing",
     seoDescription:
       "Grayscale interior book illustration of a group of children caught in a chaotic action scene, surrounded by swirling dark tentacle-like shapes",
-    hide: true,
   },
+
   {
-    filepath: "/publishing/section_010.webp",
+    filepath: "/publishing/section_014.webp",
     width: 1600,
-    height: 2434,
+    height: 649,
     clientDescription: "Interior for Descendant Publishing",
     seoDescription:
-      "Grayscale interior book illustration of children gathered around a large tree, with a girl and creature sitting beneath the roots, two figures perched in the branches, and a small character in the grass",
-    hide: true,
+      "Grayscale interior book illustration of a large black cat leaping through tall grass while a group of children watches cautiously from the edge of a forest",
   },
+
   {
     filepath: "/publishing/section_011.webp",
     width: 1600,
@@ -93,7 +93,6 @@ export const PublishingConfig: PortfolioType[] = [
     clientDescription: "Interior for Descendant Publishing",
     seoDescription:
       "Grayscale interior book illustration of a boy in an apron reacting in shock as a tray of food crashes to the floor with utensils flying through the air",
-    hide: true,
   },
   {
     filepath: "/publishing/section_012.webp",
@@ -101,8 +100,7 @@ export const PublishingConfig: PortfolioType[] = [
     height: 1278,
     clientDescription: "Interior for Descendant Publishing",
     seoDescription:
-      "Grayscale interior book illustration of a nervous child watching a monitor displaying an eerie house with glowing eyes peering from a darkened window",
-    hide: true,
+      "Grayscale interior book illustration of a nervous child looking out a window to an eerie house with glowing eyes peering from a darkened window",
   },
   {
     filepath: "/publishing/section_013.webp",
@@ -111,17 +109,16 @@ export const PublishingConfig: PortfolioType[] = [
     clientDescription: "Interior for Descendant Publishing",
     seoDescription:
       "Grayscale panoramic interior book illustration transitioning from a frightened child in bed clutching a stuffed animal into a swirling dreamscape of shadowy creatures and dark tendrils",
-    hide: true,
   },
   {
-    filepath: "/publishing/section_014.webp",
+    filepath: "/publishing/section_010.webp",
     width: 1600,
-    height: 649,
+    height: 2434,
     clientDescription: "Interior for Descendant Publishing",
     seoDescription:
-      "Grayscale interior book illustration of a large black cat leaping through tall grass while a group of children watches cautiously from the edge of a forest",
-    hide: true,
+      "Grayscale interior book illustration of children gathered around a large tree, with a girl and creature sitting beneath the roots, two figures perched in the branches, and a small character in the grass",
   },
+
   {
     filepath: "/publishing/section_017.webp",
     width: 1600,
@@ -129,7 +126,6 @@ export const PublishingConfig: PortfolioType[] = [
     clientDescription: "Interior for Descendant Publishing",
     seoDescription:
       "Grayscale interior book illustration of a robot and a suited character dancing wildly under a disco ball with floating speakers and musical notes",
-    hide: true,
   },
 
   {
@@ -142,6 +138,15 @@ export const PublishingConfig: PortfolioType[] = [
   },
 
   {
+    filepath: "/publishing/section_018.webp",
+    width: 1600,
+    height: 1129,
+    clientDescription: "Character Splash for Amanda the Space Witch",
+    seoDescription:
+      "Character illustration of Veronica the Normal Witch, a confident figure with teal hair and a wide-brimmed hat channeling swirling green magic energy, set against a textured blue-grey background",
+  },
+
+  {
     filepath: "/publishing/section_015.webp",
     width: 1600,
     height: 2191,
@@ -150,11 +155,11 @@ export const PublishingConfig: PortfolioType[] = [
       "Full-color interior comic page showing children and a bear navigating a dark fantasy forest across multiple panels, culminating in the discovery of a glowing green cabin",
   },
   {
-    filepath: "/publishing/section_018.webp",
+    filepath: "/publishing/section_019.webp",
     width: 1600,
-    height: 1129,
-    clientDescription: "Character Splash for Amanda the Space Witch",
+    height: 1096,
+    clientDescription: "Amanda the Space Witch pages 3-4",
     seoDescription:
-      "Character illustration of Veronica the Normal Witch, a confident figure with teal hair and a wide-brimmed hat channeling swirling green magic energy, set against a textured blue-grey background",
+      "Full-color interior comic page showing characters greeting Amanda the Space witch with panels of her showing off an invention to help her magic",
   },
 ];

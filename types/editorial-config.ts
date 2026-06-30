@@ -2,12 +2,12 @@ import { PortfolioType } from "./types";
 
 export const EditorialConfig: PortfolioType[] = [
   {
-    filepath: "/editorial/np-yellowstone.webp",
+    filepath: "/editorial/np-zion.webp",
     width: 1600,
     height: 2156,
     clientDescription: "National Park series",
     seoDescription:
-      "Digital painting of Yellowstone National Park with geothermal hot springs and vast wilderness landscape",
+      "Digital painting of Zion National Park's towering red sandstone canyon walls and winding Virgin River",
   },
   {
     filepath: "/editorial/il-old.webp",
@@ -28,12 +28,21 @@ export const EditorialConfig: PortfolioType[] = [
   },
 
   {
-    filepath: "/editorial/np-banff.webp",
+    filepath: "/editorial/il-surfer.webp",
+    width: 1600,
+    height: 2101,
+    clientDescription: "Surfing Sports Illustration",
+    seoDescription:
+      "Sports illustration of a surfer riding a wave, created for an editorial surfing feature",
+  },
+
+  {
+    filepath: "/editorial/np-yellowstone.webp",
     width: 1600,
     height: 2156,
     clientDescription: "National Park series",
     seoDescription:
-      "Digital painting of Banff National Park featuring turquoise glacial lakes and snow-capped Rocky Mountain peaks",
+      "Digital painting of Yellowstone National Park with geothermal hot springs and vast wilderness landscape",
   },
 
   {
@@ -46,6 +55,14 @@ export const EditorialConfig: PortfolioType[] = [
   },
 
   {
+    filepath: "/editorial/il-blackwing.webp",
+    width: 1600,
+    height: 1177,
+    clientDescription: "Blackwing Brewery Label",
+    seoDescription:
+      "Line art illustration created for the Blackwing Brewery beer label design",
+  },
+  {
     filepath: "/editorial/il-avacado.webp",
     width: 1600,
     height: 1684,
@@ -53,6 +70,7 @@ export const EditorialConfig: PortfolioType[] = [
     seoDescription:
       "Still life digital painting of an avocado hash brown deconstruction with vibrant green avocado and golden crispy textures",
   },
+
   {
     filepath: "/editorial/np-antelope.webp",
     width: 1600,
@@ -87,14 +105,6 @@ export const EditorialConfig: PortfolioType[] = [
   //   seoDescription:
   //     "Still life digital painting of an egg yolk with rich golden color and luminous translucent texture",
   // },
-  {
-    filepath: "/editorial/sl-ice.webp",
-    width: 1286,
-    height: 844,
-    clientDescription: "Ice",
-    seoDescription:
-      "Still life digital painting of ice with cool blue highlights and reflective crystalline surfaces",
-  },
 
   {
     filepath: "/editorial/bc-shikoku.webp",
@@ -102,6 +112,14 @@ export const EditorialConfig: PortfolioType[] = [
     height: 2400,
     clientDescription: "Book cover for Brandon Shewmake",
     seoDescription: "",
+  },
+  {
+    filepath: "/editorial/sl-ice.webp",
+    width: 1286,
+    height: 844,
+    clientDescription: "Ice",
+    seoDescription:
+      "Still life digital painting of ice with cool blue highlights and reflective crystalline surfaces",
   },
 
   {
@@ -130,14 +148,13 @@ export const EditorialConfig: PortfolioType[] = [
   },
 
   {
-    filepath: "/editorial/il-lemon.webp",
+    filepath: "/editorial/line-orange.webp",
     width: 1600,
     height: 1089,
-    clientDescription: "Picnic Editorial Spread",
+    clientDescription: "Pourtables: Orange Pekoe Coffee Illustration",
     seoDescription:
-      "Editorial illustration of sliced lemons on a soft grey cloth, created for a Citrus Season editorial layout",
+      "Line art editorial illustration of an Orange Pekoe coffee blend, created for the Pourtables coffee brand series",
   },
-
   {
     filepath: "/editorial/line-choco.webp",
     width: 1600,
@@ -146,24 +163,23 @@ export const EditorialConfig: PortfolioType[] = [
     seoDescription:
       "Line art editorial illustration of a Black Summit coffee blend, created for the Pourtables coffee brand series",
   },
-
   {
-    filepath: "/editorial/line-orange.webp",
+    filepath: "/editorial/il-lemon.webp",
     width: 1600,
     height: 1089,
-    clientDescription: "Pourtables: Orange Pekoe Coffee Illustration",
+    clientDescription: "Picnic Editorial Spread",
     seoDescription:
-      "Line art editorial illustration of an Orange Pekoe coffee blend, created for the Pourtables coffee brand series",
+      "Editorial illustration of sliced lemons on a soft grey cloth, created for a Citrus Season editorial layout",
   },
 
-  {
-    filepath: "/editorial/line-caramel.webp",
-    width: 1600,
-    height: 1089,
-    clientDescription: "Pourtables: Sable Coffee Illustration",
-    seoDescription:
-      "Line art editorial illustration of a Sable coffee blend, created for the Pourtables coffee brand series",
-  },
+  // {
+  //   filepath: "/editorial/line-caramel.webp",
+  //   width: 1600,
+  //   height: 1089,
+  //   clientDescription: "Pourtables: Sable Coffee Illustration",
+  //   seoDescription:
+  //     "Line art editorial illustration of a Sable coffee blend, created for the Pourtables coffee brand series",
+  // },
 
   // {
   //   filepath: "/editorial/sl-toast.webp",
@@ -183,15 +199,6 @@ export const EditorialConfig: PortfolioType[] = [
   // },
 
   {
-    filepath: "/editorial/np-zion.webp",
-    width: 1600,
-    height: 2156,
-    clientDescription: "National Park series",
-    seoDescription:
-      "Digital painting of Zion National Park's towering red sandstone canyon walls and winding Virgin River",
-  },
-
-  {
     filepath: "/editorial/il-core.webp",
     width: 1600,
     height: 2070,
@@ -207,5 +214,13 @@ export const EditorialConfig: PortfolioType[] = [
     clientDescription: "Cosmopolitan",
     seoDescription:
       "Greyscale woman with red eye holding a red martini glass with a Cosmopolitan cocktail",
+  },
+  {
+    filepath: "/editorial/np-banff.webp",
+    width: 1600,
+    height: 2156,
+    clientDescription: "National Park series",
+    seoDescription:
+      "Digital painting of Banff National Park featuring turquoise glacial lakes and snow-capped Rocky Mountain peaks",
   },
 ];
