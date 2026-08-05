@@ -27,14 +27,14 @@ export const EditorialConfig: PortfolioType[] = [
       "Hand holding a hot cup of Hojicha tea with golden sunlight and steam coming from the side",
   },
 
-  {
-    filepath: "/editorial/il-surfer.webp",
-    width: 1600,
-    height: 2101,
-    clientDescription: "Surfing Sports Illustration",
-    seoDescription:
-      "Sports illustration of a surfer riding a wave, created for an editorial surfing feature",
-  },
+  // {
+  //   filepath: "/editorial/il-surfer.webp",
+  //   width: 1600,
+  //   height: 2101,
+  //   clientDescription: "Surfing Sports Illustration",
+  //   seoDescription:
+  //     "Sports illustration of a surfer riding a wave, created for an editorial surfing feature",
+  // },
 
   {
     filepath: "/editorial/np-yellowstone.webp",
@@ -54,14 +54,14 @@ export const EditorialConfig: PortfolioType[] = [
       "Strawberry Jam recipe with line art step by step instructions and a painted hero image strawberry jam",
   },
 
-  {
-    filepath: "/editorial/il-blackwing.webp",
-    width: 1600,
-    height: 1177,
-    clientDescription: "Blackwing Brewery Label",
-    seoDescription:
-      "Line art illustration created for the Blackwing Brewery beer label design",
-  },
+  // {
+  //   filepath: "/editorial/il-blackwing.webp",
+  //   width: 1600,
+  //   height: 1177,
+  //   clientDescription: "Blackwing Brewery Label",
+  //   seoDescription:
+  //     "Line art illustration created for the Blackwing Brewery beer label design",
+  // },
   {
     filepath: "/editorial/il-avacado.webp",
     width: 1600,
@@ -105,14 +105,6 @@ export const EditorialConfig: PortfolioType[] = [
   //   seoDescription:
   //     "Still life digital painting of an egg yolk with rich golden color and luminous translucent texture",
   // },
-
-  {
-    filepath: "/editorial/bc-shikoku.webp",
-    width: 1575,
-    height: 2400,
-    clientDescription: "Book cover for Brandon Shewmake",
-    seoDescription: "",
-  },
   {
     filepath: "/editorial/sl-ice.webp",
     width: 1286,
@@ -120,6 +112,13 @@ export const EditorialConfig: PortfolioType[] = [
     clientDescription: "Ice",
     seoDescription:
       "Still life digital painting of ice with cool blue highlights and reflective crystalline surfaces",
+  },
+  {
+    filepath: "/editorial/bc-shikoku.webp",
+    width: 1575,
+    height: 2400,
+    clientDescription: "Book cover for Brandon Shewmake",
+    seoDescription: "",
   },
 
   {
