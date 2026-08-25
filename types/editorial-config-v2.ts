@@ -2,12 +2,12 @@ import { PortfolioType } from "./types";
 
 export const EditorialConfigV2: PortfolioType[] = [
   {
-    filepath: "/editorial-v2/section_001.webp",
+    filepath: "/editorial-v2/section_003.webp",
     width: 1600,
-    height: 1399,
-    clientDescription: "The Hijacking of Creativity (Substack, 2026)",
+    height: 1541,
+    clientDescription: "Holistic Health pt. 1 (Newsletter, 2026)",
     seoDescription:
-      "Dark editorial illustration of a flock of vultures gathered on the ground with peacock feathers, one bird descending from above with a feather in its beak",
+      "Top-down illustration of a woman napping on a picnic blanket with her dog, surrounded by an open notebook, tote bag, and water bottle",
   },
   {
     filepath: "/editorial-v2/section_012.webp",
@@ -19,20 +19,12 @@ export const EditorialConfigV2: PortfolioType[] = [
   },
 
   {
-    filepath: "/editorial-v2/section_003.webp",
+    filepath: "/editorial-v2/section_001.webp",
     width: 1600,
-    height: 1541,
-    clientDescription: "Holistic Health pt. 1 (Newsletter, 2026)",
+    height: 1399,
+    clientDescription: "The Hijacking of Creativity (Substack, 2026)",
     seoDescription:
-      "Top-down illustration of a woman napping on a picnic blanket with her dog, surrounded by an open notebook, tote bag, and water bottle",
-  },
-  {
-    filepath: "/editorial-v2/section_009.webp",
-    width: 1600,
-    height: 1600,
-    clientDescription: "Cocktails (Personal, 2026)",
-    seoDescription:
-      "Four-panel illustration of classic cocktails: a blue tropical drink, a mojito, a whiskey sour, and a strawberry daiquiri",
+      "Dark editorial illustration of a flock of vultures gathered on the ground with peacock feathers, one bird descending from above with a feather in its beak",
   },
 
   {
@@ -53,6 +45,16 @@ export const EditorialConfigV2: PortfolioType[] = [
     seoDescription:
       "Illustration of a woman jump roping beside a man lifting a dumbbell on a gym bench",
   },
+
+  {
+    filepath: "/editorial-v2/section_009.webp",
+    width: 1600,
+    height: 1600,
+    clientDescription: "Cocktails (Personal, 2026)",
+    seoDescription:
+      "Four-panel illustration of classic cocktails: a blue tropical drink, a mojito, a whiskey sour, and a strawberry daiquiri",
+  },
+
   {
     filepath: "/editorial-v2/section_007.webp",
     width: 1600,

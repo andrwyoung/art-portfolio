@@ -45,29 +45,32 @@ export default function Gallery({
                     // sizes="33vw"
                   />
                 </div>
-                {item.clientDescription && (
-                  <p className="text-stone-700 font-header font-medium text-xs md:text-md text-left mt-2 ml-1 ">
-                    {item.clientDescription}
-                  </p>
-                )}
+                <p className="text-stone-700 font-header font-medium text-xs md:text-md text-left mt-2 ml-1 ">
+                  {item.clientDescription}
+                </p>
               </div>
             ))}
           </div>
         ))}
       </div>
 
-      <div className="max-w-7xl mx-auto flex flex-col gap-4 p-4 sm:hidden">
+      <div className="max-w-7xl mx-auto flex flex-col gap-6 p-4 sm:hidden">
         {visible.map((item) => (
-          <div key={item.filepath} className="rounded-md">
-            <Image
-              src={item.filepath}
-              alt={item.seoDescription}
-              width={item.width}
-              height={item.height}
-              title={item.clientDescription}
-              className="w-full h-auto block rounded-md"
-              sizes="100vw"
-            />
+          <div key={item.filepath}>
+            <div className="rounded-md">
+              <Image
+                src={item.filepath}
+                alt={item.seoDescription}
+                width={item.width}
+                height={item.height}
+                title={item.clientDescription}
+                className="w-full h-auto block rounded-md"
+                sizes="100vw"
+              />
+            </div>
+            <p className="text-stone-700 font-header font-medium text-xs md:text-md text-left mt-2 ml-1 ">
+              {item.clientDescription}
+            </p>
           </div>
         ))}
       </div>
