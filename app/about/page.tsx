@@ -52,7 +52,7 @@ export default function About() {
         </p>
         <p className="pt-4">
           <strong>Clients include:</strong> Inheritance Magazine, Griggs
-          Educational Enterprises, Berkley School of Theology, Splickety
+          Educational Enterprises, Berkeley School of Theology, Splickety
           Publishing Group, Descendant Publishing
         </p>
       </section>
