@@ -26,6 +26,14 @@ export const EditorialConfigV2: PortfolioType[] = [
     seoDescription:
       "Dark editorial illustration of a flock of vultures gathered on the ground with peacock feathers, one bird descending from above with a feather in its beak",
   },
+  {
+    filepath: "/editorial-v2/section_016b.webp",
+    width: 1600,
+    height: 998,
+    clientDescription: "Organic Market (Personal, 2026)",
+    seoDescription:
+      "Farmer market scene with human vendors and robot customers",
+  },
 
   {
     filepath: "/editorial-v2/section_005.webp",
@@ -35,15 +43,6 @@ export const EditorialConfigV2: PortfolioType[] = [
 
     seoDescription:
       "Illustration of two women cooking together in a kitchen, one chopping meat on a cutting board while the other fries eggs and talks",
-  },
-  {
-    filepath: "/editorial-v2/section_006.webp",
-    width: 1600,
-    height: 1541,
-    clientDescription: "Holistic Health pt. 3 (Newsletter, 2026)",
-
-    seoDescription:
-      "Illustration of a woman jump roping beside a man lifting a dumbbell on a gym bench",
   },
 
   {
@@ -72,6 +71,15 @@ export const EditorialConfigV2: PortfolioType[] = [
       "Fantasy character portrait of a dark-haired elf woman in profile, wearing ornate blue gemstone earrings",
   },
 
+  {
+    filepath: "/editorial-v2/section_006.webp",
+    width: 1600,
+    height: 1541,
+    clientDescription: "Holistic Health pt. 3 (Newsletter, 2026)",
+
+    seoDescription:
+      "Illustration of a woman jump roping beside a man lifting a dumbbell on a gym bench",
+  },
   {
     filepath: "/editorial-v2/section_004.webp",
     width: 1600,
