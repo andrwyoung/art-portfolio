@@ -28,6 +28,14 @@ export const PublishingConfig: PortfolioType[] = [
       "Book cover illustration for 'I Know Who I Am On The Family Tree: A Children's Guide to Genealogy' by Denise I. Griggs, featuring diverse children playing around a large oak tree",
   },
   {
+    filepath: "/publishing/section_006.webp",
+    width: 1600,
+    height: 1158,
+    clientDescription: "Our Heroes Book 1 (Taylor Hayes, 2026)",
+    seoDescription:
+      "Book cover illustration for 'The Cult of Oakhaven: Our Heroes Book One' by Taylor Hayes, depicting a fantasy party of orc, dwarf, and mage standing ready in a dark medieval village under stormy skies",
+  },
+  {
     filepath: "/publishing/section_003.webp",
     width: 1600,
     height: 1272,
@@ -61,14 +69,7 @@ export const PublishingConfig: PortfolioType[] = [
   //   seoDescription:
   //     "Book cover illustration for 'Walking to Dinner on the Appalachian Trail' by Brandon Shewmake, featuring a sweeping mountain landscape at golden hour with an eagle soaring over rolling forested ridgelines",
   // },
-  {
-    filepath: "/publishing/section_006.webp",
-    width: 1600,
-    height: 1158,
-    clientDescription: "Our Heroes Book 1 (Taylor Hayes, 2026)",
-    seoDescription:
-      "Book cover illustration for 'The Cult of Oakhaven: Our Heroes Book One' by Taylor Hayes, depicting a fantasy party of orc, dwarf, and mage standing ready in a dark medieval village under stormy skies",
-  },
+
   {
     filepath: "/publishing/section_008.webp",
     width: 1600,

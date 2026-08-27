@@ -30,7 +30,7 @@ export const EditorialConfigV2: PortfolioType[] = [
     filepath: "/editorial-v2/section_016b.webp",
     width: 1600,
     height: 998,
-    clientDescription: "Organic Market (Personal, 2026)",
+    clientDescription: "Service Economy (Personal, 2026)",
     seoDescription:
       "Farmer market scene with human vendors and robot customers",
   },
@@ -117,14 +117,6 @@ export const EditorialConfigV2: PortfolioType[] = [
   },
 
   {
-    filepath: "/editorial-v2/section_014.webp",
-    width: 1600,
-    height: 1600,
-    clientDescription: "Black Summit Label (Pourtables Coffee, 2026)",
-    seoDescription:
-      "Still life illustration of a broken dark chocolate bar surrounded by mint leaves on a green background",
-  },
-  {
     filepath: "/editorial-v2/section_010.webp",
     width: 1600,
     height: 1174,
@@ -132,6 +124,15 @@ export const EditorialConfigV2: PortfolioType[] = [
     seoDescription:
       "Digital painting of a pangolin climbing over rocks amid green grass and foliage",
   },
+  {
+    filepath: "/editorial-v2/section_014.webp",
+    width: 1600,
+    height: 1600,
+    clientDescription: "Black Summit Label (Pourtables Coffee, 2026)",
+    seoDescription:
+      "Still life illustration of a broken dark chocolate bar surrounded by mint leaves on a green background",
+  },
+
   {
     filepath: "/editorial-v2/section_015.webp",
     width: 1600,
