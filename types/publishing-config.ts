@@ -62,6 +62,14 @@ export const PublishingConfig: PortfolioType[] = [
   //     "Book cover illustration for 'Walking to Dinner on the Appalachian Trail' by Brandon Shewmake, featuring a sweeping mountain landscape at golden hour with an eagle soaring over rolling forested ridgelines",
   // },
   {
+    filepath: "/publishing/section_006.webp",
+    width: 1600,
+    height: 1158,
+    clientDescription: "Our Heroes Book 1 (Taylor Hayes, 2026)",
+    seoDescription:
+      "Book cover illustration for 'The Cult of Oakhaven: Our Heroes Book One' by Taylor Hayes, depicting a fantasy party of orc, dwarf, and mage standing ready in a dark medieval village under stormy skies",
+  },
+  {
     filepath: "/publishing/section_008.webp",
     width: 1600,
     height: 1124,
@@ -71,24 +79,6 @@ export const PublishingConfig: PortfolioType[] = [
       "Grayscale interior book illustration of a group of children caught in a chaotic action scene, surrounded by swirling dark tentacle-like shapes",
   },
 
-  {
-    filepath: "/publishing/section_006.webp",
-    width: 1600,
-    height: 1158,
-    clientDescription: "Our Heroes Book 1 (Taylor Hayes, 2026)",
-    seoDescription:
-      "Book cover illustration for 'The Cult of Oakhaven: Our Heroes Book One' by Taylor Hayes, depicting a fantasy party of orc, dwarf, and mage standing ready in a dark medieval village under stormy skies",
-  },
-
-  {
-    filepath: "/publishing/section_017.webp",
-    width: 1600,
-    height: 1542,
-    clientDescription:
-      "Iffy Eats Monsters Interior (Descendant Publishing, 2026)",
-    seoDescription:
-      "Grayscale interior book illustration of a robot and a suited character dancing wildly under a disco ball with floating speakers and musical notes",
-  },
   {
     filepath: "/publishing/section_020.webp",
     width: 1600,
@@ -100,13 +90,13 @@ export const PublishingConfig: PortfolioType[] = [
   },
 
   {
-    filepath: "/publishing/section_011.webp",
+    filepath: "/publishing/section_017.webp",
     width: 1600,
-    height: 1469,
+    height: 1542,
     clientDescription:
-      "Hurl at Camp Whurl Interior (Descendant Publishing, 2026)",
+      "Iffy Eats Monsters Interior (Descendant Publishing, 2026)",
     seoDescription:
-      "Grayscale interior book illustration of a boy in an apron reacting in shock as a tray of food crashes to the floor with utensils flying through the air",
+      "Grayscale interior book illustration of a robot and a suited character dancing wildly under a disco ball with floating speakers and musical notes",
   },
 
   {
@@ -117,6 +107,15 @@ export const PublishingConfig: PortfolioType[] = [
       "Iffy Eats Monsters Interior (Descendant Publishing, 2026)",
     seoDescription:
       "Grayscale interior book illustration of a nervous child looking out a window to an eerie house with glowing eyes peering from a darkened window",
+  },
+  {
+    filepath: "/publishing/section_011.webp",
+    width: 1600,
+    height: 1469,
+    clientDescription:
+      "Hurl at Camp Whurl Interior (Descendant Publishing, 2026)",
+    seoDescription:
+      "Grayscale interior book illustration of a boy in an apron reacting in shock as a tray of food crashes to the floor with utensils flying through the air",
   },
 
   // {
@@ -170,5 +169,13 @@ export const PublishingConfig: PortfolioType[] = [
     clientDescription: "Amanda the Space Witch pg 3-4 (Self Published, 2027)",
     seoDescription:
       "Full-color interior comic page showing characters greeting Amanda the Space witch with panels of her showing off an invention to help her magic",
+  },
+  {
+    filepath: "/publishing/section_021.webp",
+    width: 1600,
+    height: 1208,
+    clientDescription: "Griffith Fight Scene (Emily Hendryx, 2025)",
+    seoDescription:
+      "Full-color illustration of sci-fi soldiers raising their hands in surrender before a golden-armored army at a fantasy castle, as a griffin fires energy beams overhead",
   },
 ];
