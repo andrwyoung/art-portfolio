@@ -13,7 +13,7 @@ export const EditorialConfigV2: PortfolioType[] = [
     filepath: "/editorial-v2/section_012.webp",
     width: 1600,
     height: 2070,
-    clientDescription: "Snowboarding Poster (Personal, 2026)",
+    clientDescription: "Snowboarding Poster",
     seoDescription:
       "Illustration of a snowboarder catching big air above skiers and snowboarders on a snowy mountain slope",
   },
@@ -30,7 +30,7 @@ export const EditorialConfigV2: PortfolioType[] = [
     filepath: "/editorial-v2/section_016b.webp",
     width: 1600,
     height: 998,
-    clientDescription: "Service Economy (Personal, 2026)",
+    clientDescription: "Service Economy",
     seoDescription:
       "Farmer market scene with human vendors and robot customers",
   },
@@ -49,7 +49,7 @@ export const EditorialConfigV2: PortfolioType[] = [
     filepath: "/editorial-v2/section_009.webp",
     width: 1600,
     height: 1600,
-    clientDescription: "Cocktails (Personal, 2026)",
+    clientDescription: "Cocktail Spots",
     seoDescription:
       "Four-panel illustration of classic cocktails: a blue tropical drink, a mojito, a whiskey sour, and a strawberry daiquiri",
   },
@@ -58,7 +58,7 @@ export const EditorialConfigV2: PortfolioType[] = [
     filepath: "/editorial-v2/section_007.webp",
     width: 1600,
     height: 1689,
-    clientDescription: "Avo-Ovo Deconstruction (Personal, 2026)",
+    clientDescription: "Avo-Ovo Deconstruction",
     seoDescription:
       "Deconstructed still life illustration of avocado toast with a honey drizzle, arugula, lemon, and salt and pepper shakers suspended mid-motion",
   },
@@ -66,7 +66,7 @@ export const EditorialConfigV2: PortfolioType[] = [
     filepath: "/editorial-v2/section_008.webp",
     width: 1600,
     height: 1632,
-    clientDescription: "Earring Advert (Personal, 2026)",
+    clientDescription: "Earring Advert",
     seoDescription:
       "Fantasy character portrait of a dark-haired elf woman in profile, wearing ornate blue gemstone earrings",
   },
@@ -93,7 +93,7 @@ export const EditorialConfigV2: PortfolioType[] = [
     filepath: "/editorial-v2/section_002.webp",
     width: 1600,
     height: 1062,
-    clientDescription: "Digital Ocean (Personal, 2026)",
+    clientDescription: "Digital Ocean",
     seoDescription:
       "Illustration of a row of potted flowers in varying states of wilt, from fresh violets and roses to drooping sunflowers, set against a pastel blue background",
   },
@@ -102,7 +102,7 @@ export const EditorialConfigV2: PortfolioType[] = [
     filepath: "/editorial-v2/section_011.webp",
     width: 1600,
     height: 1461,
-    clientDescription: "Cassidy's Strawberry Jam (Personal, 2026)",
+    clientDescription: "Cassidy's Strawberry Jam",
     seoDescription:
       "Strawberry jam recipe illustration with numbered step-by-step instructions and a hero image of a jam jar with a spoon",
   },
@@ -111,7 +111,7 @@ export const EditorialConfigV2: PortfolioType[] = [
     filepath: "/editorial-v2/section_013.webp",
     width: 1600,
     height: 901,
-    clientDescription: "Mountain Lake Date (Personal, 2026)",
+    clientDescription: "Mountain Lake Date",
     seoDescription:
       "Illustration of a couple sitting on a hillside overlooking a mountain lake and valley town",
   },
@@ -120,7 +120,7 @@ export const EditorialConfigV2: PortfolioType[] = [
     filepath: "/editorial-v2/section_010.webp",
     width: 1600,
     height: 1174,
-    clientDescription: "Endangered Animals: Pangolin (Personal, 2026)",
+    clientDescription: "Endangered Animals: Pangolin",
     seoDescription:
       "Digital painting of a pangolin climbing over rocks amid green grass and foliage",
   },
