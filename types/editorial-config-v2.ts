@@ -135,7 +135,7 @@ export const EditorialConfigV2: PortfolioType[] = [
     filepath: "/editorial-v2/section_017.webp",
     width: 1600,
     height: 1305,
-    clientDescription: "Living with Grief",
+    clientDescription: "Living with Grief (based on 2018 article)",
     seoDescription:
       "Illustration of a hermit crab with an orange body carrying a large shell with blue coral growing on it, surrounded by colorful coral reef",
   },
