@@ -36,13 +36,12 @@ export const EditorialConfigV2: PortfolioType[] = [
   },
 
   {
-    filepath: "/editorial-v2/section_005.webp",
+    filepath: "/editorial-v2/section_018.webp",
     width: 1600,
-    height: 1541,
-    clientDescription: "Holistic Health pt. 2 (Newsletter, 2026)",
-
+    height: 1808,
+    clientDescription: "Sunk Cost",
     seoDescription:
-      "Illustration of two women cooking together in a kitchen, one chopping meat on a cutting board while the other fries eggs and talks",
+      "Illustration of a person sitting atop an unfinished brick tower labeled by year, stacking bricks amid a skyline of similar towers",
   },
 
   {
@@ -53,7 +52,33 @@ export const EditorialConfigV2: PortfolioType[] = [
     seoDescription:
       "Four-panel illustration of classic cocktails: a blue tropical drink, a mojito, a whiskey sour, and a strawberry daiquiri",
   },
+  {
+    filepath: "/editorial-v2/section_019.webp",
+    width: 1600,
+    height: 1102,
+    clientDescription: "First to Post",
+    seoDescription:
+      "Illustration of a rat holding up papers addressing a chaotic crowd of rats waving papers in the air",
+  },
 
+  {
+    filepath: "/editorial-v2/section_005.webp",
+    width: 1600,
+    height: 1541,
+    clientDescription: "Holistic Health pt. 2 (Newsletter, 2026)",
+
+    seoDescription:
+      "Illustration of two women cooking together in a kitchen, one chopping meat on a cutting board while the other fries eggs and talks",
+  },
+  {
+    filepath: "/editorial-v2/section_006.webp",
+    width: 1600,
+    height: 1541,
+    clientDescription: "Holistic Health pt. 3 (Newsletter, 2026)",
+
+    seoDescription:
+      "Illustration of a woman jump roping beside a man lifting a dumbbell on a gym bench",
+  },
   {
     filepath: "/editorial-v2/section_007.webp",
     width: 1600,
@@ -70,16 +95,15 @@ export const EditorialConfigV2: PortfolioType[] = [
     seoDescription:
       "Fantasy character portrait of a dark-haired elf woman in profile, wearing ornate blue gemstone earrings",
   },
-
   {
-    filepath: "/editorial-v2/section_006.webp",
+    filepath: "/editorial-v2/section_011.webp",
     width: 1600,
-    height: 1541,
-    clientDescription: "Holistic Health pt. 3 (Newsletter, 2026)",
-
+    height: 1461,
+    clientDescription: "Cassidy's Strawberry Jam",
     seoDescription:
-      "Illustration of a woman jump roping beside a man lifting a dumbbell on a gym bench",
+      "Strawberry jam recipe illustration with numbered step-by-step instructions and a hero image of a jam jar with a spoon",
   },
+
   {
     filepath: "/editorial-v2/section_004.webp",
     width: 1600,
@@ -99,21 +123,21 @@ export const EditorialConfigV2: PortfolioType[] = [
   },
 
   {
-    filepath: "/editorial-v2/section_011.webp",
-    width: 1600,
-    height: 1461,
-    clientDescription: "Cassidy's Strawberry Jam",
-    seoDescription:
-      "Strawberry jam recipe illustration with numbered step-by-step instructions and a hero image of a jam jar with a spoon",
-  },
-
-  {
     filepath: "/editorial-v2/section_013.webp",
     width: 1600,
     height: 901,
     clientDescription: "Mountain Lake Date",
     seoDescription:
       "Illustration of a couple sitting on a hillside overlooking a mountain lake and valley town",
+  },
+
+  {
+    filepath: "/editorial-v2/section_017.webp",
+    width: 1600,
+    height: 1305,
+    clientDescription: "Living with Grief",
+    seoDescription:
+      "Illustration of a hermit crab with an orange body carrying a large shell with blue coral growing on it, surrounded by colorful coral reef",
   },
 
   {
