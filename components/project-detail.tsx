@@ -4,7 +4,33 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import Lightbox from "@/components/lightbox";
-import { ProjectType } from "@/types/types";
+import { PortfolioType, ProjectType } from "@/types/types";
+
+type IndexedImage = { image: PortfolioType; index: number };
+
+function buildRows(
+  images: PortfolioType[],
+  singleColumn: boolean,
+): IndexedImage[][] {
+  if (singleColumn) {
+    return images.map((image, index) => [{ image, index }]);
+  }
+
+  const rows: IndexedImage[][] = [];
+  let i = 0;
+  if (images.length % 2 === 1) {
+    rows.push([{ image: images[0], index: 0 }]);
+    i = 1;
+  }
+  for (; i < images.length; i += 2) {
+    const row: IndexedImage[] = [{ image: images[i], index: i }];
+    if (images[i + 1]) {
+      row.push({ image: images[i + 1], index: i + 1 });
+    }
+    rows.push(row);
+  }
+  return rows;
+}
 
 export default function ProjectDetail({
   project,
@@ -15,6 +41,7 @@ export default function ProjectDetail({
 }) {
   const [selected, setSelected] = useState<number | null>(null);
   const n = project.images.length;
+  const rows = buildRows(project.images, project.singleColumn ?? false);
 
   return (
     <main className="mt-14 max-w-4xl mx-auto px-4 sm:px-8 pb-16">
@@ -33,20 +60,33 @@ export default function ProjectDetail({
       )}
 
       <div className="flex flex-col gap-8 mt-8">
-        {project.images.map((image, i) => (
+        {rows.map((row, rowIdx) => (
           <div
-            key={image.filepath}
-            className="cursor-zoom-in rounded-md transition-all hover:shadow-md"
-            onClick={() => setSelected(i)}
+            key={rowIdx}
+            className={row.length === 2 ? "flex gap-8" : undefined}
           >
-            <Image
-              src={image.filepath}
-              alt={image.seoDescription}
-              width={image.width}
-              height={image.height}
-              title={image.clientDescription}
-              className="w-full h-auto block rounded-md"
-            />
+            {row.map(({ image, index }) => (
+              <div key={image.filepath} className={row.length === 2 ? "flex-1" : ""}>
+                <div
+                  className="cursor-zoom-in rounded-md transition-all hover:shadow-md"
+                  onClick={() => setSelected(index)}
+                >
+                  <Image
+                    src={image.filepath}
+                    alt={image.seoDescription}
+                    width={image.width}
+                    height={image.height}
+                    title={image.imageDescription}
+                    className="w-full h-auto block rounded-md"
+                  />
+                </div>
+                {image.imageDescription && (
+                  <p className="text-stone-700 font-header font-medium text-xs md:text-md text-left mt-2 ml-1">
+                    {image.imageDescription}
+                  </p>
+                )}
+              </div>
+            ))}
           </div>
         ))}
       </div>

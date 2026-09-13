@@ -4,7 +4,7 @@ export type PortfolioType = {
   filepath: string;
   width: number;
   height: number;
-  clientDescription: string;
+  imageDescription?: string;
   seoDescription: string;
   hide?: boolean;
 };
@@ -14,7 +14,11 @@ export type ProjectType = {
   title: string;
   blurb: string;
   tags: Tag[];
-  images: PortfolioType[]; // first image is used as the grid thumbnail
+  thumbnail?: PortfolioType; // defaults to images[0] if not set
+  images: PortfolioType[];
+  // Detail page image layout defaults to pairing images two-per-row.
+  // Set true to stack images full-width in a single column instead.
+  singleColumn?: boolean;
   hide?: boolean;
 };
 
