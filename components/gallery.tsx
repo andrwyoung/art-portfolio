@@ -1,27 +1,22 @@
-"use client";
-
 import Image from "next/image";
-import { useState } from "react";
-import Lightbox from "@/components/lightbox";
-import { PortfolioType } from "@/types/types";
+import Link from "next/link";
+import { ProjectType } from "@/types/types";
 
 const DEFAULT_COLUMNS = 3;
 
 export default function Gallery({
   items,
   numCols = DEFAULT_COLUMNS,
+  basePath,
 }: {
-  items: PortfolioType[];
+  items: ProjectType[];
   numCols?: number;
+  basePath: string;
 }) {
   const visible = items.filter((item) => !item.hide);
-  const [selected, setSelected] = useState<number | null>(null);
-  const n = visible.length;
 
   const columns = Array.from({ length: numCols }, (_, colIdx) =>
-    visible
-      .map((item, i) => ({ item, i }))
-      .filter((_, idx) => idx % numCols === colIdx),
+    visible.filter((_, idx) => idx % numCols === colIdx),
   );
 
   return (
@@ -29,61 +24,47 @@ export default function Gallery({
       <div className="px-4 sm:px-8 lg:px-16 mx-auto hidden sm:flex gap-4 md:gap-6 p-4">
         {columns.map((col, colIdx) => (
           <div key={colIdx} className="flex-1 flex flex-col gap-8">
-            {col.map(({ item, i }) => (
-              <div key={item.filepath}>
-                <div
-                  className="cursor-zoom-in rounded-md transition-all hover:shadow-md hover:scale-101"
-                  onClick={() => setSelected(i)}
-                >
+            {col.map((project) => (
+              <Link key={project.slug} href={`${basePath}/${project.slug}`}>
+                <div className="cursor-pointer rounded-md transition-all hover:shadow-md hover:scale-101">
                   <Image
-                    src={item.filepath}
-                    alt={item.seoDescription}
-                    width={item.width}
-                    height={item.height}
-                    title={item.clientDescription}
+                    src={project.images[0].filepath}
+                    alt={project.images[0].seoDescription}
+                    width={project.images[0].width}
+                    height={project.images[0].height}
+                    title={project.title}
                     className="w-full h-auto block rounded-md"
-                    // sizes="33vw"
                   />
                 </div>
                 <p className="text-stone-700 font-header font-medium text-xs md:text-md text-left mt-2 ml-1 ">
-                  {item.clientDescription}
+                  {project.title}
                 </p>
-              </div>
+              </Link>
             ))}
           </div>
         ))}
       </div>
 
       <div className="max-w-7xl mx-auto flex flex-col gap-6 p-4 sm:hidden">
-        {visible.map((item) => (
-          <div key={item.filepath}>
+        {visible.map((project) => (
+          <Link key={project.slug} href={`${basePath}/${project.slug}`}>
             <div className="rounded-md">
               <Image
-                src={item.filepath}
-                alt={item.seoDescription}
-                width={item.width}
-                height={item.height}
-                title={item.clientDescription}
+                src={project.images[0].filepath}
+                alt={project.images[0].seoDescription}
+                width={project.images[0].width}
+                height={project.images[0].height}
+                title={project.title}
                 className="w-full h-auto block rounded-md"
                 sizes="100vw"
               />
             </div>
             <p className="text-stone-700 font-header font-medium text-xs md:text-md text-left mt-2 ml-1 ">
-              {item.clientDescription}
+              {project.title}
             </p>
-          </div>
+          </Link>
         ))}
       </div>
-
-      {selected !== null && (
-        <Lightbox
-          items={visible}
-          index={selected}
-          onClose={() => setSelected(null)}
-          onNext={() => setSelected((selected + 1) % n)}
-          onPrev={() => setSelected((selected - 1 + n) % n)}
-        />
-      )}
     </>
   );
 }

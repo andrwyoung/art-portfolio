@@ -1,6 +1,10 @@
-import { DEFAULT_PAGE } from "@/types/settings";
-import { redirect } from "next/navigation";
+import TagFilterGallery from "@/components/tag-filter-gallery";
+import { AllProjects } from "@/types/projects";
 
 export default function Home() {
-  redirect(DEFAULT_PAGE);
+  return (
+    <main className="mt-14">
+      <TagFilterGallery items={AllProjects} />
+    </main>
+  );
 }

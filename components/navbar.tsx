@@ -24,11 +24,8 @@ export default function Navbar() {
         {/* <p className="font-body mt-1">Food and Travel Illustrator</p> */}
       </div>
       <div className="flex flex-row gap-8">
-        <Link href="/editorial" className={`${linkClass("/editorial")}`}>
-          Editorial
-        </Link>
-        <Link href="/publishing" className={`${linkClass("/publishing")}`}>
-          Publishing
+        <Link href="/" className={`${linkClass("/")}`}>
+          Portfolio
         </Link>
         <Link href="/about" className={`${linkClass("/about")}`}>
           About
