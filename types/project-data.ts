@@ -243,6 +243,13 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     blurb: "",
     singleColumn: true,
     tags: ["publishing"],
+    thumbnail: {
+      filepath: "/publishing/aletia-and-dino-adventures/unicorn-thumb.webp",
+      width: 3281,
+      height: 3236,
+      seoDescription:
+        "Close-up illustration of a glowing white unicorn stepping through a magic portal, from 'There's a Unicorn in My Basement! Adventures in Aletia Book One'",
+    },
     images: [
       {
         filepath: "/publishing/aletia-and-dino-adventures/01.webp",
@@ -253,12 +260,30 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
           "Full wrap book cover illustration for 'There's a Unicorn in My Basement! Adventures in Aletia Book One' by Ben Wolf, showing a startled father and child confronting a glowing white unicorn in a cluttered basement workshop",
       },
       {
+        filepath:
+          "/publishing/aletia-and-dino-adventures/unicorn-cover-no-text.webp",
+        width: 4713,
+        height: 3713,
+        imageDescription: "Adventures of Aletia Book 1 (No Text)",
+        seoDescription:
+          "Clean full wrap illustration for 'There's a Unicorn in My Basement! Adventures in Aletia Book One', without title text, showing a startled father and child confronting a glowing white unicorn in a cluttered basement workshop",
+      },
+      {
         filepath: "/publishing/aletia-and-dino-adventures/02.webp",
         width: 1600,
         height: 1272,
         imageDescription: "Dino Adventures Book 3",
         seoDescription:
           "Full wrap book cover illustration for 'Dino Adventures Book Three: Stegosaurus Swamp' by Ben Wolf, showing a boy and armored companion facing a stegosaurus and pterosaur in a dark prehistoric swamp",
+      },
+      {
+        filepath:
+          "/publishing/aletia-and-dino-adventures/dino-cover-no-text.webp",
+        width: 4713,
+        height: 3713,
+        imageDescription: "Dino Adventures Book 3 (No Text)",
+        seoDescription:
+          "Clean full wrap illustration for 'Dino Adventures Book Three: Stegosaurus Swamp', without title text, showing a boy and armored companion facing a stegosaurus and pterosaur in a dark prehistoric swamp",
       },
     ],
   },
@@ -267,6 +292,13 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     blurb: "Book covers for the Our Heroes fantasy series.",
     tags: ["publishing"],
     singleColumn: true,
+    thumbnail: {
+      filepath: "/publishing/our-heroes-series/junkdrift-thumb.webp",
+      width: 4276,
+      height: 3916,
+      seoDescription:
+        "Close-up illustration of characters overlooking a post-apocalyptic desert junkyard settlement, from 'The Saboteur of Junkdrift: Our Heroes Book Two'",
+    },
     images: [
       {
         filepath: "/publishing/our-heroes-series/01.webp",
@@ -275,6 +307,14 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
         imageDescription: "Our Heroes Book 2",
         seoDescription:
           "Book cover illustration for 'The Saboteur of Junkdrift: Our Heroes Book Two' by Taylor Hayes, depicting a post-apocalyptic desert scene with characters on a mine cart approaching a sprawling junkyard settlement",
+      },
+      {
+        filepath: "/publishing/our-heroes-series/junkdrift-cover-no-text.webp",
+        width: 6414,
+        height: 4950,
+        imageDescription: "Our Heroes Book 2 (No Text)",
+        seoDescription:
+          "Clean illustration for 'The Saboteur of Junkdrift: Our Heroes Book Two', without title text, depicting a post-apocalyptic desert scene with characters on a mine cart approaching a sprawling junkyard settlement",
       },
       {
         filepath: "/publishing/our-heroes-series/02.webp",
@@ -364,7 +404,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     blurb:
       "A resource for Asian Americans who journey with Jesus, written by Russell Jeung, PhD, for the ARC Initiative.",
     tags: ["publishing"],
-    // singleColumn: true,
+    singleColumn: true,
     thumbnail: {
       filepath: "/publishing/chinatown-pilgrimage/pilgrim-thumb.webp",
       width: 2550,
@@ -388,13 +428,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
         seoDescription:
           "Illustration of a group of young hikers with backpacks pointing toward an ornate Chinese temple gate flanked by stone lion statues",
       },
-      {
-        filepath: "/publishing/chinatown-pilgrimage/03.webp",
-        width: 1600,
-        height: 1320,
-        seoDescription:
-          "Illustration of hiking boots, a loaded backpack, trekking poles, and a water bottle laid out together",
-      },
+
       {
         filepath: "/publishing/chinatown-pilgrimage/04.webp",
         width: 1600,
@@ -402,7 +436,13 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
         seoDescription:
           "Panoramic illustration of a mother sitting with a child resting in a forest clearing surrounded by trees and rocks",
       },
-
+      {
+        filepath: "/publishing/chinatown-pilgrimage/03.webp",
+        width: 1600,
+        height: 1320,
+        seoDescription:
+          "Illustration of hiking boots, a loaded backpack, trekking poles, and a water bottle laid out together",
+      },
       {
         filepath: "/publishing/chinatown-pilgrimage/06.webp",
         width: 1600,
@@ -796,7 +836,8 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     tags: ["publishing"],
     singleColumn: true,
     thumbnail: {
-      filepath: "/editorial/book-covers-for-brandon-shewmake/walking-to-dinner-thumb.webp",
+      filepath:
+        "/editorial/book-covers-for-brandon-shewmake/walking-to-dinner-thumb.webp",
       width: 1426,
       height: 1566,
       seoDescription:
@@ -812,7 +853,8 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
           "Full wraparound book cover for 'Walking to Dinner on the Appalachian Trail' by Brandon Shewmake, featuring a sunrise over silhouetted mountain ridges with a hawk flying above the forest",
       },
       {
-        filepath: "/editorial/book-covers-for-brandon-shewmake/at-cover-no-text.webp",
+        filepath:
+          "/editorial/book-covers-for-brandon-shewmake/at-cover-no-text.webp",
         width: 3477,
         height: 2475,
         imageDescription: "Appalachian Trail Cover (No Text)",
@@ -820,7 +862,8 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
           "Clean full wraparound illustration for the 'Walking to Dinner on the Appalachian Trail' book cover, without title text, showing a sunrise over silhouetted mountain ridges with a hawk flying above the forest",
       },
       {
-        filepath: "/editorial/book-covers-for-brandon-shewmake/shikoku-cover.webp",
+        filepath:
+          "/editorial/book-covers-for-brandon-shewmake/shikoku-cover.webp",
         width: 3444,
         height: 2475,
         imageDescription: "Walking to Dinner on the Shikoku Pilgrimage",
@@ -828,7 +871,8 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
           "Full wraparound book cover for 'Walking to Dinner on the Shikoku Pilgrimage' by Brandon Shewmake, featuring a cherry blossom tree framing a Japanese temple overlooking a coastal bay",
       },
       {
-        filepath: "/editorial/book-covers-for-brandon-shewmake/shikoku-cover-no-text.webp",
+        filepath:
+          "/editorial/book-covers-for-brandon-shewmake/shikoku-cover-no-text.webp",
         width: 3444,
         height: 2475,
         imageDescription: "Shikoku Pilgrimage Cover (No Text)",
@@ -934,7 +978,8 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     },
     images: [
       {
-        filepath: "/editorial/walking-to-dinner-website/website-screenshot.webp",
+        filepath:
+          "/editorial/walking-to-dinner-website/website-screenshot.webp",
         width: 1661,
         height: 916,
         seoDescription:
