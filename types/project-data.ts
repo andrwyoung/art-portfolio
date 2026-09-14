@@ -144,20 +144,6 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
       },
     ],
   },
-  "cassidys-strawberry-jam": {
-    title: "Cassidy's Strawberry Jam",
-    blurb: "",
-    tags: ["food"],
-    images: [
-      {
-        filepath: "/editorial-v2/section_011.webp",
-        width: 1600,
-        height: 1461,
-        seoDescription:
-          "Strawberry jam recipe illustration with numbered step-by-step instructions and a hero image of a jam jar with a spoon",
-      },
-    ],
-  },
   "the-horse-the-hound-and-the-hare": {
     title: "The Horse, the Hound, and the Hare (Substack, 2026)",
     blurb: "",
@@ -234,14 +220,6 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     tags: ["food"],
     images: [
       {
-        filepath: "/editorial-v2/section_014.webp",
-        width: 1600,
-        height: 1600,
-        imageDescription: "Black Summit Label",
-        seoDescription:
-          "Still life illustration of a broken dark chocolate bar surrounded by mint leaves on a green background",
-      },
-      {
         filepath: "/editorial-v2/section_015.webp",
         width: 1600,
         height: 1600,
@@ -249,11 +227,19 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
         seoDescription:
           "Botanical illustration of orange blossoms, orange slices, and citrus peels on a warm yellow background",
       },
+      {
+        filepath: "/editorial-v2/section_014.webp",
+        width: 1600,
+        height: 1600,
+        imageDescription: "Black Summit Label",
+        seoDescription:
+          "Still life illustration of a broken dark chocolate bar surrounded by mint leaves on a green background",
+      },
     ],
   },
 
-  "adventures-of-aletia": {
-    title: "Adventures of Aletia Book 1 (Splickety Publishing, 2023)",
+  "aletia-and-dino-adventures": {
+    title: "Aletia & Dino Adventures (Splickety Publishing, 2023)",
     blurb: "",
     tags: ["book covers", "publishing"],
     images: [
@@ -261,8 +247,17 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
         filepath: "/publishing/section_005.webp",
         width: 1600,
         height: 1260,
+        imageDescription: "Adventures of Aletia Book 1",
         seoDescription:
           "Full wrap book cover illustration for 'There's a Unicorn in My Basement! Adventures in Aletia Book One' by Ben Wolf, showing a startled father and child confronting a glowing white unicorn in a cluttered basement workshop",
+      },
+      {
+        filepath: "/publishing/section_003.webp",
+        width: 1600,
+        height: 1272,
+        imageDescription: "Dino Adventures Book 3",
+        seoDescription:
+          "Full wrap book cover illustration for 'Dino Adventures Book Three: Stegosaurus Swamp' by Ben Wolf, showing a boy and armored companion facing a stegosaurus and pterosaur in a dark prehistoric swamp",
       },
     ],
   },
@@ -270,15 +265,8 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     title: "Our Heroes Series (Taylor Hayes, 2026)",
     blurb: "Book covers for the Our Heroes fantasy series.",
     tags: ["book covers", "publishing"],
+    singleColumn: true,
     images: [
-      {
-        filepath: "/publishing/section_006.webp",
-        width: 1600,
-        height: 1158,
-        imageDescription: "Our Heroes Book 1",
-        seoDescription:
-          "Book cover illustration for 'The Cult of Oakhaven: Our Heroes Book One' by Taylor Hayes, depicting a fantasy party of orc, dwarf, and mage standing ready in a dark medieval village under stormy skies",
-      },
       {
         filepath: "/publishing/section_002.webp",
         width: 1600,
@@ -286,6 +274,14 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
         imageDescription: "Our Heroes Book 2",
         seoDescription:
           "Book cover illustration for 'The Saboteur of Junkdrift: Our Heroes Book Two' by Taylor Hayes, depicting a post-apocalyptic desert scene with characters on a mine cart approaching a sprawling junkyard settlement",
+      },
+      {
+        filepath: "/publishing/section_006.webp",
+        width: 1600,
+        height: 1158,
+        imageDescription: "Our Heroes Book 1",
+        seoDescription:
+          "Book cover illustration for 'The Cult of Oakhaven: Our Heroes Book One' by Taylor Hayes, depicting a fantasy party of orc, dwarf, and mage standing ready in a dark medieval village under stormy skies",
       },
     ],
   },
@@ -300,20 +296,6 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
         height: 1001,
         seoDescription:
           "Book cover illustration for 'I Know Who I Am On The Family Tree: A Children's Guide to Genealogy' by Denise I. Griggs, featuring diverse children playing around a large oak tree",
-      },
-    ],
-  },
-  "dino-adventures": {
-    title: "Dino Adventures Book 3 (Splickety Publishing, 2023)",
-    blurb: "",
-    tags: ["book covers", "publishing"],
-    images: [
-      {
-        filepath: "/publishing/section_003.webp",
-        width: 1600,
-        height: 1272,
-        seoDescription:
-          "Full wrap book cover illustration for 'Dino Adventures Book Three: Stegosaurus Swamp' by Ben Wolf, showing a boy and armored companion facing a stegosaurus and pterosaur in a dark prehistoric swamp",
       },
     ],
   },
@@ -489,8 +471,8 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
       },
     ],
   },
-  "old-fashioned-advert": {
-    title: "Old Fashioned Advert",
+  "cocktails-and-tea": {
+    title: "Cocktails & Tea",
     blurb: "",
     tags: ["food"],
     images: [
@@ -498,22 +480,25 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
         filepath: "/editorial/il-old.webp",
         width: 1600,
         height: 1685,
+        imageDescription: "Old Fashioned",
         seoDescription:
           "Still life digital painting of an Old Fashioned cocktail with rich amber whiskey, ice cube, and orange peel garnish",
       },
-    ],
-  },
-  "hojicha-tea": {
-    title: "Hojicha Tea",
-    blurb: "",
-    tags: ["food"],
-    images: [
       {
         filepath: "/editorial/il-hojicha.webp",
         width: 1600,
         height: 1977,
+        imageDescription: "Hojicha Tea",
         seoDescription:
           "Hand holding a hot cup of Hojicha tea with golden sunlight and steam coming from the side",
+      },
+      {
+        filepath: "/editorial/il-cosmos.webp",
+        width: 1599,
+        height: 1972,
+        imageDescription: "Cosmopolitan",
+        seoDescription:
+          "Greyscale woman with red eye holding a red martini glass with a Cosmopolitan cocktail",
       },
     ],
   },
@@ -531,20 +516,6 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
       },
     ],
   },
-  "avocado-hash-brown-deconstruction": {
-    title: "Avocado Hash Brown Deconstruction",
-    blurb: "",
-    tags: ["food"],
-    images: [
-      {
-        filepath: "/editorial/il-avacado.webp",
-        width: 1600,
-        height: 1684,
-        seoDescription:
-          "Still life digital painting of an avocado hash brown deconstruction with vibrant green avocado and golden crispy textures",
-      },
-    ],
-  },
   "local-cafe-tea-tasting-poster": {
     title: "Local Cafe Tea Tasting Poster",
     blurb: "",
@@ -559,8 +530,8 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
       },
     ],
   },
-  ice: {
-    title: "Ice",
+  "still-life-studies": {
+    title: "Still Life Studies",
     blurb: "",
     tags: ["food"],
     images: [
@@ -568,8 +539,17 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
         filepath: "/editorial/sl-ice.webp",
         width: 1286,
         height: 844,
+        imageDescription: "Ice",
         seoDescription:
           "Still life digital painting of ice with cool blue highlights and reflective crystalline surfaces",
+      },
+      {
+        filepath: "/editorial/sl-tangerines.webp",
+        width: 1600,
+        height: 1402,
+        imageDescription: "Tangerines",
+        seoDescription:
+          "Still life digital painting of tangerines with vibrant orange hues and soft textured citrus skin",
       },
     ],
   },
@@ -592,20 +572,6 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
       },
     ],
   },
-  tangerines: {
-    title: "Tangerines",
-    blurb: "",
-    tags: ["food"],
-    images: [
-      {
-        filepath: "/editorial/sl-tangerines.webp",
-        width: 1600,
-        height: 1402,
-        seoDescription:
-          "Still life digital painting of tangerines with vibrant orange hues and soft textured citrus skin",
-      },
-    ],
-  },
   honey: {
     title: "Honey",
     blurb: "",
@@ -617,29 +583,6 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
         height: 1832,
         seoDescription:
           "Digital painting of honey dripping from a spoon into a glass jar, with warm amber tones and fluid golden texture",
-      },
-    ],
-  },
-  "pourtables-coffee-line-art": {
-    title: "Pourtables Coffee (Line Art)",
-    blurb: "",
-    tags: ["food"],
-    images: [
-      {
-        filepath: "/editorial/line-orange.webp",
-        width: 1600,
-        height: 1089,
-        imageDescription: "Orange Pekoe Coffee Illustration",
-        seoDescription:
-          "Line art editorial illustration of an Orange Pekoe coffee blend, created for the Pourtables coffee brand series",
-      },
-      {
-        filepath: "/editorial/line-choco.webp",
-        width: 1600,
-        height: 1089,
-        imageDescription: "Black Summit Coffee Illustration",
-        seoDescription:
-          "Line art editorial illustration of a Black Summit coffee blend, created for the Pourtables coffee brand series",
       },
     ],
   },
@@ -668,20 +611,6 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
         height: 2070,
         seoDescription:
           "Watercolor painted composition of an ingredient list for a local cafe. Camelia Sinesis, Persimmon, Aduki Beans, Jujube, Okinawa Black Sugar and Soba Cha",
-      },
-    ],
-  },
-  cosmopolitan: {
-    title: "Cosmopolitan",
-    blurb: "",
-    tags: ["food"],
-    images: [
-      {
-        filepath: "/editorial/il-cosmos.webp",
-        width: 1599,
-        height: 1972,
-        seoDescription:
-          "Greyscale woman with red eye holding a red martini glass with a Cosmopolitan cocktail",
       },
     ],
   },

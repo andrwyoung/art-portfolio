@@ -47,7 +47,7 @@ export default function TagFilterGallery({ items }: { items: ProjectType[] }) {
         ))}
       </div>
 
-      <Gallery basePath="" items={visible} numCols={4} />
+      <Gallery basePath="" items={visible} />
     </>
   );
 }
