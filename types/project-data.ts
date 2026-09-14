@@ -4,7 +4,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
   "holistic-health": {
     title: "Holistic Health (Newsletter, 2026)",
     blurb: "A three-part newsletter illustration series on holistic health.",
-    tags: ["editorial", "food"],
+    tags: ["conceptual"],
     images: [
       {
         filepath: "/editorial/holistic-health/01.webp",
@@ -35,7 +35,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
   "snowboarding-poster": {
     title: "Snowboarding Poster",
     blurb: "",
-    tags: ["editorial"],
+    tags: ["conceptual"],
     images: [
       {
         filepath: "/editorial/snowboarding-poster/01.webp",
@@ -49,7 +49,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
   "the-hijacking-of-creativity": {
     title: "The Hijacking of Creativity (Substack, 2026)",
     blurb: "",
-    tags: ["editorial", "spots"],
+    tags: ["conceptual"],
     images: [
       {
         filepath: "/editorial/the-hijacking-of-creativity/01.webp",
@@ -63,7 +63,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
   "service-economy": {
     title: "Service Economy",
     blurb: "",
-    tags: ["editorial", "spots"],
+    tags: ["conceptual"],
     images: [
       {
         filepath: "/editorial/service-economy/01.webp",
@@ -77,7 +77,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
   "sunk-cost": {
     title: "Sunk Cost",
     blurb: "",
-    tags: ["editorial", "spots"],
+    tags: ["conceptual"],
     images: [
       {
         filepath: "/editorial/sunk-cost/01.webp",
@@ -91,7 +91,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
   "cocktail-spots": {
     title: "Cocktail Spots",
     blurb: "",
-    tags: ["food", "spots"],
+    tags: ["food"],
     images: [
       {
         filepath: "/editorial/cocktail-spots/01.webp",
@@ -105,7 +105,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
   "first-to-post": {
     title: "First to Post",
     blurb: "",
-    tags: ["editorial", "spots"],
+    tags: ["conceptual"],
     images: [
       {
         filepath: "/editorial/first-to-post/01.webp",
@@ -133,7 +133,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
   "earring-advert": {
     title: "Earring Advert",
     blurb: "",
-    tags: ["editorial"],
+    tags: ["conceptual"],
     images: [
       {
         filepath: "/editorial/earring-advert/01.webp",
@@ -147,7 +147,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
   "the-horse-the-hound-and-the-hare": {
     title: "The Horse, the Hound, and the Hare (Substack, 2026)",
     blurb: "",
-    tags: ["editorial", "spots"],
+    tags: ["conceptual"],
     images: [
       {
         filepath: "/editorial/the-horse-the-hound-and-the-hare/01.webp",
@@ -161,7 +161,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
   "digital-ocean": {
     title: "Digital Ocean",
     blurb: "",
-    tags: ["editorial", "spots"],
+    tags: ["conceptual"],
     images: [
       {
         filepath: "/editorial/digital-ocean/01.webp",
@@ -175,7 +175,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
   "mountain-lake-date": {
     title: "Mountain Lake Date",
     blurb: "",
-    tags: ["travel"],
+    tags: ["conceptual"],
     images: [
       {
         filepath: "/editorial/mountain-lake-date/01.webp",
@@ -189,7 +189,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
   "living-with-grief": {
     title: "Living with Grief",
     blurb: "Based on a 2018 article.",
-    tags: ["editorial", "spots"],
+    tags: ["conceptual"],
     images: [
       {
         filepath: "/editorial/living-with-grief/01.webp",
@@ -203,7 +203,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
   "endangered-animals-pangolin": {
     title: "Endangered Animals: Pangolin",
     blurb: "",
-    tags: ["editorial"],
+    tags: ["conceptual"],
     images: [
       {
         filepath: "/editorial/endangered-animals-pangolin/01.webp",
@@ -241,7 +241,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
   "aletia-and-dino-adventures": {
     title: "Aletia & Dino Adventures (Splickety Publishing, 2023)",
     blurb: "",
-    tags: ["book covers", "publishing"],
+    tags: ["publishing"],
     images: [
       {
         filepath: "/publishing/aletia-and-dino-adventures/01.webp",
@@ -264,7 +264,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
   "our-heroes-series": {
     title: "Our Heroes Series (Taylor Hayes, 2026)",
     blurb: "Book covers for the Our Heroes fantasy series.",
-    tags: ["book covers", "publishing"],
+    tags: ["publishing"],
     singleColumn: true,
     images: [
       {
@@ -288,7 +288,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
   "family-tree": {
     title: "Family Tree (Griggs Educational Enterprises, 2024)",
     blurb: "",
-    tags: ["book covers", "publishing"],
+    tags: ["publishing"],
     images: [
       {
         filepath: "/publishing/family-tree/01.webp",
@@ -365,7 +365,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
   "amanda-the-space-witch": {
     title: "Amanda the Space Witch (Self Published, 2027)",
     blurb: "Cover and interior artwork for Amanda the Space Witch.",
-    tags: ["book covers", "publishing"],
+    tags: ["publishing"],
     images: [
       {
         filepath: "/publishing/amanda-the-space-witch/01.webp",
@@ -427,7 +427,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
   "national-park-series": {
     title: "National Park Series",
     blurb: "",
-    tags: ["travel"],
+    tags: [],
     images: [
       {
         filepath: "/editorial/national-park-series/01.webp",
@@ -519,7 +519,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
   "local-cafe-tea-tasting-poster": {
     title: "Local Cafe Tea Tasting Poster",
     blurb: "",
-    tags: ["food", "spots"],
+    tags: ["food"],
     images: [
       {
         filepath: "/editorial/local-cafe-tea-tasting-poster/01.webp",
@@ -556,7 +556,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
   "book-covers-for-brandon-shewmake": {
     title: "Walking to Dinner Series",
     blurb: "",
-    tags: ["book covers", "publishing"],
+    tags: ["publishing"],
     images: [
       {
         filepath: "/editorial/book-covers-for-brandon-shewmake/01.webp",
@@ -589,7 +589,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
   "picnic-editorial-spread": {
     title: "Picnic Editorial Spread",
     blurb: "",
-    tags: ["food", "spots"],
+    tags: ["food"],
     images: [
       {
         filepath: "/editorial/picnic-editorial-spread/01.webp",

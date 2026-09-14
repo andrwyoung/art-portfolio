@@ -17,15 +17,10 @@ function MultiImageIndicator({ count }: { count: number }) {
   );
 }
 
-// Rough allowance for the caption line + row gap under each thumbnail,
-// expressed in the same units as aspect ratio (height / width).
+// estimated allowance for caption height
 const CAPTION_HEIGHT = 0.12;
 
-// Greedily packs items into columns of equal width, always adding the next
-// item (in order) to whichever column is currently shortest. Since columns
-// share a width, height/width (aspect ratio) is a good stand-in for
-// rendered height, so this balances column heights without needing actual
-// pixel measurements.
+// greedily builds columns
 function packColumns(items: ProjectType[], numCols: number): ProjectType[][] {
   const columns: ProjectType[][] = Array.from({ length: numCols }, () => []);
   const heights = new Array(numCols).fill(0);
