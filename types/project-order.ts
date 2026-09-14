@@ -32,7 +32,9 @@ export const ProjectOrder: string[] = [
   "local-cafe-tea-tasting-poster",
   "still-life-studies",
   "book-covers-for-brandon-shewmake",
-  "honey",
-  "picnic-editorial-spread",
   "local-cafe-ingredient-list",
+
+  "maybe-happy-ending",
+  "mark-12-30",
+  "walking-to-dinner-website",
 ];

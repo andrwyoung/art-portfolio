@@ -241,6 +241,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
   "aletia-and-dino-adventures": {
     title: "Aletia & Dino Adventures (Splickety Publishing, 2023)",
     blurb: "",
+    singleColumn: true,
     tags: ["publishing"],
     images: [
       {
@@ -303,6 +304,13 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     title: "Hurl at Camp Whurl (Descendant Publishing, 2026)",
     blurb: "Interior illustrations for Hurl at Camp Whurl.",
     tags: ["publishing"],
+    thumbnail: {
+      filepath: "/publishing/hurl-at-camp-whurl/01.webp",
+      width: 1600,
+      height: 1124,
+      seoDescription:
+        "Grayscale interior book illustration of a group of children caught in a chaotic action scene, surrounded by swirling dark tentacle-like shapes",
+    },
     images: [
       {
         filepath: "/publishing/hurl-at-camp-whurl/01.webp",
@@ -318,19 +326,65 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
         seoDescription:
           "Grayscale interior book illustration of a boy in an apron reacting in shock as a tray of food crashes to the floor with utensils flying through the air",
       },
-    ],
-  },
-  "chinatown-pilgrimage": {
-    title: "Chinatown Pilgrimage Interior (Berkeley School of Theology, 2026)",
-    blurb: "",
-    tags: ["publishing"],
-    images: [
       {
-        filepath: "/publishing/chinatown-pilgrimage/01.webp",
+        filepath: "/publishing/hurl-at-camp-whurl/section_001.webp",
         width: 1600,
         height: 649,
         seoDescription:
-          "Grayscale interior book illustration of a large black cat leaping through tall grass while a group of children watches cautiously from the edge of a forest",
+          "Grayscale panoramic interior book illustration of a large bobcat leaping through tall grass toward a group of startled children gathered at the edge of a forest",
+      },
+      {
+        filepath: "/publishing/hurl-at-camp-whurl/hurl-mockup.webp",
+        width: 1600,
+        height: 1826,
+        seoDescription:
+          "Photo of an open printed copy of Hurl at Camp Whurl showing an interior illustration of a boy knocking over his lunch tray in shock",
+      },
+    ],
+  },
+  "chinatown-pilgrimage": {
+    title: "The Pilgrim's Companion (Berkeley School of Theology, 2026)",
+    blurb:
+      "A resource for Asian Americans who journey with Jesus, written by Russell Jeung, PhD, for the ARC Initiative.",
+    tags: ["publishing"],
+    // singleColumn: true,
+    images: [
+      {
+        filepath: "/publishing/chinatown-pilgrimage/title.webp",
+        width: 1600,
+        height: 2070,
+        imageDescription: "Cover",
+        seoDescription:
+          "Book cover illustration for 'The Pilgrim's Companion: A Resource for Asian Americans who Journey with Jesus' by Russell Jeung, PhD, featuring a hiker walking a winding mountain trail toward distant hills",
+      },
+      {
+        filepath: "/publishing/chinatown-pilgrimage/02.webp",
+        width: 1600,
+        height: 712,
+        seoDescription:
+          "Illustration of a group of young hikers with backpacks pointing toward an ornate Chinese temple gate flanked by stone lion statues",
+      },
+      {
+        filepath: "/publishing/chinatown-pilgrimage/03.webp",
+        width: 1600,
+        height: 1320,
+        seoDescription:
+          "Illustration of hiking boots, a loaded backpack, trekking poles, and a water bottle laid out together",
+      },
+      {
+        filepath: "/publishing/chinatown-pilgrimage/04.webp",
+        width: 1600,
+        height: 712,
+        seoDescription:
+          "Panoramic illustration of a mother sitting with a child resting in a forest clearing surrounded by trees and rocks",
+      },
+
+      {
+        filepath: "/publishing/chinatown-pilgrimage/06.webp",
+        width: 1600,
+        height: 1600,
+        seoDescription:
+          "Decorative pattern illustration of a bird perched on a flowering branch framed by an ornate Chinese-style border",
       },
     ],
   },
@@ -338,6 +392,13 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     title: "Iffy Eats Monsters (Descendant Publishing, 2026)",
     blurb: "Interior illustrations for Iffy Eats Monsters.",
     tags: ["publishing"],
+    thumbnail: {
+      filepath: "/publishing/iffy-eats-monsters/01.webp",
+      width: 1600,
+      height: 1542,
+      seoDescription:
+        "Grayscale interior book illustration of a robot and a suited character dancing wildly under a disco ball with floating speakers and musical notes",
+    },
     images: [
       {
         filepath: "/publishing/iffy-eats-monsters/01.webp",
@@ -347,9 +408,9 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
           "Grayscale interior book illustration of a robot and a suited character dancing wildly under a disco ball with floating speakers and musical notes",
       },
       {
-        filepath: "/publishing/iffy-eats-monsters/02.webp",
+        filepath: "/publishing/iffy-eats-monsters/section_002.webp",
         width: 1600,
-        height: 1278,
+        height: 1300,
         seoDescription:
           "Grayscale interior book illustration of a nervous child looking out a window to an eerie house with glowing eyes peering from a darkened window",
       },
@@ -359,6 +420,20 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
         height: 672,
         seoDescription:
           "Grayscale panoramic interior book illustration transitioning from a frightened child in bed clutching a stuffed animal into a swirling dreamscape of shadowy creatures and dark tendrils",
+      },
+      {
+        filepath: "/publishing/iffy-eats-monsters/section_003.webp",
+        width: 1600,
+        height: 2434,
+        seoDescription:
+          "Grayscale interior book illustration of a girl sitting with a furry monster creature at the base of a large tree, with two goblin-like figures perched on a branch above and a line of ants marching below",
+      },
+      {
+        filepath: "/publishing/iffy-eats-monsters/iffy-mockup.webp",
+        width: 1600,
+        height: 1735,
+        seoDescription:
+          "Photo of an open printed copy of Iffy Eats Monsters showing an interior illustration of two goblin characters dancing under a disco ball",
       },
     ],
   },
@@ -425,10 +500,24 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
 
   // Legacy v1 editorial pieces (previously types/editorial-config.ts).
   "national-park-series": {
-    title: "National Park Series",
+    title: "National Park Postcards",
     blurb: "",
-    tags: [],
+    tags: ["conceptual"],
+    thumbnail: {
+      filepath: "/editorial/national-park-series/01.webp",
+      width: 1600,
+      height: 2156,
+      seoDescription:
+        "Digital painting of Zion National Park's towering red sandstone canyon walls and winding Virgin River",
+    },
     images: [
+      {
+        filepath: "/editorial/national-park-series/pack-mock2.webp",
+        width: 1600,
+        height: 1420,
+        seoDescription:
+          "Photo mockup of printed National Park poster postcards for Zion, Yosemite, Yellowstone, Banff, and Antelope Canyon laid out on a wood floor next to camping gear",
+      },
       {
         filepath: "/editorial/national-park-series/01.webp",
         width: 1600,
@@ -468,6 +557,14 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
         imageDescription: "Banff National Park",
         seoDescription:
           "Digital painting of Banff National Park featuring turquoise glacial lakes and snow-capped Rocky Mountain peaks",
+      },
+      {
+        filepath: "/editorial/national-park-series/06.webp",
+        width: 1600,
+        height: 2156,
+        imageDescription: "Crater Lake National Park",
+        seoDescription:
+          "Travel poster illustration of Crater Lake National Park featuring a deep blue volcanic lake with Wizard Island surrounded by forested cliffs",
       },
     ],
   },
@@ -514,6 +611,38 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
         seoDescription:
           "Strawberry Jam recipe with line art step by step instructions and a painted hero image strawberry jam",
       },
+      {
+        filepath: "/editorial/strawberry-jam-recipe/section_021.webp",
+        width: 1599,
+        height: 1443,
+        imageDescription: "Step 1: Prepare",
+        seoDescription:
+          "Line art illustration of mason jars, a knife, and halved strawberries, for step 1 of a strawberry jam recipe",
+      },
+      {
+        filepath: "/editorial/strawberry-jam-recipe/section_019.webp",
+        width: 1599,
+        height: 1443,
+        imageDescription: "Step 2: Macerate",
+        seoDescription:
+          "Line art illustration of lemon juice being poured into a pot of chopped strawberries, for step 2 of a strawberry jam recipe",
+      },
+      {
+        filepath: "/editorial/strawberry-jam-recipe/section_020.webp",
+        width: 1599,
+        height: 1443,
+        imageDescription: "Step 3: Cook",
+        seoDescription:
+          "Line art illustration of a steaming pot of jam being stirred with a wooden spoon, for step 3 of a strawberry jam recipe",
+      },
+      {
+        filepath: "/editorial/strawberry-jam-recipe/section_026.webp",
+        width: 1599,
+        height: 1443,
+        imageDescription: "Step 4: Store",
+        seoDescription:
+          "Line art illustration of a sealed mason jar filled with strawberry jam, for step 4 of a strawberry jam recipe",
+      },
     ],
   },
   "local-cafe-tea-tasting-poster": {
@@ -531,10 +660,40 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     ],
   },
   "still-life-studies": {
-    title: "Still Life Studies",
+    title: "Food Postcards",
     blurb: "",
     tags: ["food"],
+    thumbnail: {
+      filepath: "/editorial/still-life-studies/section_002.webp",
+      width: 1286,
+      height: 844,
+      seoDescription:
+        "Still life digital painting of ice with cool blue highlights and reflective crystalline surfaces",
+    },
     images: [
+      {
+        filepath: "/editorial/still-life-studies/prints-floor.webp",
+        width: 1600,
+        height: 1290,
+        seoDescription:
+          "Photo mockup of printed still life art prints — honey, a daisy, a kumquat, and citrus slices — laid out on a wood floor",
+      },
+      {
+        filepath: "/editorial/still-life-studies/section_002.webp",
+        width: 1600,
+        height: 2063,
+        imageDescription: "Honey",
+        seoDescription:
+          "Still life digital painting of honey drizzling off a spoon into a glass jar, with warm amber tones and fluid golden texture",
+      },
+      {
+        filepath: "/editorial/still-life-studies/section_005.webp",
+        width: 1600,
+        height: 1937,
+        imageDescription: "Lemons",
+        seoDescription:
+          "Still life digital painting of two lemon halves resting on a soft grey cloth",
+      },
       {
         filepath: "/editorial/still-life-studies/01.webp",
         width: 1286,
@@ -543,6 +702,23 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
         seoDescription:
           "Still life digital painting of ice with cool blue highlights and reflective crystalline surfaces",
       },
+
+      {
+        filepath: "/editorial/still-life-studies/section_003.webp",
+        width: 1600,
+        height: 1035,
+        imageDescription: "Egg Yolk",
+        seoDescription:
+          "Close-up still life digital painting of a small round orange kumquat pinched between a pair of chopsticks against a muted teal background",
+      },
+      // {
+      //   filepath: "/editorial/still-life-studies/section_004.webp",
+      //   width: 1600,
+      //   height: 2552,
+      //   imageDescription: "Rose",
+      //   seoDescription:
+      //     "Still life digital painting of a single pink rose with green leaves standing in a clear glass vase against a muted warm background",
+      // },
       {
         filepath: "/editorial/still-life-studies/02.webp",
         width: 1600,
@@ -551,10 +727,18 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
         seoDescription:
           "Still life digital painting of tangerines with vibrant orange hues and soft textured citrus skin",
       },
+      {
+        filepath: "/editorial/still-life-studies/section_006.webp",
+        width: 1600,
+        height: 1627,
+        imageDescription: "Fried Egg on Toast",
+        seoDescription:
+          "Top-down still life digital painting of a fried egg with a golden yolk on a slice of toasted bread",
+      },
     ],
   },
   "book-covers-for-brandon-shewmake": {
-    title: "Walking to Dinner Series",
+    title: "Walking to Dinner Book Covers",
     blurb: "",
     tags: ["publishing"],
     images: [
@@ -572,34 +756,6 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
       },
     ],
   },
-  honey: {
-    title: "Honey",
-    blurb: "",
-    tags: ["food"],
-    images: [
-      {
-        filepath: "/editorial/honey/01.webp",
-        width: 1600,
-        height: 1832,
-        seoDescription:
-          "Digital painting of honey dripping from a spoon into a glass jar, with warm amber tones and fluid golden texture",
-      },
-    ],
-  },
-  "picnic-editorial-spread": {
-    title: "Picnic Editorial Spread",
-    blurb: "",
-    tags: ["food"],
-    images: [
-      {
-        filepath: "/editorial/picnic-editorial-spread/01.webp",
-        width: 1600,
-        height: 1089,
-        seoDescription:
-          "Editorial illustration of sliced lemons on a soft grey cloth, created for a Citrus Season editorial layout",
-      },
-    ],
-  },
   "local-cafe-ingredient-list": {
     title: "Local Cafe Ingredient List",
     blurb: "",
@@ -611,6 +767,123 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
         height: 2070,
         seoDescription:
           "Watercolor painted composition of an ingredient list for a local cafe. Camelia Sinesis, Persimmon, Aduki Beans, Jujube, Okinawa Black Sugar and Soba Cha",
+      },
+    ],
+  },
+
+  "maybe-happy-ending": {
+    title: "Maybe Happy Ending",
+    blurb: "",
+    tags: ["conceptual"],
+    singleColumn: true,
+    images: [
+      {
+        filepath: "/editorial/maybe-happy-ending/02.webp",
+        width: 1600,
+        height: 1066,
+        seoDescription:
+          "Grayscale illustration of a girl and a boy standing separately in front of mirrored glass panels, each reflecting a crowd of faceless hexagonal robot heads",
+      },
+      {
+        filepath: "/editorial/maybe-happy-ending/01.webp",
+        width: 1600,
+        height: 1066,
+        seoDescription:
+          "Illustration of hands holding open a storybook, its pages showing an office scene with a smart speaker and a young man in a shirt and tie holding books",
+      },
+    ],
+  },
+  "mark-12-30": {
+    title: "Mark 12:30 Posters",
+    blurb:
+      "A four-part poster series illustrating the Great Commandment — heart, soul, mind, and strength.",
+    tags: ["conceptual"],
+    singleColumn: true,
+    thumbnail: {
+      filepath: "/editorial/mark-12-30/thumbnail.webp",
+      width: 1600,
+      height: 1393,
+      seoDescription:
+        "Close-up illustration of a pink octopus swimming among fish and coral reef, from the Mark 12:30 poster series",
+    },
+    images: [
+      {
+        filepath: "/editorial/mark-12-30/01.webp",
+        width: 1600,
+        height: 1829,
+        seoDescription:
+          "Poster illustration of geese flying through a bright blue sky with clouds, with the word SOUL and the verse Mark 12:30",
+      },
+      {
+        filepath: "/editorial/mark-12-30/02.webp",
+        width: 1600,
+        height: 1829,
+        seoDescription:
+          "Poster illustration of a pink octopus swimming among fish and coral reef, with the word MIND and the verse Mark 12:30",
+      },
+      {
+        filepath: "/editorial/mark-12-30/03.webp",
+        width: 1600,
+        height: 1829,
+        seoDescription:
+          "Poster illustration of orange roses and butterflies, with the word HEART and the verse Mark 12:30",
+      },
+      {
+        filepath: "/editorial/mark-12-30/04.webp",
+        width: 1600,
+        height: 1393,
+        seoDescription:
+          "Poster illustration of mountain goats climbing a rocky cliffside, with the word STRENGTH and the verse Mark 12:30",
+      },
+    ],
+  },
+  "walking-to-dinner-website": {
+    title: "Walking to Dinner (Website Icons)",
+    blurb:
+      "A set of food icon illustrations created for the Walking to Dinner book website.",
+    tags: ["food"],
+    images: [
+      {
+        filepath: "/editorial/walking-to-dinner-website/05.webp",
+        width: 1600,
+        height: 1600,
+        seoDescription:
+          "Illustration of two mochi, one whole and one halved revealing its filling",
+      },
+      {
+        filepath: "/editorial/walking-to-dinner-website/06.webp",
+        width: 1600,
+        height: 1600,
+        seoDescription:
+          "Illustration of a meat pie with a torn flaky crust served alongside green peas",
+      },
+      {
+        filepath: "/editorial/walking-to-dinner-website/02.webp",
+        width: 1600,
+        height: 1600,
+        seoDescription: "Still life illustration of two Portuguese egg tarts",
+      },
+      {
+        filepath: "/editorial/walking-to-dinner-website/03.webp",
+        width: 1600,
+        height: 1600,
+        seoDescription:
+          "Illustration of a whole cooked fish garnished with leaves",
+      },
+      {
+        filepath: "/editorial/walking-to-dinner-website/04.webp",
+        width: 1600,
+        height: 1600,
+        seoDescription:
+          "Illustration of a slice of blueberry pie topped with a scoop of vanilla ice cream",
+      },
+
+      {
+        filepath: "/editorial/walking-to-dinner-website/01.webp",
+        width: 1600,
+        height: 1600,
+        seoDescription:
+          "Still life illustration of a cluster of blueberries on the branch with leaves",
       },
     ],
   },
