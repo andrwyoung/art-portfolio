@@ -23,7 +23,7 @@ export const ProjectOrder: string[] = [
   "chinatown-pilgrimage",
   "iffy-eats-monsters",
   "amanda-the-space-witch",
-  "relic-comic",
+  // "relic-comic",
   "griffith-fight-scene",
 
   "national-park-series",
@@ -32,7 +32,7 @@ export const ProjectOrder: string[] = [
   "local-cafe-tea-tasting-poster",
   "still-life-studies",
   "book-covers-for-brandon-shewmake",
-  "local-cafe-ingredient-list",
+  // "local-cafe-ingredient-list",
 
   "maybe-happy-ending",
   "mark-12-30",

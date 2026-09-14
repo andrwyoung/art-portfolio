@@ -290,13 +290,30 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     title: "Family Tree (Griggs Educational Enterprises, 2024)",
     blurb: "",
     tags: ["publishing"],
+    singleColumn: true,
+    thumbnail: {
+      filepath: "/publishing/family-tree/family-tree-thumb.webp",
+      width: 2976,
+      height: 3393,
+      seoDescription:
+        "Close-up illustration of children playing in and around a large oak tree, from the cover of 'I Know Who I Am On The Family Tree'",
+    },
     images: [
       {
-        filepath: "/publishing/family-tree/01.webp",
-        width: 818,
-        height: 1001,
+        filepath: "/publishing/family-tree/family-tree-cover.webp",
+        width: 5730,
+        height: 3588,
+        imageDescription: "Cover",
         seoDescription:
-          "Book cover illustration for 'I Know Who I Am On The Family Tree: A Children's Guide to Genealogy' by Denise I. Griggs, featuring diverse children playing around a large oak tree",
+          "Full wraparound book cover for 'I Know Who I Am On The Family Tree: A Children's Guide to Genealogy' by Denise I. Griggs, featuring diverse children playing in and around a large oak tree on a grassy hill",
+      },
+      {
+        filepath: "/publishing/family-tree/family-tree-cover-no-text.webp",
+        width: 5730,
+        height: 3588,
+        imageDescription: "Cover (No Text)",
+        seoDescription:
+          "Clean full wraparound illustration for the 'I Know Who I Am On The Family Tree' book cover, without title text, showing diverse children playing in and around a large oak tree on a grassy hill",
       },
     ],
   },
@@ -348,6 +365,13 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
       "A resource for Asian Americans who journey with Jesus, written by Russell Jeung, PhD, for the ARC Initiative.",
     tags: ["publishing"],
     // singleColumn: true,
+    thumbnail: {
+      filepath: "/publishing/chinatown-pilgrimage/pilgrim-thumb.webp",
+      width: 2550,
+      height: 2458,
+      seoDescription:
+        "Close-up illustration of a hiker walking a winding mountain trail through hills, from the cover of 'The Pilgrim's Companion'",
+    },
     images: [
       {
         filepath: "/publishing/chinatown-pilgrimage/title.webp",
@@ -441,6 +465,13 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     title: "Amanda the Space Witch (Self Published, 2027)",
     blurb: "Cover and interior artwork for Amanda the Space Witch.",
     tags: ["publishing"],
+    thumbnail: {
+      filepath: "/publishing/amanda-the-space-witch/amanda-thumb.webp",
+      width: 3546,
+      height: 3786,
+      seoDescription:
+        "Illustration of a small witch's house perched on a floating asteroid with a bat flying overhead against a purple starfield, from Amanda the Space Witch",
+    },
     images: [
       {
         filepath: "/publishing/amanda-the-space-witch/01.webp",
@@ -504,11 +535,11 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     blurb: "",
     tags: ["conceptual"],
     thumbnail: {
-      filepath: "/editorial/national-park-series/01.webp",
-      width: 1600,
-      height: 2156,
+      filepath: "/editorial/national-park-series/yosemite-thumb.webp",
+      width: 4600,
+      height: 4859,
       seoDescription:
-        "Digital painting of Zion National Park's towering red sandstone canyon walls and winding Virgin River",
+        "Close-up digital painting of Yosemite Falls cascading down granite cliffs surrounded by dense pine forest",
     },
     images: [
       {
@@ -572,6 +603,13 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     title: "Cocktails & Tea",
     blurb: "",
     tags: ["food"],
+    thumbnail: {
+      filepath: "/editorial/cocktails-and-tea/old-fashioned-thumb.webp",
+      width: 4219,
+      height: 3746,
+      seoDescription:
+        "Close-up still life digital painting of an Old Fashioned cocktail with rich amber whiskey, ice, and an orange peel garnish against a dark background",
+    },
     images: [
       {
         filepath: "/editorial/cocktails-and-tea/01.webp",
@@ -603,6 +641,13 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     title: "Strawberry Jam Recipe",
     blurb: "",
     tags: ["food"],
+    thumbnail: {
+      filepath: "/editorial/strawberry-jam-recipe/strawberries-thumb.webp",
+      width: 5322,
+      height: 5102,
+      seoDescription:
+        "Close-up still life digital painting of a spoonful of strawberry jam over an open jar, with a fresh strawberry resting beside it",
+    },
     images: [
       {
         filepath: "/editorial/strawberry-jam-recipe/01.webp",
@@ -649,6 +694,13 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     title: "Local Cafe Tea Tasting Poster",
     blurb: "",
     tags: ["food"],
+    thumbnail: {
+      filepath: "/editorial/local-cafe-tea-tasting-poster/teapot-thumb.webp",
+      width: 3448,
+      height: 3408,
+      seoDescription:
+        "Close-up digital painting of a glass teapot steaming against a dark background, brewed tea glowing amber inside",
+    },
     images: [
       {
         filepath: "/editorial/local-cafe-tea-tasting-poster/01.webp",
@@ -660,15 +712,16 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     ],
   },
   "still-life-studies": {
-    title: "Food Postcards",
+    title: "Food Prints",
     blurb: "",
     tags: ["food"],
     thumbnail: {
-      filepath: "/editorial/still-life-studies/section_002.webp",
-      width: 1286,
-      height: 844,
+      filepath: "/editorial/still-life-studies/02.webp",
+      width: 1600,
+      height: 1402,
+      imageDescription: "Tangerines",
       seoDescription:
-        "Still life digital painting of ice with cool blue highlights and reflective crystalline surfaces",
+        "Still life digital painting of tangerines with vibrant orange hues and soft textured citrus skin",
     },
     images: [
       {
@@ -741,18 +794,46 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     title: "Walking to Dinner Book Covers",
     blurb: "",
     tags: ["publishing"],
+    singleColumn: true,
+    thumbnail: {
+      filepath: "/editorial/book-covers-for-brandon-shewmake/walking-to-dinner-thumb.webp",
+      width: 1426,
+      height: 1566,
+      seoDescription:
+        "Close-up illustration of a Japanese temple pathway framed by a cherry blossom tree, from the cover of 'Walking to Dinner on the Shikoku Pilgrimage'",
+    },
     images: [
       {
-        filepath: "/editorial/book-covers-for-brandon-shewmake/01.webp",
-        width: 1575,
-        height: 2400,
-        seoDescription: "",
+        filepath: "/editorial/book-covers-for-brandon-shewmake/at-cover.webp",
+        width: 3477,
+        height: 2475,
+        imageDescription: "Walking to Dinner on the Appalachian Trail",
+        seoDescription:
+          "Full wraparound book cover for 'Walking to Dinner on the Appalachian Trail' by Brandon Shewmake, featuring a sunrise over silhouetted mountain ridges with a hawk flying above the forest",
       },
       {
-        filepath: "/editorial/book-covers-for-brandon-shewmake/02.webp",
-        width: 1575,
-        height: 2400,
-        seoDescription: "",
+        filepath: "/editorial/book-covers-for-brandon-shewmake/at-cover-no-text.webp",
+        width: 3477,
+        height: 2475,
+        imageDescription: "Appalachian Trail Cover (No Text)",
+        seoDescription:
+          "Clean full wraparound illustration for the 'Walking to Dinner on the Appalachian Trail' book cover, without title text, showing a sunrise over silhouetted mountain ridges with a hawk flying above the forest",
+      },
+      {
+        filepath: "/editorial/book-covers-for-brandon-shewmake/shikoku-cover.webp",
+        width: 3444,
+        height: 2475,
+        imageDescription: "Walking to Dinner on the Shikoku Pilgrimage",
+        seoDescription:
+          "Full wraparound book cover for 'Walking to Dinner on the Shikoku Pilgrimage' by Brandon Shewmake, featuring a cherry blossom tree framing a Japanese temple overlooking a coastal bay",
+      },
+      {
+        filepath: "/editorial/book-covers-for-brandon-shewmake/shikoku-cover-no-text.webp",
+        width: 3444,
+        height: 2475,
+        imageDescription: "Shikoku Pilgrimage Cover (No Text)",
+        seoDescription:
+          "Clean full wraparound illustration for the 'Walking to Dinner on the Shikoku Pilgrimage' book cover, without title text, showing a cherry blossom tree framing a Japanese temple overlooking a coastal bay",
       },
     ],
   },
@@ -844,7 +925,21 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     blurb:
       "A set of food icon illustrations created for the Walking to Dinner book website.",
     tags: ["food"],
+    thumbnail: {
+      filepath: "/editorial/walking-to-dinner-website/05.webp",
+      width: 1600,
+      height: 1600,
+      seoDescription:
+        "Illustration of two mochi, one whole and one halved revealing its filling",
+    },
     images: [
+      {
+        filepath: "/editorial/walking-to-dinner-website/website-screenshot.webp",
+        width: 1661,
+        height: 916,
+        seoDescription:
+          "Screenshot of the Pinecrumbs website route food guide page, showing the food icon illustrations used alongside route descriptions for the Shikoku Pilgrimage and Camino Portugués",
+      },
       {
         filepath: "/editorial/walking-to-dinner-website/05.webp",
         width: 1600,
