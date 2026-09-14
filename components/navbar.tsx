@@ -14,15 +14,12 @@ export default function Navbar() {
     }`;
 
   return (
-    <nav className="flex flex-col items-center justify-center gap-8 px-8 pt-12 pb-8">
-      <div className="flex flex-col items-center justify-center">
-        <Link href="/">
-          <span className="font-logo text-7xl sm:text-8xl  text-highlight hover:scale-105 cursor-pointer transition-all block">
-            Andrew Yong
-          </span>
-        </Link>
-        {/* <p className="font-body mt-1">Food and Travel Illustrator</p> */}
-      </div>
+    <nav className="flex flex-col sm:flex-row items-center justify-between gap-4 sm:gap-8 px-14 pt-4 pb-16 sm:pb-8">
+      <Link href="/">
+        <span className="font-logo text-7xl sm:text-7xl  text-highlight hover:scale-105 cursor-pointer transition-all block">
+          Andrew Yong
+        </span>
+      </Link>
       <div className="flex flex-row gap-8">
         <Link href="/" className={`${linkClass("/")}`}>
           Portfolio
