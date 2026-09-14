@@ -54,11 +54,13 @@ export default function ProjectDetail({
           {project.title}
         </h1>
         {project.blurb && (
-          <p className="font-body text-stone-600 mt-2">{project.blurb}</p>
+          <p className="font-body text-stone-600 mt-2 leading-relaxed">
+            {project.blurb}
+          </p>
         )}
         {project.artDirector && (
-          <p className="font-header text-sm text-stone-400 mt-2">
-            Art Director: {project.artDirector}
+          <p className="font-header text-stone-400 text-sm  mt-8">
+            Art Direction: {project.artDirector}
           </p>
         )}
 

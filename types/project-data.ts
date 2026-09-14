@@ -100,6 +100,38 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
         seoDescription:
           "Four-panel illustration of classic cocktails: a blue tropical drink, a mojito, a whiskey sour, and a strawberry daiquiri",
       },
+      {
+        filepath: "/editorial/cocktail-spots/blue-hawaiian.webp",
+        width: 2400,
+        height: 2400,
+        imageDescription: "Blue Hawaiian",
+        seoDescription:
+          "Illustration of a blue tropical cocktail in a hurricane glass garnished with a pineapple wedge and cherry, with a whole pineapple beside it",
+      },
+      {
+        filepath: "/editorial/cocktail-spots/mojito.webp",
+        width: 2400,
+        height: 2400,
+        imageDescription: "Mojito",
+        seoDescription:
+          "Illustration of a mojito cocktail with muddled mint leaves and lime, garnished with a mint sprig and a strawberry",
+      },
+      {
+        filepath: "/editorial/cocktail-spots/whiskey-sour.webp",
+        width: 2400,
+        height: 2400,
+        imageDescription: "Whiskey Sour",
+        seoDescription:
+          "Illustration of a whiskey sour cocktail with crushed ice, garnished with an orange slice and cherries on a pick",
+      },
+      {
+        filepath: "/editorial/cocktail-spots/strawberry-daiquiri.webp",
+        width: 2400,
+        height: 2400,
+        imageDescription: "Strawberry Daiquiri",
+        seoDescription:
+          "Illustration of a strawberry daiquiri in a coupe glass garnished with a strawberry and mint leaves",
+      },
     ],
   },
   "first-to-post": {
@@ -218,7 +250,24 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     title: "Pourtables Coffee Labels (2026)",
     blurb: "A pair of packaging labels for Pourtables Coffee.",
     tags: ["food"],
+    thumbnail: {
+      filepath: "/editorial/pourtables-coffee-labels/01.webp",
+      width: 1600,
+      height: 1600,
+      imageDescription: "Orange Pekoe Label",
+      seoDescription:
+        "Botanical illustration of orange blossoms, orange slices, and citrus peels on a warm yellow background",
+    },
     images: [
+      {
+        filepath:
+          "/editorial/pourtables-coffee-labels/pourtables-website-mockup.webp",
+        width: 1661,
+        height: 864,
+        imageDescription: "Website Mockup",
+        seoDescription:
+          "Screenshot of the Pourtables Coffee website featuring the Black Summit and Orange Pekoe label illustrations on product cards",
+      },
       {
         filepath: "/editorial/pourtables-coffee-labels/01.webp",
         width: 1600,
@@ -361,6 +410,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     title: "Hurl at Camp Whurl (Descendant Publishing, 2026)",
     blurb: "Interior illustrations for Hurl at Camp Whurl.",
     tags: ["publishing"],
+    singleColumn: true,
     thumbnail: {
       filepath: "/publishing/hurl-at-camp-whurl/01.webp",
       width: 1600,
@@ -679,6 +729,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
   },
   "strawberry-jam-recipe": {
     title: "Strawberry Jam Recipe",
+    artDirector: "Cassidy Yong",
     blurb: "",
     tags: ["food"],
     thumbnail: {
@@ -831,7 +882,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     ],
   },
   "book-covers-for-brandon-shewmake": {
-    title: "Walking to Dinner Book Covers",
+    title: "Walking to Dinner Book Covers (Brandon Shewmake, 2026)",
     blurb: "",
     tags: ["publishing"],
     singleColumn: true,
@@ -844,6 +895,15 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
         "Close-up illustration of a Japanese temple pathway framed by a cherry blossom tree, from the cover of 'Walking to Dinner on the Shikoku Pilgrimage'",
     },
     images: [
+      {
+        filepath:
+          "/editorial/book-covers-for-brandon-shewmake/walking-to-dinner-books-mockup.webp",
+        width: 2915,
+        height: 2442,
+        imageDescription: "Printed Copies",
+        seoDescription:
+          "Photo of printed paperback copies of 'Walking to Dinner on the Appalachian Trail' and 'Walking to Dinner on the Shikoku Pilgrimage' by Brandon Shewmake, lying side by side",
+      },
       {
         filepath: "/editorial/book-covers-for-brandon-shewmake/at-cover.webp",
         width: 3477,
@@ -965,7 +1025,8 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     ],
   },
   "walking-to-dinner-website": {
-    title: "Walking to Dinner (Website Icons)",
+    title: "Pinecrumbs Trail Icons (Pinecrumbs, 2026)",
+    artDirector: "Brandon Shewmake",
     blurb:
       "A set of food icon illustrations created for the Walking to Dinner book website.",
     tags: ["food"],
