@@ -554,7 +554,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     ],
   },
   "book-covers-for-brandon-shewmake": {
-    title: "Book Covers for Brandon Shewmake",
+    title: "Walking to Dinner Series",
     blurb: "",
     tags: ["book covers", "publishing"],
     images: [

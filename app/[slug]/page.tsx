@@ -38,9 +38,20 @@ export default async function ProjectPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const project = AllProjects.find((p) => p.slug === slug);
+  const index = AllProjects.findIndex((p) => p.slug === slug);
 
-  if (!project) notFound();
+  if (index === -1) notFound();
 
-  return <ProjectDetail project={project} backHref="/" />;
+  const project = AllProjects[index];
+  const prevProject = index > 0 ? AllProjects[index - 1] : null;
+  const nextProject =
+    index < AllProjects.length - 1 ? AllProjects[index + 1] : null;
+
+  return (
+    <ProjectDetail
+      project={project}
+      prevProject={prevProject}
+      nextProject={nextProject}
+    />
+  );
 }

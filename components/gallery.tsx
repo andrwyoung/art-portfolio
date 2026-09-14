@@ -1,8 +1,21 @@
 import Image from "next/image";
 import Link from "next/link";
 import { ProjectType } from "@/types/types";
+import { FaImage } from "react-icons/fa6";
 
 const DEFAULT_COLUMNS = 3;
+
+function MultiImageIndicator({ count }: { count: number }) {
+  if (count <= 1) return null;
+  return (
+    <span className="inline-flex items-center gap-1 text-stone-500/80 ml-auto">
+      <FaImage size={12} />
+      <span className="text-xs font-header font-semibold leading-none">
+        {count}
+      </span>
+    </span>
+  );
+}
 
 // Rough allowance for the caption line + row gap under each thumbnail,
 // expressed in the same units as aspect ratio (height / width).
@@ -59,8 +72,9 @@ export default function Gallery({
                       className="w-full h-auto block rounded-md"
                     />
                   </div>
-                  <p className="text-stone-700 font-header font-medium text-xs md:text-md text-left mt-2 ml-1 ">
+                  <p className="flex items-center text-stone-700 font-header font-medium text-xs md:text-md text-left mt-2 ml-1 mr-1">
                     {project.title}
+                    <MultiImageIndicator count={project.images.length} />
                   </p>
                 </Link>
               );
@@ -85,8 +99,9 @@ export default function Gallery({
                   sizes="100vw"
                 />
               </div>
-              <p className="text-stone-700 font-header font-medium text-xs md:text-md text-left mt-2 ml-1 ">
+              <p className="flex items-center text-stone-700 font-header font-medium text-xs md:text-md text-left mt-2 ml-1 mr-1">
                 {project.title}
+                <MultiImageIndicator count={project.images.length} />
               </p>
             </Link>
           );
