@@ -19,7 +19,7 @@ export async function generateMetadata({
 
   const thumbnail = project.thumbnail ?? project.images[0];
   const description = project.blurb || thumbnail.seoDescription;
-  const title = `${project.title} — Andrew Yong`;
+  const title = `Andrew Yong - ${project.title}`;
 
   return {
     title,

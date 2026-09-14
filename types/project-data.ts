@@ -772,7 +772,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
   },
 
   "maybe-happy-ending": {
-    title: "Maybe Happy Ending",
+    title: "Maybe Happy Ending (Inheritance Magazine, 2026)",
     blurb: "",
     tags: ["conceptual"],
     singleColumn: true,
@@ -796,8 +796,9 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
   "mark-12-30": {
     title: "Mark 12:30 Posters",
     blurb:
-      "A four-part poster series illustrating the Great Commandment — heart, soul, mind, and strength.",
+      "And you shall love the Lord your God with all your heart and with all your soul and with all your mind and with all your strength.",
     tags: ["conceptual"],
+    artDirector: "Self Directed",
     singleColumn: true,
     thumbnail: {
       filepath: "/editorial/mark-12-30/thumbnail.webp",
@@ -807,6 +808,13 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
         "Close-up illustration of a pink octopus swimming among fish and coral reef, from the Mark 12:30 poster series",
     },
     images: [
+      {
+        filepath: "/editorial/mark-12-30/03.webp",
+        width: 1600,
+        height: 1829,
+        seoDescription:
+          "Poster illustration of orange roses and butterflies, with the word HEART and the verse Mark 12:30",
+      },
       {
         filepath: "/editorial/mark-12-30/01.webp",
         width: 1600,
@@ -821,13 +829,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
         seoDescription:
           "Poster illustration of a pink octopus swimming among fish and coral reef, with the word MIND and the verse Mark 12:30",
       },
-      {
-        filepath: "/editorial/mark-12-30/03.webp",
-        width: 1600,
-        height: 1829,
-        seoDescription:
-          "Poster illustration of orange roses and butterflies, with the word HEART and the verse Mark 12:30",
-      },
+
       {
         filepath: "/editorial/mark-12-30/04.webp",
         width: 1600,

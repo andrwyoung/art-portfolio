@@ -31,7 +31,7 @@ export default function TagFilterGallery({
 
   return (
     <>
-      <div className="sticky top-0 z-10 bg-background/90 backdrop-blur-sm border-b border-stone-200">
+      <div className="hidden sm:block sticky top-0 z-10 bg-background/90 backdrop-blur-sm border-b border-stone-200">
         <div className="max-w-4xl mx-auto flex flex-wrap items-center justify-center gap-2 px-4 py-4">
           <button
             onClick={() => setActiveTag(null)}

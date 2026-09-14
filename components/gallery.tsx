@@ -50,7 +50,7 @@ export default function Gallery({
 
   return (
     <>
-      <div className="px-4 sm:px-8 lg:px-16 mx-auto hidden sm:flex gap-4 md:gap-6 p-4">
+      <div className="px-4 sm:px-8 lg:px-16 mx-auto hidden sm:flex gap-4 md:gap-6 p-4 mb-24">
         {columns.map((col, colIdx) => (
           <div key={colIdx} className="flex-1 flex flex-col gap-8">
             {col.map((project) => {
@@ -78,7 +78,7 @@ export default function Gallery({
         ))}
       </div>
 
-      <div className="max-w-7xl mx-auto flex flex-col gap-6 p-4 sm:hidden">
+      <div className="max-w-7xl mx-auto flex flex-col gap-6 p-4 sm:hidden mb-18">
         {visible.map((project) => {
           const thumbnail = project.thumbnail ?? project.images[0];
           return (

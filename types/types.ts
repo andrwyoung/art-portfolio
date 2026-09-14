@@ -13,6 +13,7 @@ export type ProjectType = {
   slug: string;
   title: string;
   blurb: string;
+  artDirector?: string;
   tags: Tag[];
   thumbnail?: PortfolioType; // defaults to images[0] if not set
   images: PortfolioType[];
