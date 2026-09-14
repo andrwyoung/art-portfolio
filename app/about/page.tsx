@@ -4,6 +4,7 @@ import { CONTACT_EMAIL } from "../../types/settings";
 export default function About() {
   return (
     <main className="max-w-2xl mx-auto px-8 mt-12 mb-24 flex flex-col gap-12">
+      <h1 className="sr-only">About Andrew Yong</h1>
       {/* Photo + intro */}
       <section className="flex flex-col items-center gap-8">
         <div className="shrink-0 w-72 h-72 rounded-md overflow-hidden">
