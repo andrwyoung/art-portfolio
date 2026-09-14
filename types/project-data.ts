@@ -294,8 +294,8 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     tags: ["publishing"],
     thumbnail: {
       filepath: "/publishing/aletia-and-dino-adventures/unicorn-thumb.webp",
-      width: 3281,
-      height: 3236,
+      width: 1600,
+      height: 1578,
       seoDescription:
         "Close-up illustration of a glowing white unicorn stepping through a magic portal, from 'There's a Unicorn in My Basement! Adventures in Aletia Book One'",
     },
@@ -311,8 +311,8 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
       {
         filepath:
           "/publishing/aletia-and-dino-adventures/unicorn-cover-no-text.webp",
-        width: 4713,
-        height: 3713,
+        width: 1600,
+        height: 1261,
         imageDescription: "Adventures of Aletia Book 1 (No Text)",
         seoDescription:
           "Clean full wrap illustration for 'There's a Unicorn in My Basement! Adventures in Aletia Book One', without title text, showing a startled father and child confronting a glowing white unicorn in a cluttered basement workshop",
@@ -328,8 +328,8 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
       {
         filepath:
           "/publishing/aletia-and-dino-adventures/dino-cover-no-text.webp",
-        width: 4713,
-        height: 3713,
+        width: 1600,
+        height: 1261,
         imageDescription: "Dino Adventures Book 3 (No Text)",
         seoDescription:
           "Clean full wrap illustration for 'Dino Adventures Book Three: Stegosaurus Swamp', without title text, showing a boy and armored companion facing a stegosaurus and pterosaur in a dark prehistoric swamp",
@@ -343,8 +343,8 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     singleColumn: true,
     thumbnail: {
       filepath: "/publishing/our-heroes-series/junkdrift-thumb.webp",
-      width: 4276,
-      height: 3916,
+      width: 1600,
+      height: 1465,
       seoDescription:
         "Close-up illustration of characters overlooking a post-apocalyptic desert junkyard settlement, from 'The Saboteur of Junkdrift: Our Heroes Book Two'",
     },
@@ -359,8 +359,8 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
       },
       {
         filepath: "/publishing/our-heroes-series/junkdrift-cover-no-text.webp",
-        width: 6414,
-        height: 4950,
+        width: 1600,
+        height: 1235,
         imageDescription: "Our Heroes Book 2 (No Text)",
         seoDescription:
           "Clean illustration for 'The Saboteur of Junkdrift: Our Heroes Book Two', without title text, depicting a post-apocalyptic desert scene with characters on a mine cart approaching a sprawling junkyard settlement",
@@ -382,24 +382,24 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     singleColumn: true,
     thumbnail: {
       filepath: "/publishing/family-tree/family-tree-thumb.webp",
-      width: 2976,
-      height: 3393,
+      width: 1403,
+      height: 1600,
       seoDescription:
         "Close-up illustration of children playing in and around a large oak tree, from the cover of 'I Know Who I Am On The Family Tree'",
     },
     images: [
       {
         filepath: "/publishing/family-tree/family-tree-cover.webp",
-        width: 5730,
-        height: 3588,
+        width: 1600,
+        height: 1002,
         imageDescription: "Cover",
         seoDescription:
           "Full wraparound book cover for 'I Know Who I Am On The Family Tree: A Children's Guide to Genealogy' by Denise I. Griggs, featuring diverse children playing in and around a large oak tree on a grassy hill",
       },
       {
         filepath: "/publishing/family-tree/family-tree-cover-no-text.webp",
-        width: 5730,
-        height: 3588,
+        width: 1600,
+        height: 1002,
         imageDescription: "Cover (No Text)",
         seoDescription:
           "Clean full wraparound illustration for the 'I Know Who I Am On The Family Tree' book cover, without title text, showing diverse children playing in and around a large oak tree on a grassy hill",
@@ -442,8 +442,8 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
       },
       {
         filepath: "/publishing/hurl-at-camp-whurl/hurl-mockup.webp",
-        width: 1600,
-        height: 1826,
+        width: 1402,
+        height: 1600,
         seoDescription:
           "Photo of an open printed copy of Hurl at Camp Whurl showing an interior illustration of a boy knocking over his lunch tray in shock",
       },
@@ -457,8 +457,8 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     singleColumn: true,
     thumbnail: {
       filepath: "/publishing/chinatown-pilgrimage/pilgrim-thumb.webp",
-      width: 2550,
-      height: 2458,
+      width: 1600,
+      height: 1542,
       seoDescription:
         "Close-up illustration of a hiker walking a winding mountain trail through hills, from the cover of 'The Pilgrim's Companion'",
     },
@@ -544,8 +544,8 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
       },
       {
         filepath: "/publishing/iffy-eats-monsters/iffy-mockup.webp",
-        width: 1600,
-        height: 1735,
+        width: 1476,
+        height: 1600,
         seoDescription:
           "Photo of an open printed copy of Iffy Eats Monsters showing an interior illustration of two goblin characters dancing under a disco ball",
       },
@@ -557,8 +557,8 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     tags: ["publishing"],
     thumbnail: {
       filepath: "/publishing/amanda-the-space-witch/amanda-thumb.webp",
-      width: 3546,
-      height: 3786,
+      width: 1499,
+      height: 1600,
       seoDescription:
         "Illustration of a small witch's house perched on a floating asteroid with a bat flying overhead against a purple starfield, from Amanda the Space Witch",
     },
@@ -626,8 +626,8 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     tags: ["conceptual"],
     thumbnail: {
       filepath: "/editorial/national-park-series/yosemite-thumb.webp",
-      width: 4600,
-      height: 4859,
+      width: 1515,
+      height: 1600,
       seoDescription:
         "Close-up digital painting of Yosemite Falls cascading down granite cliffs surrounded by dense pine forest",
     },
@@ -695,8 +695,8 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     tags: ["food"],
     thumbnail: {
       filepath: "/editorial/cocktails-and-tea/old-fashioned-thumb.webp",
-      width: 4219,
-      height: 3746,
+      width: 1600,
+      height: 1421,
       seoDescription:
         "Close-up still life digital painting of an Old Fashioned cocktail with rich amber whiskey, ice, and an orange peel garnish against a dark background",
     },
@@ -734,8 +734,8 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     tags: ["food"],
     thumbnail: {
       filepath: "/editorial/strawberry-jam-recipe/strawberries-thumb.webp",
-      width: 5322,
-      height: 5102,
+      width: 1600,
+      height: 1534,
       seoDescription:
         "Close-up still life digital painting of a spoonful of strawberry jam over an open jar, with a fresh strawberry resting beside it",
     },
@@ -787,8 +787,8 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     tags: ["food"],
     thumbnail: {
       filepath: "/editorial/local-cafe-tea-tasting-poster/teapot-thumb.webp",
-      width: 3448,
-      height: 3408,
+      width: 1600,
+      height: 1581,
       seoDescription:
         "Close-up digital painting of a glass teapot steaming against a dark background, brewed tea glowing amber inside",
     },
@@ -832,8 +832,8 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
       },
       {
         filepath: "/editorial/still-life-studies/section_005.webp",
-        width: 1600,
-        height: 1937,
+        width: 1322,
+        height: 1600,
         imageDescription: "Lemons",
         seoDescription:
           "Still life digital painting of two lemon halves resting on a soft grey cloth",
@@ -898,16 +898,16 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
       {
         filepath:
           "/editorial/book-covers-for-brandon-shewmake/walking-to-dinner-books-mockup.webp",
-        width: 2915,
-        height: 2442,
+        width: 1600,
+        height: 1340,
         imageDescription: "Printed Copies",
         seoDescription:
           "Photo of printed paperback copies of 'Walking to Dinner on the Appalachian Trail' and 'Walking to Dinner on the Shikoku Pilgrimage' by Brandon Shewmake, lying side by side",
       },
       {
         filepath: "/editorial/book-covers-for-brandon-shewmake/at-cover.webp",
-        width: 3477,
-        height: 2475,
+        width: 1600,
+        height: 1139,
         imageDescription: "Walking to Dinner on the Appalachian Trail",
         seoDescription:
           "Full wraparound book cover for 'Walking to Dinner on the Appalachian Trail' by Brandon Shewmake, featuring a sunrise over silhouetted mountain ridges with a hawk flying above the forest",
@@ -915,8 +915,8 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
       {
         filepath:
           "/editorial/book-covers-for-brandon-shewmake/at-cover-no-text.webp",
-        width: 3477,
-        height: 2475,
+        width: 1600,
+        height: 1139,
         imageDescription: "Appalachian Trail Cover (No Text)",
         seoDescription:
           "Clean full wraparound illustration for the 'Walking to Dinner on the Appalachian Trail' book cover, without title text, showing a sunrise over silhouetted mountain ridges with a hawk flying above the forest",
@@ -924,8 +924,8 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
       {
         filepath:
           "/editorial/book-covers-for-brandon-shewmake/shikoku-cover.webp",
-        width: 3444,
-        height: 2475,
+        width: 1600,
+        height: 1150,
         imageDescription: "Walking to Dinner on the Shikoku Pilgrimage",
         seoDescription:
           "Full wraparound book cover for 'Walking to Dinner on the Shikoku Pilgrimage' by Brandon Shewmake, featuring a cherry blossom tree framing a Japanese temple overlooking a coastal bay",
@@ -933,8 +933,8 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
       {
         filepath:
           "/editorial/book-covers-for-brandon-shewmake/shikoku-cover-no-text.webp",
-        width: 3444,
-        height: 2475,
+        width: 1600,
+        height: 1150,
         imageDescription: "Shikoku Pilgrimage Cover (No Text)",
         seoDescription:
           "Clean full wraparound illustration for the 'Walking to Dinner on the Shikoku Pilgrimage' book cover, without title text, showing a cherry blossom tree framing a Japanese temple overlooking a coastal bay",
