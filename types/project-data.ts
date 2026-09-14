@@ -7,7 +7,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     tags: ["editorial", "food"],
     images: [
       {
-        filepath: "/editorial-v2/section_003.webp",
+        filepath: "/editorial/holistic-health/01.webp",
         width: 1600,
         height: 1541,
         imageDescription: "Holistic Health pt. 1",
@@ -15,7 +15,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
           "Top-down illustration of a woman napping on a picnic blanket with her dog, surrounded by an open notebook, tote bag, and water bottle",
       },
       {
-        filepath: "/editorial-v2/section_005.webp",
+        filepath: "/editorial/holistic-health/02.webp",
         width: 1600,
         height: 1541,
         imageDescription: "Holistic Health pt. 2",
@@ -23,7 +23,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
           "Illustration of two women cooking together in a kitchen, one chopping meat on a cutting board while the other fries eggs and talks",
       },
       {
-        filepath: "/editorial-v2/section_006.webp",
+        filepath: "/editorial/holistic-health/03.webp",
         width: 1600,
         height: 1541,
         imageDescription: "Holistic Health pt. 3",
@@ -38,7 +38,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     tags: ["editorial"],
     images: [
       {
-        filepath: "/editorial-v2/section_012.webp",
+        filepath: "/editorial/snowboarding-poster/01.webp",
         width: 1600,
         height: 2070,
         seoDescription:
@@ -52,7 +52,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     tags: ["editorial", "spots"],
     images: [
       {
-        filepath: "/editorial-v2/section_001.webp",
+        filepath: "/editorial/the-hijacking-of-creativity/01.webp",
         width: 1600,
         height: 1399,
         seoDescription:
@@ -66,7 +66,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     tags: ["editorial", "spots"],
     images: [
       {
-        filepath: "/editorial-v2/section_016b.webp",
+        filepath: "/editorial/service-economy/01.webp",
         width: 1600,
         height: 998,
         seoDescription:
@@ -80,7 +80,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     tags: ["editorial", "spots"],
     images: [
       {
-        filepath: "/editorial-v2/section_018.webp",
+        filepath: "/editorial/sunk-cost/01.webp",
         width: 1600,
         height: 1808,
         seoDescription:
@@ -94,7 +94,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     tags: ["food", "spots"],
     images: [
       {
-        filepath: "/editorial-v2/section_009.webp",
+        filepath: "/editorial/cocktail-spots/01.webp",
         width: 1600,
         height: 1600,
         seoDescription:
@@ -108,7 +108,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     tags: ["editorial", "spots"],
     images: [
       {
-        filepath: "/editorial-v2/section_019.webp",
+        filepath: "/editorial/first-to-post/01.webp",
         width: 1600,
         height: 1102,
         seoDescription:
@@ -122,7 +122,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     tags: ["food"],
     images: [
       {
-        filepath: "/editorial-v2/section_007.webp",
+        filepath: "/editorial/avo-ovo-deconstruction/01.webp",
         width: 1600,
         height: 1689,
         seoDescription:
@@ -136,7 +136,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     tags: ["editorial"],
     images: [
       {
-        filepath: "/editorial-v2/section_008.webp",
+        filepath: "/editorial/earring-advert/01.webp",
         width: 1600,
         height: 1632,
         seoDescription:
@@ -150,7 +150,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     tags: ["editorial", "spots"],
     images: [
       {
-        filepath: "/editorial-v2/section_004.webp",
+        filepath: "/editorial/the-horse-the-hound-and-the-hare/01.webp",
         width: 1600,
         height: 1102,
         seoDescription:
@@ -164,7 +164,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     tags: ["editorial", "spots"],
     images: [
       {
-        filepath: "/editorial-v2/section_002.webp",
+        filepath: "/editorial/digital-ocean/01.webp",
         width: 1600,
         height: 1062,
         seoDescription:
@@ -178,7 +178,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     tags: ["travel"],
     images: [
       {
-        filepath: "/editorial-v2/section_013.webp",
+        filepath: "/editorial/mountain-lake-date/01.webp",
         width: 1600,
         height: 901,
         seoDescription:
@@ -192,7 +192,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     tags: ["editorial", "spots"],
     images: [
       {
-        filepath: "/editorial-v2/section_017.webp",
+        filepath: "/editorial/living-with-grief/01.webp",
         width: 1600,
         height: 1305,
         seoDescription:
@@ -206,7 +206,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     tags: ["editorial"],
     images: [
       {
-        filepath: "/editorial-v2/section_010.webp",
+        filepath: "/editorial/endangered-animals-pangolin/01.webp",
         width: 1600,
         height: 1174,
         seoDescription:
@@ -220,7 +220,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     tags: ["food"],
     images: [
       {
-        filepath: "/editorial-v2/section_015.webp",
+        filepath: "/editorial/pourtables-coffee-labels/01.webp",
         width: 1600,
         height: 1600,
         imageDescription: "Orange Pekoe Label",
@@ -228,7 +228,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
           "Botanical illustration of orange blossoms, orange slices, and citrus peels on a warm yellow background",
       },
       {
-        filepath: "/editorial-v2/section_014.webp",
+        filepath: "/editorial/pourtables-coffee-labels/02.webp",
         width: 1600,
         height: 1600,
         imageDescription: "Black Summit Label",
@@ -244,7 +244,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     tags: ["book covers", "publishing"],
     images: [
       {
-        filepath: "/publishing/section_005.webp",
+        filepath: "/publishing/aletia-and-dino-adventures/01.webp",
         width: 1600,
         height: 1260,
         imageDescription: "Adventures of Aletia Book 1",
@@ -252,7 +252,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
           "Full wrap book cover illustration for 'There's a Unicorn in My Basement! Adventures in Aletia Book One' by Ben Wolf, showing a startled father and child confronting a glowing white unicorn in a cluttered basement workshop",
       },
       {
-        filepath: "/publishing/section_003.webp",
+        filepath: "/publishing/aletia-and-dino-adventures/02.webp",
         width: 1600,
         height: 1272,
         imageDescription: "Dino Adventures Book 3",
@@ -268,7 +268,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     singleColumn: true,
     images: [
       {
-        filepath: "/publishing/section_002.webp",
+        filepath: "/publishing/our-heroes-series/01.webp",
         width: 1600,
         height: 1234,
         imageDescription: "Our Heroes Book 2",
@@ -276,7 +276,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
           "Book cover illustration for 'The Saboteur of Junkdrift: Our Heroes Book Two' by Taylor Hayes, depicting a post-apocalyptic desert scene with characters on a mine cart approaching a sprawling junkyard settlement",
       },
       {
-        filepath: "/publishing/section_006.webp",
+        filepath: "/publishing/our-heroes-series/02.webp",
         width: 1600,
         height: 1158,
         imageDescription: "Our Heroes Book 1",
@@ -291,7 +291,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     tags: ["book covers", "publishing"],
     images: [
       {
-        filepath: "/publishing/section_001.webp",
+        filepath: "/publishing/family-tree/01.webp",
         width: 818,
         height: 1001,
         seoDescription:
@@ -305,14 +305,14 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     tags: ["publishing"],
     images: [
       {
-        filepath: "/publishing/section_008.webp",
+        filepath: "/publishing/hurl-at-camp-whurl/01.webp",
         width: 1600,
         height: 1124,
         seoDescription:
           "Grayscale interior book illustration of a group of children caught in a chaotic action scene, surrounded by swirling dark tentacle-like shapes",
       },
       {
-        filepath: "/publishing/section_011.webp",
+        filepath: "/publishing/hurl-at-camp-whurl/02.webp",
         width: 1600,
         height: 1469,
         seoDescription:
@@ -326,7 +326,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     tags: ["publishing"],
     images: [
       {
-        filepath: "/publishing/section_020.webp",
+        filepath: "/publishing/chinatown-pilgrimage/01.webp",
         width: 1600,
         height: 649,
         seoDescription:
@@ -340,21 +340,21 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     tags: ["publishing"],
     images: [
       {
-        filepath: "/publishing/section_017.webp",
+        filepath: "/publishing/iffy-eats-monsters/01.webp",
         width: 1600,
         height: 1542,
         seoDescription:
           "Grayscale interior book illustration of a robot and a suited character dancing wildly under a disco ball with floating speakers and musical notes",
       },
       {
-        filepath: "/publishing/section_012.webp",
+        filepath: "/publishing/iffy-eats-monsters/02.webp",
         width: 1600,
         height: 1278,
         seoDescription:
           "Grayscale interior book illustration of a nervous child looking out a window to an eerie house with glowing eyes peering from a darkened window",
       },
       {
-        filepath: "/publishing/section_013.webp",
+        filepath: "/publishing/iffy-eats-monsters/03.webp",
         width: 1600,
         height: 672,
         seoDescription:
@@ -368,7 +368,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     tags: ["book covers", "publishing"],
     images: [
       {
-        filepath: "/publishing/section_016.webp",
+        filepath: "/publishing/amanda-the-space-witch/01.webp",
         width: 1600,
         height: 1129,
         imageDescription: "Amanda the Space Witch Splash",
@@ -376,7 +376,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
           "Book cover illustration for 'Amanda the Space Witch' featuring a chibi-style girl in a witch hat and mechanical space armor riding a broom alongside a glowing energy sword against a purple starfield",
       },
       {
-        filepath: "/publishing/section_018.webp",
+        filepath: "/publishing/amanda-the-space-witch/02.webp",
         width: 1600,
         height: 1129,
         imageDescription: "Veronica the Normal Witch Splash",
@@ -384,7 +384,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
           "Character illustration of Veronica the Normal Witch, a confident figure with teal hair and a wide-brimmed hat channeling swirling green magic energy, set against a textured blue-grey background",
       },
       {
-        filepath: "/publishing/section_019.webp",
+        filepath: "/publishing/amanda-the-space-witch/03.webp",
         width: 1600,
         height: 1096,
         imageDescription: "Amanda the Space Witch pg 3-4",
@@ -399,7 +399,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     tags: ["publishing"],
     images: [
       {
-        filepath: "/publishing/section_015.webp",
+        filepath: "/publishing/relic-comic/01.webp",
         width: 1600,
         height: 2191,
         imageDescription: "Relic Comic pg 8",
@@ -414,7 +414,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     tags: ["publishing"],
     images: [
       {
-        filepath: "/publishing/section_021.webp",
+        filepath: "/publishing/griffith-fight-scene/01.webp",
         width: 1600,
         height: 1208,
         seoDescription:
@@ -430,7 +430,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     tags: ["travel"],
     images: [
       {
-        filepath: "/editorial/np-zion.webp",
+        filepath: "/editorial/national-park-series/01.webp",
         width: 1600,
         height: 2156,
         imageDescription: "Zion National Park",
@@ -438,7 +438,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
           "Digital painting of Zion National Park's towering red sandstone canyon walls and winding Virgin River",
       },
       {
-        filepath: "/editorial/np-yellowstone.webp",
+        filepath: "/editorial/national-park-series/02.webp",
         width: 1600,
         height: 2156,
         imageDescription: "Yellowstone National Park",
@@ -446,7 +446,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
           "Digital painting of Yellowstone National Park with geothermal hot springs and vast wilderness landscape",
       },
       {
-        filepath: "/editorial/np-antelope.webp",
+        filepath: "/editorial/national-park-series/03.webp",
         width: 1600,
         height: 2156,
         imageDescription: "Antelope Canyon",
@@ -454,7 +454,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
           "Digital painting of Antelope Canyon's narrow slot canyon with glowing orange and red sandstone walls",
       },
       {
-        filepath: "/editorial/np-yosemite.webp",
+        filepath: "/editorial/national-park-series/04.webp",
         width: 1600,
         height: 2156,
         imageDescription: "Yosemite National Park",
@@ -462,7 +462,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
           "Digital painting of Yosemite Valley with dramatic granite cliffs, waterfalls, and lush valley floor",
       },
       {
-        filepath: "/editorial/np-banff.webp",
+        filepath: "/editorial/national-park-series/05.webp",
         width: 1600,
         height: 2156,
         imageDescription: "Banff National Park",
@@ -477,7 +477,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     tags: ["food"],
     images: [
       {
-        filepath: "/editorial/il-old.webp",
+        filepath: "/editorial/cocktails-and-tea/01.webp",
         width: 1600,
         height: 1685,
         imageDescription: "Old Fashioned",
@@ -485,7 +485,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
           "Still life digital painting of an Old Fashioned cocktail with rich amber whiskey, ice cube, and orange peel garnish",
       },
       {
-        filepath: "/editorial/il-hojicha.webp",
+        filepath: "/editorial/cocktails-and-tea/02.webp",
         width: 1600,
         height: 1977,
         imageDescription: "Hojicha Tea",
@@ -493,7 +493,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
           "Hand holding a hot cup of Hojicha tea with golden sunlight and steam coming from the side",
       },
       {
-        filepath: "/editorial/il-cosmos.webp",
+        filepath: "/editorial/cocktails-and-tea/03.webp",
         width: 1599,
         height: 1972,
         imageDescription: "Cosmopolitan",
@@ -508,7 +508,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     tags: ["food"],
     images: [
       {
-        filepath: "/editorial/il-stawberry.webp",
+        filepath: "/editorial/strawberry-jam-recipe/01.webp",
         width: 1599,
         height: 1443,
         seoDescription:
@@ -522,7 +522,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     tags: ["food", "spots"],
     images: [
       {
-        filepath: "/editorial/il-tea.webp",
+        filepath: "/editorial/local-cafe-tea-tasting-poster/01.webp",
         width: 1600,
         height: 1826,
         seoDescription:
@@ -536,7 +536,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     tags: ["food"],
     images: [
       {
-        filepath: "/editorial/sl-ice.webp",
+        filepath: "/editorial/still-life-studies/01.webp",
         width: 1286,
         height: 844,
         imageDescription: "Ice",
@@ -544,7 +544,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
           "Still life digital painting of ice with cool blue highlights and reflective crystalline surfaces",
       },
       {
-        filepath: "/editorial/sl-tangerines.webp",
+        filepath: "/editorial/still-life-studies/02.webp",
         width: 1600,
         height: 1402,
         imageDescription: "Tangerines",
@@ -559,13 +559,13 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     tags: ["book covers", "publishing"],
     images: [
       {
-        filepath: "/editorial/bc-shikoku.webp",
+        filepath: "/editorial/book-covers-for-brandon-shewmake/01.webp",
         width: 1575,
         height: 2400,
         seoDescription: "",
       },
       {
-        filepath: "/editorial/bc-at.webp",
+        filepath: "/editorial/book-covers-for-brandon-shewmake/02.webp",
         width: 1575,
         height: 2400,
         seoDescription: "",
@@ -578,7 +578,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     tags: ["food"],
     images: [
       {
-        filepath: "/editorial/il-honey.webp",
+        filepath: "/editorial/honey/01.webp",
         width: 1600,
         height: 1832,
         seoDescription:
@@ -592,7 +592,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     tags: ["food", "spots"],
     images: [
       {
-        filepath: "/editorial/il-lemon.webp",
+        filepath: "/editorial/picnic-editorial-spread/01.webp",
         width: 1600,
         height: 1089,
         seoDescription:
@@ -606,7 +606,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     tags: ["food"],
     images: [
       {
-        filepath: "/editorial/il-core.webp",
+        filepath: "/editorial/local-cafe-ingredient-list/01.webp",
         width: 1600,
         height: 2070,
         seoDescription:
