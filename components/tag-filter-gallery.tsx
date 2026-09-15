@@ -6,11 +6,7 @@ import Gallery from "@/components/gallery";
 import { ProjectType } from "@/types/types";
 import { TAGS, Tag } from "@/types/tags";
 
-export default function TagFilterGallery({
-  items,
-}: {
-  items: ProjectType[];
-}) {
+export default function TagFilterGallery({ items }: { items: ProjectType[] }) {
   const [activeTag, setActiveTag] = useState<Tag | null>(null);
 
   const selectTag = (tag: Tag) => {
@@ -35,7 +31,7 @@ export default function TagFilterGallery({
         <div className="max-w-4xl mx-auto flex flex-wrap items-center justify-center gap-2 px-4 py-4">
           <button
             onClick={() => setActiveTag(null)}
-            className={`inline-flex items-center gap-1.5 font-header text-sm px-3.5 py-1.5 rounded-full border transition-colors cursor-pointer ${
+            className={`inline-flex items-center gap-1.5 font-header text-sm px-3.5 py-1.5 rounded-xl border transition-colors cursor-pointer ${
               activeTag === null
                 ? "bg-stone-800 text-white border-stone-800"
                 : "text-stone-600 border-stone-300 hover:border-stone-500 hover:text-stone-900"
@@ -53,7 +49,7 @@ export default function TagFilterGallery({
               <button
                 key={tag}
                 onClick={() => selectTag(tag)}
-                className={`inline-flex items-center gap-1.5 font-header text-sm px-3.5 py-1.5 rounded-full border capitalize transition-colors cursor-pointer ${
+                className={`inline-flex items-center gap-1.5 font-header text-sm px-3.5 py-1.5 rounded-xl border capitalize transition-colors cursor-pointer ${
                   active
                     ? "bg-stone-800 text-white border-stone-800"
                     : "text-stone-600 border-stone-300 hover:border-stone-500 hover:text-stone-900"
