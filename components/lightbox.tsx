@@ -50,17 +50,12 @@ export default function Lightbox({
         className="flex flex-col max-h-[90vh] max-w-[90vw]"
         onClick={(e) => e.stopPropagation()}
       >
-        {/* {item.clientDescription && (
-          <p className="text-white font-header text-lg text-center mb-4 ">
-            {item.clientDescription}
-          </p>
-        )} */}
         <Image
           src={item.filepath}
           alt={item.seoDescription}
           width={item.width}
           height={item.height}
-          // title={item.clientDescription}
+          title={item.imageDescription}
           className="max-h-[90vh] max-w-[90vw] w-auto h-auto object-contain"
           sizes="90vw"
           priority

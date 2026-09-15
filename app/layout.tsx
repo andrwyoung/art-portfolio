@@ -4,6 +4,7 @@ import "./globals.css";
 import Footer from "@/components/footer";
 import Navbar from "@/components/navbar";
 import { Analytics } from "@vercel/analytics/next";
+import { SITE_URL } from "@/types/settings";
 
 const logoFont = Hurricane({
   variable: "--font-logo",
@@ -28,7 +29,7 @@ export const metadata: Metadata = {
   description:
     "Andrew Yong art portfolio for travel, food editorial and advertising illustration",
 
-  metadataBase: new URL("https://andrewyong.art"),
+  metadataBase: new URL(SITE_URL),
 
   keywords: [
     "illustrator",
@@ -51,7 +52,7 @@ export const metadata: Metadata = {
     title: "Andrew Yong Illustration",
     description:
       "Andrew Yong art portfolio for travel, food editorial and advertising illustration",
-    url: "https://andrewyong.art",
+    url: SITE_URL,
     siteName: "Andrew Yong Illustration",
     images: [
       {
