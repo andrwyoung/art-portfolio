@@ -3,8 +3,21 @@ import { ProjectData } from "./types";
 export const ProjectDataBySlug: Record<string, ProjectData> = {
   "holistic-health": {
     title: "Holistic Health Series",
-    blurb: "A three-part newsletter illustration series on holistic health.",
-
+    blurb: (
+      <>
+        A three-part newsletter illustration series inspired by Harvard
+        Health&apos;s{" "}
+        <a
+          href="https://www.health.harvard.edu/healthy-aging-and-longevity/the-5-pillars-of-longevity-movement-nutrition-sleep-stress-reduction-and-social-connection"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline hover:text-stone-900"
+        >
+          5 pillars of longevity
+        </a>
+        .
+      </>
+    ),
     tags: ["conceptual"],
     images: [
       {
@@ -61,8 +74,20 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     ],
   },
   "the-hijacking-of-creativity": {
-    title: "The Hijacking of Creativity (Substack, 2026)",
-    blurb: "",
+    title: "The Hijacking of Creativity",
+    blurb: (
+      <>
+        An editorial illustration inspired by the essay{" "}
+        <a
+          href="https://medium.com/@dannymarr4/how-overusing-ai-is-sabotaging-human-creativity-87e2a887234e"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline hover:text-stone-900"
+        >
+          &ldquo;How Overusing AI Is Sabotaging Human Creativity.&rdquo;
+        </a>
+      </>
+    ),
     tags: ["conceptual"],
     images: [
       {
@@ -76,7 +101,8 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
   },
   "service-economy": {
     title: "Service Economy",
-    blurb: "",
+    blurb:
+      "An editorial illustration inspired by the rise of Agentic online commerce.",
     tags: ["conceptual"],
     images: [
       {
@@ -90,7 +116,19 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
   },
   "sunk-cost": {
     title: "Sunk Cost",
-    blurb: "",
+    blurb: (
+      <>
+        An editorial illustration inspired by the article{" "}
+        <a
+          href="https://sandeepanand.in/career-coaching/blogs-career-sunk-cost-trap/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline hover:text-stone-900"
+        >
+          &ldquo;The Career Sunk Cost Trap.&rdquo;
+        </a>
+      </>
+    ),
     tags: ["conceptual"],
     images: [
       {
@@ -150,7 +188,20 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
   },
   "first-to-post": {
     title: "First to Post",
-    blurb: "",
+    blurb: (
+      <>
+        An editorial illustration inspired by{" "}
+        <a
+          href="https://thereader.mitpress.mit.edu/disturbing-power-of-information-pollution/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline hover:text-stone-900"
+        >
+          this MIT Press article
+        </a>{" "}
+        on information pollution.
+      </>
+    ),
     tags: ["conceptual"],
     images: [
       {
@@ -234,7 +285,20 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
   },
   "digital-ocean": {
     title: "Digital Ocean",
-    blurb: "",
+    blurb: (
+      <>
+        An editorial illustration inspired by{" "}
+        <a
+          href="https://www.theatlantic.com/magazine/archive/2025/02/american-loneliness-personality-politics/681091/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline hover:text-stone-900"
+        >
+          this Atlantic article
+        </a>{" "}
+        on American loneliness.
+      </>
+    ),
     tags: ["conceptual"],
     images: [
       {
@@ -290,7 +354,20 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
   },
   "endangered-animals-pangolin": {
     title: "Endangered Animals: Pangolin",
-    blurb: "",
+    blurb: (
+      <>
+        Part of an endangered species series, spotlighting the pangolin,{" "}
+        <a
+          href="https://www.animalsaroundtheglobe.com/why-pangolins-are-the-most-trafficked-mammals-on-earth-6-342312/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline hover:text-stone-900"
+        >
+          the world&apos;s most trafficked mammal
+        </a>
+        .
+      </>
+    ),
     tags: ["conceptual"],
     images: [
       {
