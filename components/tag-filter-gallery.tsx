@@ -4,7 +4,7 @@ import { useRouter, useSearchParams } from "next/navigation";
 import { FaCheck } from "react-icons/fa6";
 import Gallery from "@/components/gallery";
 import { ProjectType } from "@/types/types";
-import { TAGS, Tag } from "@/types/tags";
+import { TAGS, Tag, tagLabel } from "@/types/tags";
 
 export default function TagFilterGallery({ items }: { items: ProjectType[] }) {
   const router = useRouter();
@@ -64,7 +64,7 @@ export default function TagFilterGallery({ items }: { items: ProjectType[] }) {
                 }`}
               >
                 {active && <FaCheck size={10} />}
-                {tag}
+                {tagLabel(tag)}
                 <span className="opacity-60">({count})</span>
               </button>
             );

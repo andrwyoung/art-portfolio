@@ -35,7 +35,20 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
   },
   "snowboarding-poster": {
     title: "Snowboarding Poster",
-    blurb: "",
+    blurb: (
+      <>
+        A poster illustration inspired by{" "}
+        <a
+          href="https://www.mammothmountain.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline hover:text-stone-900"
+        >
+          Mammoth Mountain
+        </a>{" "}
+        resort.
+      </>
+    ),
     tags: ["conceptual"],
     images: [
       {
@@ -91,7 +104,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
   },
   "cocktail-spots": {
     title: "Cocktail Spots",
-    blurb: "",
+    blurb: "A series of cocktails that I enjoy.",
     tags: ["food"],
     images: [
       {
@@ -151,7 +164,20 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
   },
   "avo-ovo-deconstruction": {
     title: "Avo-Ovo Deconstruction",
-    blurb: "",
+    blurb: (
+      <>
+        A deconstructed recipe inspired by the{" "}
+        <a
+          href="https://www.tiktok.com/tag/avocadohashbrown"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline hover:text-stone-900"
+        >
+          #avocadohashbrown
+        </a>{" "}
+        trend.
+      </>
+    ),
     tags: ["food"],
     images: [
       {
@@ -165,7 +191,20 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
   },
   "earring-advert": {
     title: "Earring Advert",
-    blurb: "",
+    blurb: (
+      <>
+        An advertising illustration inspired by Clarendale&apos;s{" "}
+        <a
+          href="https://clarendale.co/products/lunavia%E2%84%A2-sapphire-drop-earrings-for-effortless-elegance?variant=53232393912683"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline hover:text-stone-900"
+        >
+          Lunavia Earrings
+        </a>
+        .
+      </>
+    ),
     tags: ["conceptual"],
     images: [
       {
@@ -179,8 +218,10 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
   },
   "the-horse-the-hound-and-the-hare": {
     title: "The Horse, the Hound, and the Hare (Substack, 2026)",
-    blurb: "",
+    blurb:
+      "Illustration for an unpublished Substack article about the history of racing animals",
     tags: ["conceptual"],
+    artDirector: "Ivan Huang",
     images: [
       {
         filepath: "/editorial/the-horse-the-hound-and-the-hare/01.webp",
@@ -207,7 +248,8 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
   },
   "mountain-lake-date": {
     title: "Mountain Lake Date",
-    blurb: "",
+    blurb:
+      "An illustration inspired by the ‘couple travel goals’ photos on Pinterest and Instagram.",
     tags: ["conceptual"],
     images: [
       {
@@ -221,7 +263,20 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
   },
   "living-with-grief": {
     title: "Living with Grief",
-    blurb: "Based on a 2018 article.",
+    blurb: (
+      <>
+        Inspired by Rebecca Soffer&apos;s{" "}
+        <a
+          href="https://time.com/7284451/grief-loss-mother-rebecca-soffer-essay/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline hover:text-stone-900"
+        >
+          Time essay
+        </a>{" "}
+        on grief and loss.
+      </>
+    ),
     tags: ["conceptual"],
     images: [
       {
@@ -259,8 +314,8 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
           className="underline hover:text-stone-900"
         >
           Pourtables Coffee
-        </a>
-        .
+        </a>{" "}
+        website.
       </>
     ),
     artDirector: "Gabriel Leung",
@@ -307,17 +362,16 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     artDirector: "Ben Wolf",
     blurb: (
       <>
-        Two children&apos;s adventure books by award-winning author Ben Wolf,
-        funded through Kickstarter.{" "}
+        Full wrap around covers for{" "}
         <a
           href="https://www.kickstarter.com/projects/benwolf/two-kids-books-series-from-award-winning-author-ben-wolf"
           target="_blank"
           rel="noopener noreferrer"
           className="underline hover:text-stone-900"
         >
-          View the campaign
-        </a>
-        .
+          two children&apos;s adventure trilogies,
+        </a>{" "}
+        funded through Kickstarter. Two repainted for portfolio.
       </>
     ),
     singleColumn: true,
@@ -368,7 +422,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
   },
   "our-heroes-series": {
     title: "Our Heroes Series (Taylor Hayes, 2026)",
-    blurb: "Book covers for the Our Heroes fantasy series.",
+    blurb: "Two full wrap around covers for the Our Heroes fantasy series.",
     artDirector: "Taylor Hayes",
     tags: ["publishing"],
     singleColumn: true,
@@ -417,9 +471,10 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
           rel="noopener noreferrer"
           className="underline hover:text-stone-900"
         >
-          Griggs Educational Enterprises
-        </a>
-        .
+          Griggs Educational Enterprises'
+        </a>{" "}
+        children's book about discovering your genealogy. Repainted for
+        portfolio.
       </>
     ),
     artDirector: "Denise Griggs",
@@ -453,7 +508,8 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
   },
   "hurl-at-camp-whurl": {
     title: "Hurl at Camp Whurl (Descendant Publishing, 2026)",
-    blurb: "Quick turnaround interior illustrations for Hurl at Camp Whurl.",
+    blurb:
+      "Interior illustrations for Hurl at Camp Whurl, delivered on a fast turnaround.",
     artDirector: "Stacy Hooker",
     tags: ["publishing"],
     singleColumn: true,
@@ -551,7 +607,8 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
   },
   "iffy-eats-monsters": {
     title: "Iffy Eats Monsters (Descendant Publishing, 2026)",
-    blurb: "Quick turnaround interior illustrations for Iffy Eats Monsters.",
+    blurb:
+      "Interior illustrations for Iffy Eats Monsters, delivered on a fast turnaround.",
     artDirector: "Stacy Hooker",
     tags: ["publishing"],
     thumbnail: {

@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useState } from "react";
 import Lightbox from "@/components/lightbox";
 import { PortfolioType, ProjectType } from "@/types/types";
-import { Tag } from "@/types/tags";
+import { Tag, tagLabel } from "@/types/tags";
 
 type IndexedImage = { image: PortfolioType; index: number };
 
@@ -58,7 +58,7 @@ export default function ProjectDetail({
           href={activeTag ? `/?tag=${activeTag}` : "/"}
           className="inline-block font-header text-xs uppercase tracking-wide text-stone-400 hover:text-stone-600 mb-2"
         >
-          ← Back to {activeTag ?? "gallery"}
+          ← Back to {activeTag ? tagLabel(activeTag) : "gallery"}
         </Link>
         <h1 className="font-header font-semibold text-2xl md:text-3xl text-stone-800">
           {project.title}
