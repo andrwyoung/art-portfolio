@@ -3,15 +3,16 @@ import ContactForm from "@/components/contact-form";
 import { CONTACT_EMAIL } from "../../types/settings";
 
 const CLIENTS = [
-  "Inheritance Magazine",
-  "Griggs Educational Enterprises",
   "Berkeley School of Theology",
+  "Inheritance Magazine",
   "Splickety Publishing Group",
   "Descendant Publishing",
 
   "Absurd Adventure Games",
   "Pinecrumbs",
   "Pourtables Coffee",
+
+  "Griggs Educational Enterprises",
 ];
 
 export default function About() {
