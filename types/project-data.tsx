@@ -736,7 +736,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
   "amanda-the-space-witch": {
     title: "Amanda the Space Witch (Self Published, 2027)",
     blurb:
-      'Personal comic project and promotional materials for a story about the hidden downsides and personal growth needed of being a "gifted kid ".',
+      "Personal comic project and promotional materials for a comic series. Aimed to self publish in an anthology April 2027",
     tags: ["publishing"],
     thumbnail: {
       filepath: "/publishing/amanda-the-space-witch/amanda-thumb.webp",
@@ -774,7 +774,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
         filepath: "/publishing/amanda-the-space-witch/pg1.webp",
         width: 1600,
         height: 2191,
-        imageDescription: "Amanda the Space Witch pg 4",
+        imageDescription: "Amanda the Space Witch pg 1",
         seoDescription:
           "Full-color interior comic page showing Amanda working late in her cluttered workshop on a robot invention before rushing off after being reminded of a party",
       },
@@ -782,7 +782,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
         filepath: "/publishing/amanda-the-space-witch/pg2.webp",
         width: 1600,
         height: 2191,
-        imageDescription: "Amanda the Space Witch pg 5",
+        imageDescription: "Amanda the Space Witch pg 2",
         seoDescription:
           "Full-color interior comic page titled 'The Golden Hummingbird' showing Amanda riding a rocket-powered broomstick through space past a small moon with a house on it",
       },
