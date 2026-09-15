@@ -1237,11 +1237,11 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     artDirector: "Self Directed",
     singleColumn: true,
     thumbnail: {
-      filepath: "/editorial/mark-12-30/thumbnail.webp",
+      filepath: "/editorial/mark-12-30/geese-thumb.webp",
       width: 1600,
-      height: 1393,
+      height: 1449,
       seoDescription:
-        "Close-up illustration of a pink octopus swimming among fish and coral reef, from the Mark 12:30 poster series",
+        "Close-up illustration of geese flying through a bright blue sky with clouds, from the Mark 12:30 poster series",
     },
     images: [
       {
