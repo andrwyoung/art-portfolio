@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useState } from "react";
 import Lightbox from "@/components/lightbox";
 import { PortfolioType, ProjectType } from "@/types/types";
+import { Tag } from "@/types/tags";
 
 type IndexedImage = { image: PortfolioType; index: number };
 
@@ -38,18 +39,27 @@ export default function ProjectDetail({
   project,
   prevProject,
   nextProject,
+  activeTag,
 }: {
   project: ProjectType;
   prevProject: NeighborProject | null;
   nextProject: NeighborProject | null;
+  activeTag: Tag | null;
 }) {
   const [selected, setSelected] = useState<number | null>(null);
   const n = project.images.length;
   const rows = buildRows(project.images, project.singleColumn ?? false);
+  const tagQuery = activeTag ? `?tag=${activeTag}` : "";
 
   return (
     <>
       <main className="mt-14 max-w-4xl mx-auto px-4 sm:px-8 pb-16">
+        <Link
+          href={activeTag ? `/?tag=${activeTag}` : "/"}
+          className="inline-block font-header text-xs uppercase tracking-wide text-stone-400 hover:text-stone-600 mb-2"
+        >
+          ← Back to {activeTag ?? "gallery"}
+        </Link>
         <h1 className="font-header font-semibold text-2xl md:text-3xl text-stone-800">
           {project.title}
         </h1>
@@ -115,7 +125,7 @@ export default function ProjectDetail({
         <div className="flex flex-col sm:flex-row justify-between mt-32 mb-16">
           {prevProject && (
             <Link
-              href={`/${prevProject.slug}`}
+              href={`/${prevProject.slug}${tagQuery}`}
               className="hover:opacity-60 flex flex-col gap-1 items-start justify-center px-8 py-4 group "
             >
               <span className="font-header text-xs uppercase tracking-wide text-stone-400  ">
@@ -128,7 +138,7 @@ export default function ProjectDetail({
           )}
           {nextProject && (
             <Link
-              href={`/${nextProject.slug}`}
+              href={`/${nextProject.slug}${tagQuery}`}
               className="hover:opacity-60 flex flex-col gap-1 items-end justify-center text-right px-8 py-4 group ml-auto"
             >
               <span className="font-header text-xs uppercase tracking-wide text-stone-400 transition-opacity group-hover:opacity-80">

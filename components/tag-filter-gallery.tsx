@@ -1,16 +1,24 @@
 "use client";
 
-import { useState } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
 import { FaCheck } from "react-icons/fa6";
 import Gallery from "@/components/gallery";
 import { ProjectType } from "@/types/types";
 import { TAGS, Tag } from "@/types/tags";
 
 export default function TagFilterGallery({ items }: { items: ProjectType[] }) {
-  const [activeTag, setActiveTag] = useState<Tag | null>(null);
+  const router = useRouter();
+  const searchParams = useSearchParams();
 
-  const selectTag = (tag: Tag) => {
-    setActiveTag((prev) => (prev === tag ? null : tag));
+  const rawTag = searchParams.get("tag");
+  const activeTag = TAGS.includes(rawTag as Tag) ? (rawTag as Tag) : null;
+
+  const selectTag = (tag: Tag | null) => {
+    if (tag === null || tag === activeTag) {
+      router.push("/");
+    } else {
+      router.push(`/?tag=${tag}`);
+    }
   };
 
   const visible =
@@ -30,7 +38,7 @@ export default function TagFilterGallery({ items }: { items: ProjectType[] }) {
       <div className="hidden sm:block sticky top-0 z-10 bg-background/90 backdrop-blur-sm border-b border-stone-200">
         <div className="max-w-4xl mx-auto flex flex-wrap items-center justify-center gap-2 px-4 py-4">
           <button
-            onClick={() => setActiveTag(null)}
+            onClick={() => selectTag(null)}
             className={`inline-flex items-center gap-1.5 font-header text-sm px-3.5 py-1.5 rounded-xl border transition-colors cursor-pointer ${
               activeTag === null
                 ? "bg-stone-800 text-white border-stone-800"
@@ -70,14 +78,14 @@ export default function TagFilterGallery({ items }: { items: ProjectType[] }) {
             No projects match this filter.
           </p>
           <button
-            onClick={() => setActiveTag(null)}
+            onClick={() => selectTag(null)}
             className="font-header text-sm text-stone-600 underline hover:text-stone-900 cursor-pointer"
           >
             Clear filter
           </button>
         </div>
       ) : (
-        <Gallery basePath="" items={visible} />
+        <Gallery basePath="" items={visible} tag={activeTag} />
       )}
     </>
   );

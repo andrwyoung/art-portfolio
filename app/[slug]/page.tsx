@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import ProjectDetail from "@/components/project-detail";
 import { AllProjects } from "@/types/projects";
+import { TAGS, Tag } from "@/types/tags";
 
 export function generateStaticParams() {
   return AllProjects.map((project) => ({ slug: project.slug }));
@@ -34,24 +35,36 @@ export async function generateMetadata({
 
 export default async function ProjectPage({
   params,
+  searchParams,
 }: {
   params: Promise<{ slug: string }>;
+  searchParams: Promise<{ tag?: string }>;
 }) {
   const { slug } = await params;
-  const index = AllProjects.findIndex((p) => p.slug === slug);
+  const { tag: rawTag } = await searchParams;
 
-  if (index === -1) notFound();
+  const project = AllProjects.find((p) => p.slug === slug);
+  if (!project) notFound();
 
-  const project = AllProjects[index];
-  const prevProject = index > 0 ? AllProjects[index - 1] : null;
-  const nextProject =
-    index < AllProjects.length - 1 ? AllProjects[index + 1] : null;
+  const activeTag = TAGS.includes(rawTag as Tag) ? (rawTag as Tag) : null;
+
+  // Only filter to the active tag's subset if the current project is
+  // actually part of it (guards against stale/mismatched ?tag= links).
+  const scoped =
+    activeTag && project.tags.includes(activeTag)
+      ? AllProjects.filter((p) => p.tags.includes(activeTag))
+      : AllProjects;
+
+  const index = scoped.findIndex((p) => p.slug === slug);
+  const prevProject = index > 0 ? scoped[index - 1] : null;
+  const nextProject = index < scoped.length - 1 ? scoped[index + 1] : null;
 
   return (
     <ProjectDetail
       project={project}
       prevProject={prevProject}
       nextProject={nextProject}
+      activeTag={scoped === AllProjects ? null : activeTag}
     />
   );
 }

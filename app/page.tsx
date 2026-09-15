@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import TagFilterGallery from "@/components/tag-filter-gallery";
 import { AllProjects } from "@/types/projects";
 
@@ -8,7 +9,9 @@ export default function Home() {
         Andrew Yong — Illustration Portfolio for Editorial, Publishing, and
         Advertising
       </h1>
-      <TagFilterGallery items={AllProjects} />
+      <Suspense>
+        <TagFilterGallery items={AllProjects} />
+      </Suspense>
     </main>
   );
 }

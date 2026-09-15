@@ -39,14 +39,17 @@ export default function Gallery({
   items,
   numCols = DEFAULT_COLUMNS,
   basePath,
+  tag,
 }: {
   items: ProjectType[];
   numCols?: number;
   basePath: string;
+  tag?: string | null;
 }) {
   const visible = items.filter((item) => !item.hide);
 
   const columns = packColumns(visible, numCols);
+  const tagQuery = tag ? `?tag=${tag}` : "";
 
   return (
     <>
@@ -56,7 +59,10 @@ export default function Gallery({
             {col.map((project) => {
               const thumbnail = project.thumbnail ?? project.images[0];
               return (
-                <Link key={project.slug} href={`${basePath}/${project.slug}`}>
+                <Link
+                  key={project.slug}
+                  href={`${basePath}/${project.slug}${tagQuery}`}
+                >
                   <div className="cursor-pointer rounded-md transition-all hover:shadow-md hover:scale-101">
                     <Image
                       src={thumbnail.filepath}
@@ -82,7 +88,10 @@ export default function Gallery({
         {visible.map((project) => {
           const thumbnail = project.thumbnail ?? project.images[0];
           return (
-            <Link key={project.slug} href={`${basePath}/${project.slug}`}>
+            <Link
+              key={project.slug}
+              href={`${basePath}/${project.slug}${tagQuery}`}
+            >
               <div className="rounded-md">
                 <Image
                   src={thumbnail.filepath}
