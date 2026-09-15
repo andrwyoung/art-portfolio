@@ -2,7 +2,7 @@ import { ProjectData } from "./types";
 
 export const ProjectDataBySlug: Record<string, ProjectData> = {
   "holistic-health": {
-    title: "Holistic Health (Newsletter, 2026)",
+    title: "Holistic Health Series",
     blurb: "A three-part newsletter illustration series on holistic health.",
 
     tags: ["conceptual"],
@@ -249,7 +249,20 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
   },
   "pourtables-coffee-labels": {
     title: "Pourtables Coffee Labels (2026)",
-    blurb: "A pair of packaging labels for Pourtables Coffee.",
+    blurb: (
+      <>
+        A pair of packaging labels for{" "}
+        <a
+          href="https://pourtables-sf.square.site/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline hover:text-stone-900"
+        >
+          Pourtables Coffee
+        </a>
+        .
+      </>
+    ),
     artDirector: "Gabriel Leung",
     tags: ["food"],
     thumbnail: {
@@ -395,7 +408,20 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
   },
   "family-tree": {
     title: "Family Tree (Griggs Educational Enterprises, 2024)",
-    blurb: "",
+    blurb: (
+      <>
+        A cover illustration for{" "}
+        <a
+          href="https://griggs-edu-ent.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline hover:text-stone-900"
+        >
+          Griggs Educational Enterprises
+        </a>
+        .
+      </>
+    ),
     artDirector: "Denise Griggs",
     tags: ["publishing"],
     singleColumn: true,
@@ -427,7 +453,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
   },
   "hurl-at-camp-whurl": {
     title: "Hurl at Camp Whurl (Descendant Publishing, 2026)",
-    blurb: "Interior illustrations for Hurl at Camp Whurl.",
+    blurb: "Quick turnaround interior illustrations for Hurl at Camp Whurl.",
     artDirector: "Stacy Hooker",
     tags: ["publishing"],
     singleColumn: true,
@@ -473,7 +499,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     title: "The Pilgrim's Companion (Berkeley School of Theology, 2026)",
     artDirector: "Lauren Ng",
     blurb:
-      "A resource for Asian Americans who journey with Jesus, written by Russell Jeung, PhD, for the ARC Initiative.",
+      "Illustrations for a 14 page booklet about experiencing pilgrimages as an Asian American Christian.",
     tags: ["publishing"],
     singleColumn: true,
     thumbnail: {
@@ -525,7 +551,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
   },
   "iffy-eats-monsters": {
     title: "Iffy Eats Monsters (Descendant Publishing, 2026)",
-    blurb: "Interior illustrations for Iffy Eats Monsters.",
+    blurb: "Quick turnaround interior illustrations for Iffy Eats Monsters.",
     artDirector: "Stacy Hooker",
     tags: ["publishing"],
     thumbnail: {
@@ -575,7 +601,8 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
   },
   "amanda-the-space-witch": {
     title: "Amanda the Space Witch (Self Published, 2027)",
-    blurb: "Cover and interior artwork for Amanda the Space Witch.",
+    blurb:
+      'Personal comic project and promotional materials for a story about the hidden downsides and personal growth needed of being a "gifted kid ".',
     tags: ["publishing"],
     thumbnail: {
       filepath: "/publishing/amanda-the-space-witch/amanda-thumb.webp",
@@ -609,6 +636,22 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
         seoDescription:
           "Full-color interior comic page showing characters greeting Amanda the Space witch with panels of her showing off an invention to help her magic",
       },
+      {
+        filepath: "/publishing/amanda-the-space-witch/pg1.webp",
+        width: 1600,
+        height: 2191,
+        imageDescription: "Amanda the Space Witch pg 4",
+        seoDescription:
+          "Full-color interior comic page showing Amanda working late in her cluttered workshop on a robot invention before rushing off after being reminded of a party",
+      },
+      {
+        filepath: "/publishing/amanda-the-space-witch/pg2.webp",
+        width: 1600,
+        height: 2191,
+        imageDescription: "Amanda the Space Witch pg 5",
+        seoDescription:
+          "Full-color interior comic page titled 'The Golden Hummingbird' showing Amanda riding a rocket-powered broomstick through space past a small moon with a house on it",
+      },
     ],
   },
   "relic-comic": {
@@ -628,7 +671,20 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
   },
   "griffith-fight-scene": {
     title: "Griffith Fight Scene (E. A. Hendryx, 2025)",
-    blurb: "",
+    blurb: (
+      <>
+        A stretch goal interior illustration for E. A. Hendryx&apos;s{" "}
+        <a
+          href="https://www.kickstarter.com/projects/eahendryx/rising-from-the-galaxy?ref=creator_tab#h:Artists"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline hover:text-stone-900"
+        >
+          Rising from the Galaxy
+        </a>{" "}
+        Kickstarter campaign.
+      </>
+    ),
     artDirector: "Emily Hendryx",
     tags: ["publishing"],
     images: [
@@ -644,7 +700,8 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
 
   "national-park-series": {
     title: "National Park Postcards",
-    blurb: "",
+    blurb:
+      "A series of national park posters and postcards, sold on personal website.",
     tags: ["conceptual"],
     thumbnail: {
       filepath: "/editorial/national-park-series/yosemite-thumb.webp",
@@ -713,7 +770,8 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
   },
   "cocktails-and-tea": {
     title: "Cocktails & Tea",
-    blurb: "",
+    blurb:
+      "A series of painted illustration posters of drinks created for a personal project.",
     tags: ["food"],
     thumbnail: {
       filepath: "/editorial/cocktails-and-tea/old-fashioned-thumb.webp",
@@ -752,7 +810,8 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
   "strawberry-jam-recipe": {
     title: "Strawberry Jam Recipe",
     artDirector: "Cassidy Yong",
-    blurb: "",
+    blurb:
+      "Step by step illustrated recipe for a family member's Instagram account.",
     tags: ["food"],
     thumbnail: {
       filepath: "/editorial/strawberry-jam-recipe/strawberries-thumb.webp",
@@ -805,7 +864,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
   },
   "local-cafe-tea-tasting-poster": {
     title: "Local Cafe Tea Tasting Poster",
-    blurb: "",
+    blurb: "A tea tasting poster for a soon to be opened local cafe.",
     tags: ["food"],
     thumbnail: {
       filepath: "/editorial/local-cafe-tea-tasting-poster/teapot-thumb.webp",
@@ -826,7 +885,8 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
   },
   "still-life-studies": {
     title: "Food Prints",
-    blurb: "",
+    blurb:
+      "A series of prints with still life images, sold on personal website.",
     tags: ["food"],
     thumbnail: {
       filepath: "/editorial/still-life-studies/02.webp",
@@ -906,7 +966,20 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
   "book-covers-for-brandon-shewmake": {
     title: "Walking to Dinner Book Covers (Brandon Shewmake, 2026)",
     artDirector: "Brandon Shewmake",
-    blurb: "",
+    blurb: (
+      <>
+        Full wrap around book cover illustrations for Brandon Shewmake&apos;s{" "}
+        <a
+          href="https://www.amazon.com/dp/B0GX2VJT93?binding=paperback&searchxofy=true&ref_=dbs_s_aps_series_rwt_tpbk&qid=1789435436&sr=8-1"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline hover:text-stone-900"
+        >
+          Walking to Dinner book series
+        </a>
+        , about exploring food and hunger on long trails and pilgrimages.
+      </>
+    ),
     tags: ["publishing"],
     singleColumn: true,
     thumbnail: {
@@ -982,7 +1055,19 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
   "maybe-happy-ending": {
     title: "Maybe Happy Ending (Inheritance Magazine, 2026)",
     artDirector: "Nate Lee",
-    blurb: "",
+    blurb: (
+      <>
+        Editorial illustrations for Inheritance Magazine&apos;s essay{" "}
+        <a
+          href="https://www.inheritancemag.com/stories/can-representation-be-a-happy-ending-maybe"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline hover:text-stone-900"
+        >
+          &ldquo;Can Representation Be a Happy Ending? Maybe.&rdquo;
+        </a>
+      </>
+    ),
     tags: ["conceptual"],
     singleColumn: true,
     images: [
@@ -1004,8 +1089,16 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
   },
   "mark-12-30": {
     title: "Mark 12:30 Posters",
-    blurb:
-      "And you shall love the Lord your God with all your heart and with all your soul and with all your mind and with all your strength.",
+    blurb: (
+      <>
+        <p>A series of posters inspired by the verse Mark 12:30:</p>
+        <blockquote className="italic text-stone-500 border-l-2 border-stone-300 pl-4 mt-3">
+          &ldquo;And you shall love the Lord your God with all your heart and
+          with all your soul and with all your mind and with all your
+          strength.&rdquo;
+        </blockquote>
+      </>
+    ),
     tags: ["conceptual"],
     artDirector: "Self Directed",
     singleColumn: true,
@@ -1051,8 +1144,20 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
   "walking-to-dinner-website": {
     title: "Pinecrumbs Trail Icons (Pinecrumbs, 2026)",
     artDirector: "Brandon Shewmake",
-    blurb:
-      "A set of food icon illustrations created for the Walking to Dinner book website.",
+    blurb: (
+      <>
+        A set of food icon illustrations created for the{" "}
+        <a
+          href="https://pinecrumbs.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline hover:text-stone-900"
+        >
+          Pinecrumbs website
+        </a>{" "}
+        to display the iconic food item of that trail.
+      </>
+    ),
     tags: ["food"],
     thumbnail: {
       filepath: "/editorial/walking-to-dinner-website/05.webp",
