@@ -19,7 +19,9 @@ export async function generateMetadata({
   if (!project) return {};
 
   const thumbnail = project.thumbnail ?? project.images[0];
-  const description = project.blurb || thumbnail.seoDescription;
+  const description =
+    (typeof project.blurb === "string" ? project.blurb : "") ||
+    thumbnail.seoDescription;
   const title = `Andrew Yong - ${project.title}`;
 
   return {

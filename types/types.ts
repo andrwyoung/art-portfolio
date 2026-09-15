@@ -1,3 +1,4 @@
+import { ReactNode } from "react";
 import { Tag } from "./tags";
 
 export type PortfolioType = {
@@ -12,16 +13,14 @@ export type PortfolioType = {
 export type ProjectType = {
   slug: string;
   title: string;
-  blurb: string;
+  blurb: ReactNode;
   artDirector?: string;
   tags: Tag[];
   thumbnail?: PortfolioType; // defaults to images[0] if not set
   images: PortfolioType[];
-  // Detail page image layout defaults to pairing images two-per-row.
-  // Set true to stack images full-width in a single column instead.
-  singleColumn?: boolean;
+  singleColumn?: boolean; // defaults to false; i.e. double column
   hide?: boolean;
 };
 
-// Same as ProjectType minus `slug`, since data records are keyed by slug.
+// same as ProjectType minus `slug`
 export type ProjectData = Omit<ProjectType, "slug">;

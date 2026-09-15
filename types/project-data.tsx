@@ -4,6 +4,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
   "holistic-health": {
     title: "Holistic Health (Newsletter, 2026)",
     blurb: "A three-part newsletter illustration series on holistic health.",
+
     tags: ["conceptual"],
     images: [
       {
@@ -249,6 +250,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
   "pourtables-coffee-labels": {
     title: "Pourtables Coffee Labels (2026)",
     blurb: "A pair of packaging labels for Pourtables Coffee.",
+    artDirector: "Gabriel Leung",
     tags: ["food"],
     thumbnail: {
       filepath: "/editorial/pourtables-coffee-labels/01.webp",
@@ -289,7 +291,22 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
 
   "aletia-and-dino-adventures": {
     title: "Aletia & Dino Adventures (Splickety Publishing, 2023)",
-    blurb: "",
+    artDirector: "Ben Wolf",
+    blurb: (
+      <>
+        Two children&apos;s adventure books by award-winning author Ben Wolf,
+        funded through Kickstarter.{" "}
+        <a
+          href="https://www.kickstarter.com/projects/benwolf/two-kids-books-series-from-award-winning-author-ben-wolf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline hover:text-stone-900"
+        >
+          View the campaign
+        </a>
+        .
+      </>
+    ),
     singleColumn: true,
     tags: ["publishing"],
     thumbnail: {
@@ -339,6 +356,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
   "our-heroes-series": {
     title: "Our Heroes Series (Taylor Hayes, 2026)",
     blurb: "Book covers for the Our Heroes fantasy series.",
+    artDirector: "Taylor Hayes",
     tags: ["publishing"],
     singleColumn: true,
     thumbnail: {
@@ -378,6 +396,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
   "family-tree": {
     title: "Family Tree (Griggs Educational Enterprises, 2024)",
     blurb: "",
+    artDirector: "Denise Griggs",
     tags: ["publishing"],
     singleColumn: true,
     thumbnail: {
@@ -409,6 +428,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
   "hurl-at-camp-whurl": {
     title: "Hurl at Camp Whurl (Descendant Publishing, 2026)",
     blurb: "Interior illustrations for Hurl at Camp Whurl.",
+    artDirector: "Stacy Hooker",
     tags: ["publishing"],
     singleColumn: true,
     thumbnail: {
@@ -451,6 +471,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
   },
   "chinatown-pilgrimage": {
     title: "The Pilgrim's Companion (Berkeley School of Theology, 2026)",
+    artDirector: "Lauren Ng",
     blurb:
       "A resource for Asian Americans who journey with Jesus, written by Russell Jeung, PhD, for the ARC Initiative.",
     tags: ["publishing"],
@@ -505,6 +526,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
   "iffy-eats-monsters": {
     title: "Iffy Eats Monsters (Descendant Publishing, 2026)",
     blurb: "Interior illustrations for Iffy Eats Monsters.",
+    artDirector: "Stacy Hooker",
     tags: ["publishing"],
     thumbnail: {
       filepath: "/publishing/iffy-eats-monsters/01.webp",
@@ -605,8 +627,9 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     ],
   },
   "griffith-fight-scene": {
-    title: "Griffith Fight Scene (Emily Hendryx, 2025)",
+    title: "Griffith Fight Scene (E. A. Hendryx, 2025)",
     blurb: "",
+    artDirector: "Emily Hendryx",
     tags: ["publishing"],
     images: [
       {
@@ -619,7 +642,6 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     ],
   },
 
-  // Legacy v1 editorial pieces (previously types/editorial-config.ts).
   "national-park-series": {
     title: "National Park Postcards",
     blurb: "",
@@ -883,6 +905,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
   },
   "book-covers-for-brandon-shewmake": {
     title: "Walking to Dinner Book Covers (Brandon Shewmake, 2026)",
+    artDirector: "Brandon Shewmake",
     blurb: "",
     tags: ["publishing"],
     singleColumn: true,
@@ -958,6 +981,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
 
   "maybe-happy-ending": {
     title: "Maybe Happy Ending (Inheritance Magazine, 2026)",
+    artDirector: "Nate Lee",
     blurb: "",
     tags: ["conceptual"],
     singleColumn: true,

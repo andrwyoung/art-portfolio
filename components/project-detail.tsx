@@ -68,11 +68,9 @@ export default function ProjectDetail({
             {project.blurb}
           </p>
         )}
-        {project.artDirector && (
-          <p className="font-header text-stone-400 text-sm  mt-8">
-            Art Direction: {project.artDirector}
-          </p>
-        )}
+        <p className="font-header text-stone-400 text-sm  mt-8">
+          Art Direction: {project.artDirector || "Self Directed"}
+        </p>
 
         <div className="flex flex-col gap-8 mt-8">
           {rows.map((row, rowIdx) => (
