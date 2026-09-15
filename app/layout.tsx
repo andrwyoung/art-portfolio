@@ -56,9 +56,9 @@ export const metadata: Metadata = {
     siteName: "Andrew Yong Illustration",
     images: [
       {
-        url: "/og-image.png", // ideal: 1200x630
-        width: 1271,
-        height: 926,
+        url: "/og-image.jpg", // ideal: 1200x630
+        width: 1200,
+        height: 809,
         alt: "Andrew Yong illustration portfolio",
       },
     ],
