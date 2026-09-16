@@ -142,7 +142,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
   },
   "cocktail-spots": {
     title: "Cocktail Spots",
-    blurb: "A series of cocktails that I enjoy.",
+    blurb: "A series of cocktails that I like looking at.",
     tags: ["food"],
     images: [
       {
@@ -435,7 +435,8 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
   },
 
   "aletia-and-dino-adventures": {
-    title: "Aletia & Dino Adventures (Splickety Publishing, 2023)",
+    title:
+      "Adventures in Aletia + Dino Adventures (Splickety Publishing, 2024)",
     artDirector: "Ben Wolf",
     blurb: (
       <>
@@ -448,7 +449,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
         >
           two children&apos;s adventure trilogies,
         </a>{" "}
-        funded through Kickstarter. Two repainted for portfolio.
+        funded through Kickstarter. Two repainted for portfolio 2026.
       </>
     ),
     singleColumn: true,
@@ -551,7 +552,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
           Griggs Educational Enterprises'
         </a>{" "}
         children's book about discovering your genealogy. Repainted for
-        portfolio.
+        portfolio 2026.
       </>
     ),
     artDirector: "Denise Griggs",
@@ -834,8 +835,20 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
 
   "national-park-series": {
     title: "National Park Postcards",
-    blurb:
-      "A series of national park posters and postcards, sold on personal website.",
+    blurb: (
+      <>
+        A series of national park posters and postcards, sold on{" "}
+        <a
+          href="https://www.jonadrew.com/store"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline hover:text-stone-900"
+        >
+          personal website
+        </a>
+        .
+      </>
+    ),
     tags: ["conceptual"],
     thumbnail: {
       filepath: "/editorial/national-park-series/yosemite-thumb.webp",
@@ -905,7 +918,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
   "cocktails-and-tea": {
     title: "Cocktails & Tea",
     blurb:
-      "A series of painted illustration posters of drinks created for a personal project.",
+      "A series of painted illustration posters of drinks created for a personal series.",
     tags: ["food"],
     thumbnail: {
       filepath: "/editorial/cocktails-and-tea/old-fashioned-thumb.webp",
@@ -1019,8 +1032,20 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
   },
   "still-life-studies": {
     title: "Food Prints",
-    blurb:
-      "A series of prints with still life images, sold on personal website.",
+    blurb: (
+      <>
+        A series of prints with still life images, sold on{" "}
+        <a
+          href="https://www.jonadrew.com/store"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline hover:text-stone-900"
+        >
+          personal website
+        </a>
+        .
+      </>
+    ),
     tags: ["food"],
     thumbnail: {
       filepath: "/editorial/still-life-studies/02.webp",
@@ -1222,7 +1247,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     ],
   },
   "mark-12-30": {
-    title: "Mark 12:30 Posters",
+    title: "Mark 12 Posters",
     blurb: (
       <>
         <p>A series of posters inspired by the verse Mark 12:30:</p>
