@@ -77,7 +77,7 @@ export default function ContactForm() {
       <button
         type="submit"
         disabled={status === "submitting"}
-        className="self-start font-header text-sm font-semibold tracking-wide bg-stone-800 text-white px-5 py-2 rounded-xl hover:bg-stone-700 transition-colors disabled:opacity-50 cursor-pointer"
+        className="self-start font-header text-sm font-semibold tracking-wide bg-stone-800 text-white px-5 py-2 rounded-xl hover:bg-stone-700 transition-colors mt-4 disabled:opacity-50 cursor-pointer"
       >
         {status === "submitting" ? "Submitting..." : "Submit"}
       </button>

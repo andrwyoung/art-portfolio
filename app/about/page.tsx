@@ -1,6 +1,4 @@
 import Image from "next/image";
-import ContactForm from "@/components/contact-form";
-import { CONTACT_EMAIL } from "../../types/settings";
 
 const CLIENTS = [
   "Berkeley School of Theology",
@@ -55,9 +53,8 @@ export default function About() {
           His art is done digitally, and draws inspiration from contemporary oil
           painters such as Carol Marine and Marc Delasio.
         </p>
-        {/* <p>
-          He also goes by Jonadrew, which is the identity he uses for his comics
-          and public social persona, and can be found{" "}
+        <p>
+          He also is known online as{" "}
           <a
             href="https://www.jonadrew.com/"
             className="font-bold font-body underline decoration-stone-300 hover:decoration-stone-500 transition-colors"
@@ -65,10 +62,10 @@ export default function About() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            here
+            Jonadrew
           </a>
           .
-        </p> */}
+        </p>
       </section>
 
       {/* Clients */}
@@ -86,23 +83,6 @@ export default function About() {
             </span>
           ))}
         </div>
-      </section>
-
-      {/* Contact */}
-      <section className="flex flex-col gap-4 bg-stone-50 rounded-2xl px-6 py-8 sm:px-10 sm:py-10">
-        <h2 className="font-header text-lg font-semibold tracking-wide">
-          Get in touch
-        </h2>
-        <ContactForm />
-        <p className="font-body text-sm text-foreground/60 transition-colors">
-          or email me directly at{" "}
-          <a
-            href={`mailto:${CONTACT_EMAIL}`}
-            className="font-body text-sm text-foreground/60 hover:underline transition-colors"
-          >
-            {CONTACT_EMAIL}
-          </a>
-        </p>
       </section>
     </main>
   );
