@@ -385,7 +385,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
       <>
         A pair of packaging labels for{" "}
         <a
-          href="https://pourtables-sf.square.site/"
+          href="https://pourtables-sf.com/"
           target="_blank"
           rel="noopener noreferrer"
           className="underline hover:text-stone-900"
