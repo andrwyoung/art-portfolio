@@ -64,7 +64,7 @@ export default function About() {
           >
             Jonadrew
           </a>
-          .
+          , and fun fact: hiked the Pacific Crest Trail in 2024.
         </p>
       </section>
 
