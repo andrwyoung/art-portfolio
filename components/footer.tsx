@@ -13,7 +13,7 @@ export default function Footer() {
           icon={<MdEmail className="size-6" />}
         />{" "}
         <SocialIcon
-          href="https://www.instagram.com/jonadrew_/"
+          href="https://www.instagram.com/andrew_yong_art/"
           title="Instagram"
           icon={<FaInstagram className="size-6" />}
         />
