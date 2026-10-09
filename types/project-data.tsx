@@ -407,8 +407,7 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
     },
     images: [
       {
-        filepath:
-          "/editorial/pourtables-coffee-labels/pourtables-website-mockup.webp",
+        filepath: "/editorial/pourtables-coffee-labels/website-mockup.png",
         width: 1661,
         height: 864,
         imageDescription: "Website Mockup",
@@ -430,6 +429,22 @@ export const ProjectDataBySlug: Record<string, ProjectData> = {
         imageDescription: "Black Summit Label",
         seoDescription:
           "Still life illustration of a broken dark chocolate bar surrounded by mint leaves on a green background",
+      },
+      {
+        filepath: "/editorial/pourtables-coffee-labels/03.webp",
+        width: 1600,
+        height: 1600,
+        imageDescription: "Columbia Bogotá Label",
+        seoDescription:
+          "Still life illustration of cherries and blackberries surrounded by cherry blossom flowers on a pink background",
+      },
+      {
+        filepath: "/editorial/pourtables-coffee-labels/04.webp",
+        width: 1600,
+        height: 1600,
+        imageDescription: "Colombia Excelso Label",
+        seoDescription:
+          "Illustration of a bowl of corn flake cereal and chocolate bars with a swoosh of milk chocolate flowing into it",
       },
     ],
   },
